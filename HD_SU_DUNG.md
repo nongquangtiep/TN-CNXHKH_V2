@@ -1,8 +1,7 @@
 # HỆ THỐNG TRẮC NGHIỆM CHỦ NGHĨA XÃ HỘI KHOA HỌC (PHONG CÁCH QUIZIZZ)
 
-Ứng dụng web ôn thi trắc nghiệm môn Chủ Nghĩa Xã Hội Khoa Học với **toàn bộ 240 câu hỏi** được trích xuất tự động và chuẩn xác 100% từ 2 file Word gốc:
-- `CHỦ NGHĨA XH-KH.docx` (Bài 1 - Bài 5: 197 câu)
-- `CNKHXH BAI6.docx` (Bài 6: 43 câu)
+Ứng dụng web ôn thi trắc nghiệm môn Chủ Nghĩa Xã Hội Khoa Học với **toàn bộ 252 câu hỏi** được trích xuất tự động và chuẩn xác 100% từ tài liệu cập nhật:
+- `CHỦ NGHĨA XH-KH (1).docx` (Bài 1 - Bài 5: 197 câu + Bài 6: 43 câu + 12 câu Bổ sung Kiểm tra Thường xuyên 1 & 2)
 
 ---
 
@@ -16,21 +15,22 @@
 
 2. **Nhận diện chuẩn xác đáp án bôi đỏ trong tài liệu Word**:
    - Tất cả các đáp án có định dạng màu chữ đỏ (`C:EE0000`, `C:FF0000`...) trong file Word gốc đã được script parser nhận diện chuẩn xác 100%.
+   - **Đã khắc phục lỗi**: Các câu trắc nghiệm chọn 1 đáp án đúng (như Câu 18, 20, 21, 23, 24, 25, 26 của Bài 5) trước đây bị nhận nhầm thành chọn 4 đáp án đúng nay đã được sửa chuẩn xác thành chọn 1 đáp án đúng duy nhất.
 
 3. **Hỗ trợ đầy đủ 4 dạng bài tập trong tài liệu**:
-   - **Trắc nghiệm 1 đáp án đúng (Single Choice)**: 163 câu.
-   - **Trắc nghiệm nhiều đáp án đúng (Multiple Choice - Chọn 2, 3 đáp án)**: 43 câu.
-   - **Đúng / Sai theo từng mệnh đề (True / False)**: 16 câu (chọn Đúng/Sai từng ý phát hiện kết quả ngay).
-   - **Kéo thả / Ghép vế tương ứng & Phân loại 2 cột (Drag & Drop / Match)**: 18 câu.
+   - **Trắc nghiệm 1 đáp án đúng (Single Choice)**: 177 câu.
+   - **Trắc nghiệm nhiều đáp án đúng (Multiple Choice - Chọn 2, 3 đáp án)**: 36 câu.
+   - **Đúng / Sai theo từng mệnh đề (True / False)**: 18 câu (chọn Đúng/Sai từng ý phát hiện kết quả ngay).
+   - **Kéo thả / Ghép vế tương ứng & Phân loại 2 cột (Drag & Drop / Match)**: 21 câu (16 câu ghép vế + 5 câu phân loại 2 cột).
 
 4. **Lọc câu hỏi linh hoạt**:
-   - Chọn làm theo từng bài: **Bài 1 (39 câu)**, **Bài 2 (43 câu)**, **Bài 3 (38 câu)**, **Bài 4 (41 câu)**, **Bài 5 (36 câu)**, **Bài 6 (43 câu)** hoặc **Tất cả (240 câu)**.
+   - Chọn làm theo từng bài: **Bài 1 (41 câu)**, **Bài 2 (45 câu)**, **Bài 3 (39 câu)**, **Bài 4 (45 câu)**, **Bài 5 (39 câu)**, **Bài 6 (43 câu)**, **Kiểm Tra TX (12 câu)** hoặc **Tất cả (252 câu)**.
    - Lọc theo dạng câu hỏi: 1 đáp án, nhiều đáp án, đúng/sai, kéo thả.
    - Chế độ **Xáo trộn (Shuffle)**: Ngẫu nhiên hóa thứ tự câu hỏi và thứ tự đáp án A, B, C, D.
 
 5. **Thanh tiến độ & Bảng điều hướng câu hỏi (Drawer Navigator)**:
    - Theo dõi phần trăm hoàn thành.
-   - Bảng danh sách câu hỏi 1 -> 240: Màu xanh cho câu làm đúng, màu đỏ cho câu làm sai, bấm vào số bất kỳ để nhảy ngay tới câu đó.
+   - Bảng danh sách câu hỏi 1 -> 252: Màu xanh cho câu làm đúng, màu đỏ cho câu làm sai, bấm vào số bất kỳ để nhảy ngay tới câu đó.
 
 6. **Phím tắt tiện lợi**:
    - Bấm phím `1`, `2`, `3`, `4` hoặc `A`, `B`, `C`, `D` để chọn đáp án tương ứng.

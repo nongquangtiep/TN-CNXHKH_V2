@@ -221,6 +221,10 @@ function updateLessonTabCounts() {
       el.textContent = count;
     }
   }
+  const countTxEl = document.getElementById('count-tx');
+  if (countTxEl) {
+    countTxEl.textContent = allQuestions.filter(q => q.is_thuong_xuyen).length;
+  }
 }
 
 // ================= THEME =================
@@ -246,7 +250,9 @@ function updateThemeIcon(t) {
 // ================= FILTER & SHUFFLE =================
 function applyFiltersAndReset(targetIndex = 0) {
   let filtered = allQuestions;
-  if (currentLesson !== 'all') {
+  if (currentLesson === 'tx') {
+    filtered = filtered.filter(q => q.is_thuong_xuyen);
+  } else if (currentLesson !== 'all') {
     const lnum = parseInt(currentLesson);
     filtered = filtered.filter(q => q.lesson_num === lnum);
   }
@@ -327,10 +333,15 @@ function renderCurrentQuestion() {
   const typeLabel = getTypeLabel(q.type);
 
   // Card Header Meta
+  const txBadge = q.is_thuong_xuyen
+    ? `<span class="badge-tx-pill">${q.test_group && q.test_group.includes('1') ? '⚡ KT Thường Xuyên 1' : '⚡ KT Thường Xuyên 2'}</span>`
+    : '';
+
   heroCard.innerHTML = `
     <div class="hero-meta">
       <div class="hero-meta-left">
         <span class="badge-lesson-pill">${q.lesson} - Câu ${q.q_num}</span>
+        ${txBadge}
         <span class="badge-type-pill">${typeLabel}</span>
       </div>
       <div class="question-counter-pill">Câu ${currentIndex + 1} / ${activeQuestions.length}</div>
@@ -1552,6 +1563,7 @@ const MAX_HISTORY_ITEMS = 50;
 
 function getLessonDisplayName(lessonKey) {
   if (lessonKey === 'all') return 'Tất cả bài học (Toàn bộ)';
+  if (lessonKey === 'tx') return 'Bài Kiểm Tra Thường Xuyên';
   return `Bài ${lessonKey}`;
 }
 

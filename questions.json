@@ -176,7 +176,7 @@
       "D. Số lượng còn ít"
     ],
     "correct_answers": [
-      1
+      2
     ]
   },
   {
@@ -667,9 +667,9 @@
     ],
     "options_pool": [
       "tầng lớp trí thức",
+      "tầng lớp nhân dân",
       "Đảng Cộng Sản",
-      "giai cấp, tầng lớp",
-      "tầng lớp nhân dân"
+      "giai cấp, tầng lớp"
     ]
   },
   {
@@ -778,9 +778,9 @@
       }
     ],
     "options_pool": [
-      "dân chủ gián tiếp",
+      "dân chủ nhân dân",
       "dân chủ trực tiếp",
-      "dân chủ nhân dân"
+      "dân chủ gián tiếp"
     ]
   },
   {
@@ -1477,8 +1477,8 @@
       }
     ],
     "options_pool": [
-      "nhà nước pháp quyền",
       "quyền con người.",
+      "nhà nước pháp quyền",
       "kinh tế thị trường"
     ]
   },
@@ -1599,9 +1599,9 @@
       }
     ],
     "options_pool": [
+      "tất yếu khách quan.",
       "quá độ gián tiếp",
-      "vị trí thống trị",
-      "tất yếu khách quan."
+      "vị trí thống trị"
     ]
   },
   {
@@ -1627,9 +1627,9 @@
       }
     ],
     "options_pool": [
-      "Thời kỳ quá độ",
       "Quá độ gián tiếp",
-      "Quá độ trực tiếp"
+      "Quá độ trực tiếp",
+      "Thời kỳ quá độ"
     ]
   },
   {
@@ -2921,8 +2921,8 @@
     ],
     "options_pool": [
       "dân chủ trực tiếp",
-      "giai cấp công nhân",
-      "quyền làm chủ"
+      "quyền làm chủ",
+      "giai cấp công nhân"
     ]
   },
   {
@@ -2953,9 +2953,9 @@
     ],
     "options_pool": [
       "dân chủ đại diện",
+      "thượng tôn pháp luật",
       "bầu cử Quốc hội",
-      "chủ thể quyền lực",
-      "thượng tôn pháp luật"
+      "chủ thể quyền lực"
     ]
   },
   {
@@ -2986,8 +2986,8 @@
     ],
     "options_pool": [
       "Đội ngũ trí thức",
-      "Chính sách an sinh xã hội",
       "Giai cấp công nhân",
+      "Chính sách an sinh xã hội",
       "Đội ngũ doanh nhân"
     ]
   },
@@ -3150,9 +3150,9 @@
       }
     ],
     "options_pool": [
-      "đặc biệt quan trọng",
-      "sáng tạo đặc biệt",
       "chiến lược quan trọng",
+      "sáng tạo đặc biệt",
+      "đặc biệt quan trọng",
       "đội ngũ vững mạnh"
     ]
   },
@@ -3170,7 +3170,6 @@
         "items": [
           "Giai cấp công nhân",
           "Giai cấp nông dân",
-          "Tầng lớp phụ nữ",
           "Đảng Cộng sản"
         ]
       },
@@ -3202,16 +3201,12 @@
         "category": "2) Nội dung/phương hướng của liên minh"
       },
       {
-        "text": "Tầng lớp phụ nữ",
+        "text": "Đảng Cộng sản",
         "category": "1) Thành phần/yếu tố của liên minh"
       },
       {
         "text": "Xóa đói giảm nghèo",
         "category": "2) Nội dung/phương hướng của liên minh"
-      },
-      {
-        "text": "Đảng Cộng sản",
-        "category": "1) Thành phần/yếu tố của liên minh"
       },
       {
         "text": "Tăng cường liên minh",
@@ -3559,9 +3554,9 @@
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 18,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 18 : Trong những nội dung của quyền dân tộc tự quyết, nội dung nào được coi là cơ bản, trước hết?",
-    "instruction": "Chọn 4 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Quyền tự quyết về các mối quan hệ quốc tế",
       "B. Quyền tự quyết về văn hoá",
@@ -3569,9 +3564,6 @@
       "D. Quyền tự quyết về chính trị"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
       3
     ]
   },
@@ -3598,9 +3590,9 @@
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 20,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 20. Đối với quốc gia và từng thành viên của dân tộc, yếu tố nào là thiêng liêng nhất mà nếu không có thì không có khái niệm Tổ quốc, quốc gia?",
-    "instruction": "Chọn 4 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Lãnh thổ",
       "B. Kinh tế",
@@ -3608,10 +3600,7 @@
       "D. Truyền thống văn hoá"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      0
     ]
   },
   {
@@ -3619,9 +3608,9 @@
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 21,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 21. Niềm tin của con người vào các lực lượng siêu nhiên, thần thánh đến mức độ mê muội, cuồng tín, dẫn đến những hành vi cực đoan, sai lệch quá mức, trái với các giá trị văn hoá, đạo đức, pháp luật – gọi là:",
-    "instruction": "Chọn 4 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Ý thức thẩm mỹ",
       "B. Ý thức chính trị",
@@ -3629,10 +3618,7 @@
       "D. Thờ anh hùng dân tộc"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      2
     ]
   },
   {
@@ -3658,9 +3644,9 @@
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 23,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 23: Vì sao Đảng, Nhà nước Việt Nam chủ trương luôn tôn trọng, bảo đảm quyền tự do tín ngưỡng tôn giáo và không tín ngưỡng tôn giáo của nhân dân?",
-    "instruction": "Chọn 4 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Vì tín ngưỡng, tôn giáo có số lượng tín đồ đông",
       "B. Vì tín ngưỡng, tôn giáo là nhu cầu tinh thần của nhân dân",
@@ -3668,10 +3654,7 @@
       "D. Vì lực lượng chức sắc trong các tôn giáo có tiềm lực kinh tế lớn mạnh"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      1
     ]
   },
   {
@@ -3679,9 +3662,9 @@
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 23,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 23. Theo chủ nghĩa Mác – Lênin, xét đến cùng nhân tố quyết định sự tồn tại và phát triển của các hình thái ý thức xã hội, trong đó có tôn giáo là gì?",
-    "instruction": "Chọn 4 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Các hoạt động văn hoá",
       "B. Các hoạt động chính trị và quan hệ chính trị",
@@ -3689,10 +3672,7 @@
       "D. Các cuộc cách mạng"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      2
     ]
   },
   {
@@ -3700,9 +3680,9 @@
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 24,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 24. Tôn giáo ra đời từ những nguồn gốc cơ bản nào?",
-    "instruction": "Chọn 4 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Có nguồn gốc tự nhiên, kinh tế - xã hội, tâm lý, nhận thức",
       "B. Có nguồn gốc do Thượng đế tạo ra",
@@ -3710,10 +3690,7 @@
       "D. Có nguồn gốc do chủ nghĩa tư bản tạo ra"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      0
     ]
   },
   {
@@ -3721,9 +3698,9 @@
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 25,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 25. Đâu là sự giống nhau giữa tôn giáo và tín ngưỡng?",
-    "instruction": "Chọn 4 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Đều có các giáo sĩ",
       "B. Đều có hệ thống kinh điển",
@@ -3731,10 +3708,7 @@
       "D. Đều có giáo chủ"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      2
     ]
   },
   {
@@ -3742,9 +3716,9 @@
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 26,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 26. Tại sao các tôn giáo ở Việt Nam luôn đồng hành cùng dân tộc và có nhiều đóng góp quan trọng trong quá trình xây dựng và bảo vệ đất nước?",
-    "instruction": "Chọn 4 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Vì các tôn giáo có vai trò quyết định đến những vấn đề quan trọng của xã hội",
       "B. Vì các tôn giáo có quan hệ với các tổ chức nước ngoài",
@@ -3752,10 +3726,7 @@
       "D. Vì các tôn giáo thường bị lợi dụng bởi các thế lực phản động"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      2
     ]
   },
   {
@@ -3938,8 +3909,8 @@
     "options_pool": [
       "Giai cấp công nhân",
       "Quyền bình đẳng dân tộc",
-      "Cơ sở pháp lý",
-      "Liên hiệp công nhân các dân tộc lại"
+      "Liên hiệp công nhân các dân tộc lại",
+      "Cơ sở pháp lý"
     ]
   },
   {
@@ -4023,10 +3994,10 @@
       }
     ],
     "options_pool": [
-      "Tôn trọng tự do tôn giáo",
       "Hình thái ý thức xã hội",
-      "Tín ngưỡng",
-      "Phản ánh hư ảo hiện thực khách quan"
+      "Phản ánh hư ảo hiện thực khách quan",
+      "Tôn trọng tự do tôn giáo",
+      "Tín ngưỡng"
     ]
   },
   {
@@ -4847,5 +4818,329 @@
       2,
       3
     ]
+  },
+  {
+    "id": 241,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "q_num": 40,
+    "type": "single_choice",
+    "question": "Câu 22 (Bài 1): Câu nói sau đây được viết trong tác phẩm nào: “Giai cấp tư sản, trong quá trình thống trị giai cấp chưa đầy một thế kỷ, đã tạo ra những lực lượng sản xuất nhiều hơn và đồ sộ hơn lực lượng sản xuất của tất cả các thế hệ trước gộp lại”",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Ba nguồn gốc và ba bộ phận cấu thành của chủ nghĩa Mác",
+      "B. Chống Đuyrinh",
+      "C. Bộ Tư bản",
+      "D. Tuyên ngôn của Đảng Cộng sản"
+    ],
+    "correct_answers": [
+      3
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 1"
+  },
+  {
+    "id": 242,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "q_num": 41,
+    "type": "drag_drop_match",
+    "question": "Câu 23 (Bài 1 – Kéo thả): Kéo thả các đáp án khớp với các phát biểu từ 1 – 3 vế trái dưới đây:",
+    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
+    "pairs": [
+      {
+        "left": "Thực hiện sự nghiệp giải phóng thế giới ấy, đó là sứ mệnh lịch sử của ______ hiện đại",
+        "right": "giai cấp vô sản"
+      },
+      {
+        "left": "Sứ mệnh lịch sử của giai cấp công nhân là ______ khỏi áp bức, bất công, bóc lột",
+        "right": "giải phóng con người"
+      },
+      {
+        "left": "Giai cấp công nhân là ______ và có tinh thần cách mạng triệt để",
+        "right": "giai cấp cách mạng"
+      }
+    ],
+    "options_pool": [
+      "giai cấp vô sản",
+      "giải phóng con người",
+      "giai cấp cách mạng"
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 1"
+  },
+  {
+    "id": 243,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "q_num": 44,
+    "type": "multiple_choice",
+    "question": "Câu 26 (Bài 2 – Chọn 2 đáp án đúng): Những đặc điểm nổi bật trong thời kỳ quá độ lên chủ nghĩa xã hội gồm:",
+    "instruction": "Chọn 2 đáp án đúng",
+    "options": [
+      "A. Sự tồn tại song song của các yếu tố cũ và yếu tố mới",
+      "B. Không còn mâu thuẫn xã hội nào",
+      "C. Xã hội hoàn toàn không còn giai cấp",
+      "D. Tồn tại nhiều thành phần kinh tế khác nhau"
+    ],
+    "correct_answers": [
+      0,
+      3
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 1"
+  },
+  {
+    "id": 244,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "q_num": 45,
+    "type": "single_choice",
+    "question": "Câu 27 (Bài 2): So sánh sự khác nhau giữa giai đoạn thấp và giai đoạn cao của hình thái kinh tế - xã hội cộng sản chủ nghĩa?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Giai đoạn thấp thực hiện phân phối theo lao động, giai đoạn cao thực hiện phân phối theo nhu cầu",
+      "B. Giai đoạn thấp không có sự phân chia giai cấp",
+      "C. Giai đoạn thấp sử dụng pháp quyền tư sản",
+      "D. Giai đoạn thấp thực hiện phân phối theo nhu cầu, giai đoạn cao thực hiện phân phối theo lao động"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 1"
+  },
+  {
+    "id": 245,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "q_num": 39,
+    "type": "single_choice",
+    "question": "Câu 30 (Bài 3): Vận dụng những kiến thức đã học hãy chọn phương án đúng về mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Dân chủ xã hội chủ nghĩa là mục đích cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa còn nhà nước xã hội chủ nghĩa quyết định bản chất của dân chủ",
+      "B. Dân chủ xã hội chủ nghĩa là mục tiêu cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa còn nhà nước xã hội chủ nghĩa là công cụ quan trọng cho việc thực thi quyền làm chủ của người dân",
+      "C. Dân chủ xã hội chủ nghĩa là cơ sở, nền tảng cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa còn nhà nước xã hội chủ nghĩa là công cụ quan trọng cho việc thực thi quyền làm chủ của người dân",
+      "D. Dân chủ xã hội chủ nghĩa là mục đích cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa còn nhà nước xã hội chủ nghĩa là điều kiện cho sự ra đời của dân chủ xã hội chủ nghĩa"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 1"
+  },
+  {
+    "id": 246,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "q_num": 42,
+    "type": "single_choice",
+    "question": "Câu 6 (Bài 4): Trong cơ cấu xã hội của thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã hội nào giữ vị trí quan trọng hàng đầu, chi phối các loại hình cơ cấu xã hội khác?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Cơ cấu xã hội – giai cấp",
+      "B. Cơ cấu xã hội - dân tộc",
+      "C. Cơ cấu xã hội - nghề nghiệp",
+      "D. Cơ cấu xã hội - tôn giáo"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
+  },
+  {
+    "id": 247,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "q_num": 43,
+    "type": "single_choice",
+    "question": "Câu 7 (Bài 4): Trong thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã hội – giai cấp thường xuyên biến đổi theo mấy quy luật cơ bản?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 2"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
+  },
+  {
+    "id": 248,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "q_num": 36,
+    "type": "single_choice",
+    "question": "Câu 10 (Bài 5): Dân tộc được hiểu theo mấy nghĩa?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "correct_answers": [
+      1
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
+  },
+  {
+    "id": 249,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "q_num": 44,
+    "type": "drag_drop_categorize",
+    "question": "Câu 19 (Bài 4 – Kéo thả): Kéo thả các yếu tố liên quan đến cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội vào các cột tương ứng:",
+    "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
+    "categories": [
+      {
+        "title": "Giai cấp/tầng lớp trong cơ cấu xã hội",
+        "items": [
+          "Đội ngũ trí thức",
+          "Giai cấp nông dân",
+          "Giai cấp công nhân"
+        ]
+      },
+      {
+        "title": "Chính sách hỗ trợ",
+        "items": [
+          "Bảo vệ quyền lợi",
+          "Nâng cao dân trí",
+          "Chính sách an sinh xã hội",
+          "Phát triển nông thôn mới"
+        ]
+      }
+    ],
+    "all_items": [
+      {
+        "text": "Đội ngũ trí thức",
+        "category": "Giai cấp/tầng lớp trong cơ cấu xã hội"
+      },
+      {
+        "text": "Giai cấp nông dân",
+        "category": "Giai cấp/tầng lớp trong cơ cấu xã hội"
+      },
+      {
+        "text": "Giai cấp công nhân",
+        "category": "Giai cấp/tầng lớp trong cơ cấu xã hội"
+      },
+      {
+        "text": "Bảo vệ quyền lợi",
+        "category": "Chính sách hỗ trợ"
+      },
+      {
+        "text": "Nâng cao dân trí",
+        "category": "Chính sách hỗ trợ"
+      },
+      {
+        "text": "Chính sách an sinh xã hội",
+        "category": "Chính sách hỗ trợ"
+      },
+      {
+        "text": "Phát triển nông thôn mới",
+        "category": "Chính sách hỗ trợ"
+      }
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
+  },
+  {
+    "id": 250,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "q_num": 45,
+    "type": "drag_drop_match",
+    "question": "Câu 20 (Bài 4 – Kéo thả): Kéo thả các đáp án khớp với các phát biểu về liên minh giai cấp, giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội dưới đây:",
+    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
+    "pairs": [
+      {
+        "left": "Nội dung cơ bản quyết định của liên minh",
+        "right": "Nội dung kinh tế"
+      },
+      {
+        "left": "Tầng lớp tham gia liên minh",
+        "right": "Tầng lớp phụ nữ"
+      },
+      {
+        "left": "Yếu tố cốt lõi của liên minh giai cấp",
+        "right": "Liên minh công - nông"
+      },
+      {
+        "left": "Phương hướng cơ bản để xây dựng liên minh giai cấp, tầng lớp",
+        "right": "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa"
+      }
+    ],
+    "options_pool": [
+      "Nội dung kinh tế",
+      "Tầng lớp phụ nữ",
+      "Liên minh công - nông",
+      "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa"
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
+  },
+  {
+    "id": 251,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "q_num": 37,
+    "type": "true_false",
+    "question": "Câu 28 (Bài 5 – Đúng/Sai): Chọn đáp án (Đúng hoặc Sai) với từng phát biểu sau:",
+    "instruction": "Chọn Đúng hoặc Sai cho mỗi phát biểu sau",
+    "items": [
+      {
+        "statement": "Dân tộc (quốc gia) không cần lãnh thổ chung",
+        "correct": false
+      },
+      {
+        "statement": "Bình đẳng dân tộc là nội dung cương lĩnh dân tộc của Mác-Lênin",
+        "correct": true
+      },
+      {
+        "statement": "Dân tộc là cộng đồng người có ngôn ngữ riêng và văn hóa đặc thù",
+        "correct": true
+      },
+      {
+        "statement": "Quyền tự quyết dân tộc bao gồm quyền phân lập thành quốc gia độc lập",
+        "correct": true
+      }
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
+  },
+  {
+    "id": 252,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "q_num": 38,
+    "type": "true_false",
+    "question": "Câu 30 (Bài 5 – Đúng/Sai): Chọn đáp án (Đúng hoặc Sai) với từng phát biểu sau:",
+    "instruction": "Chọn Đúng hoặc Sai cho mỗi phát biểu sau",
+    "items": [
+      {
+        "statement": "Tín ngưỡng có hệ thống giáo lý chặt chẽ",
+        "correct": false
+      },
+      {
+        "statement": "Nguồn gốc kinh tế - xã hội dẫn đến sự ra đời của tôn giáo",
+        "correct": true
+      },
+      {
+        "statement": "Tôn giáo phản ánh hoang đường, hư ảo hiện thực khách quan",
+        "correct": true
+      },
+      {
+        "statement": "Mê tín dị đoan là niềm tin mù quáng cần loại bỏ",
+        "correct": true
+      }
+    ],
+    "is_thuong_xuyen": true,
+    "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
   }
 ]
