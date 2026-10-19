@@ -1,4 +1,4 @@
-// Du lieu cau hoi trac nghiem Chu Nghia Xa Hoi Khoa Hoc (V4 - 252 cau chuan, khong trung lap)
+// Du lieu cau hoi trac nghiem Chu Nghia Xa Hoi Khoa Hoc (V4.1 - 250 cau chuan, da sua loi keo tha)
 window.QUIZ_QUESTIONS = [
   {
     "lesson": "Bài 1",
@@ -740,149 +740,71 @@ window.QUIZ_QUESTIONS = [
   {
     "lesson": "Bài 1",
     "lesson_num": 1,
-    "q_num": 38,
-    "type": "drag_drop_categorize",
-    "question": "Câu 38: Kéo thả các đáp án khớp với các phát biểu từ 1 – 3 về trái dưới đây:",
-    "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
-    "categories": [
+    "type": "drag_drop_match",
+    "question": "Câu 38: Kéo thả các đáp án khớp với các phát biểu từ 1 – 3 vế trái dưới đây:",
+    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
+    "pairs": [
       {
-        "title": "Giai cấp công nhân Việt Nam là lực lượng nòng cốt của ____ Việt Nam",
-        "items": [
-          "Giai cấp công nhân Việt Nam gắn bó mật thiết với các ____ trong xã hội",
-          "Giai cấp công nhân Việt Nam có mối quan hệ mật thiết với giai cấp nông dân và _____"
-        ]
+        "left": "Giai cấp công nhân Việt Nam là lực lượng nòng cốt của ____ Việt Nam",
+        "right": "Đảng Cộng Sản"
       },
       {
-        "title": "Đảng Cộng Sản",
-        "items": [
-          "tầng lớp nhân dân",
-          "tầng lớp tri thức"
-        ]
+        "left": "Giai cấp công nhân Việt Nam gắn bó mật thiết với các ____ trong xã hội",
+        "right": "tầng lớp nhân dân"
+      },
+      {
+        "left": "Giai cấp công nhân Việt Nam có mối quan hệ mật thiết với giai cấp nông dân và _____",
+        "right": "tầng lớp trí thức"
       }
     ],
-    "all_items": [
-      {
-        "text": "Giai cấp công nhân Việt Nam gắn bó mật thiết với các ____ trong xã hội",
-        "category": "Giai cấp công nhân Việt Nam là lực lượng nòng cốt của ____ Việt Nam"
-      },
-      {
-        "text": "tầng lớp nhân dân",
-        "category": "Đảng Cộng Sản"
-      },
-      {
-        "text": "Giai cấp công nhân Việt Nam có mối quan hệ mật thiết với giai cấp nông dân và _____",
-        "category": "Giai cấp công nhân Việt Nam là lực lượng nòng cốt của ____ Việt Nam"
-      },
-      {
-        "text": "tầng lớp tri thức",
-        "category": "Đảng Cộng Sản"
-      }
+    "options_pool": [
+      "Đảng Cộng Sản",
+      "tầng lớp nhân dân",
+      "tầng lớp trí thức"
     ],
-    "id": 38
+    "id": 38,
+    "q_num": 38
   },
   {
     "lesson": "Bài 1",
     "lesson_num": 1,
-    "q_num": 39,
-    "type": "drag_drop_categorize",
-    "question": "Câu 39: Kéo thả các đáp án khớp với các phát biểu từ 1 – 4 về trái dưới đây:",
-    "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
-    "categories": [
+    "type": "drag_drop_match",
+    "question": "Câu 39: Kéo thả các đáp án khớp với các phát biểu từ 1 – 4 vế trái dưới đây:",
+    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
+    "pairs": [
       {
-        "title": "Đảng Cộng sản là _____ quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử của mình.",
-        "items": [
-          "Giai cấp công nhân là ___ của quá trình sản xuất vật chất hiện đại.",
-          "Giai cấp công nhân đại diện cho ____ tiên tiến.",
-          "Giai cấp công nhân đại diện cho ___ hiện đại."
-        ]
+        "left": "Giai cấp công nhân là ___ của quá trình sản xuất vật chất hiện đại.",
+        "right": "chủ thể"
       },
       {
-        "title": "nhân tố chủ quan",
-        "items": [
-          "chủ thể",
-          "phương thức sản xuất",
-          "lực lượng sản xuất"
-        ]
+        "left": "Giai cấp công nhân đại diện cho ____ tiên tiến.",
+        "right": "phương thức sản xuất"
+      },
+      {
+        "left": "Giai cấp công nhân đại diện cho ___ hiện đại.",
+        "right": "lực lượng sản xuất"
+      },
+      {
+        "left": "Đảng Cộng sản là _____ quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử của mình.",
+        "right": "nhân tố chủ quan"
       }
     ],
-    "all_items": [
-      {
-        "text": "Giai cấp công nhân là ___ của quá trình sản xuất vật chất hiện đại.",
-        "category": "Đảng Cộng sản là _____ quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử của mình."
-      },
-      {
-        "text": "chủ thể",
-        "category": "nhân tố chủ quan"
-      },
-      {
-        "text": "Giai cấp công nhân đại diện cho ____ tiên tiến.",
-        "category": "Đảng Cộng sản là _____ quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử của mình."
-      },
-      {
-        "text": "phương thức sản xuất",
-        "category": "nhân tố chủ quan"
-      },
-      {
-        "text": "Giai cấp công nhân đại diện cho ___ hiện đại.",
-        "category": "Đảng Cộng sản là _____ quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử của mình."
-      },
-      {
-        "text": "lực lượng sản xuất",
-        "category": "nhân tố chủ quan"
-      }
+    "options_pool": [
+      "chủ thể",
+      "phương thức sản xuất",
+      "lực lượng sản xuất",
+      "nhân tố chủ quan"
     ],
-    "id": 39
+    "id": 39,
+    "q_num": 39
   },
   {
+    "id": 40,
     "lesson": "Bài 1",
     "lesson_num": 1,
     "q_num": 40,
-    "type": "drag_drop_categorize",
-    "question": "Câu 40: Kéo thả các đáp án khớp với các phát biểu từ 1 - 3 vế trái dưới đây:",
-    "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
-    "categories": [
-      {
-        "title": "Giai cấp công nhân là ____ và có tinh thần cách mạng triệt để",
-        "items": [
-          "Sứ mệnh lịch sử của giai cấp công nhân là_____ khỏi áp bức, bất công, bóc lột",
-          "Thực hiện sự nghiệp giải phóng thế giới ấy, đó là sứ mệnh lịch sử của ____ hiện đại"
-        ]
-      },
-      {
-        "title": "giai cấp cách mạng",
-        "items": [
-          "giải phóng con người",
-          "giai cấp vô sản"
-        ]
-      }
-    ],
-    "all_items": [
-      {
-        "text": "Sứ mệnh lịch sử của giai cấp công nhân là_____ khỏi áp bức, bất công, bóc lột",
-        "category": "Giai cấp công nhân là ____ và có tinh thần cách mạng triệt để"
-      },
-      {
-        "text": "giải phóng con người",
-        "category": "giai cấp cách mạng"
-      },
-      {
-        "text": "Thực hiện sự nghiệp giải phóng thế giới ấy, đó là sứ mệnh lịch sử của ____ hiện đại",
-        "category": "Giai cấp công nhân là ____ và có tinh thần cách mạng triệt để"
-      },
-      {
-        "text": "giai cấp vô sản",
-        "category": "giai cấp cách mạng"
-      }
-    ],
-    "id": 40
-  },
-  {
-    "id": 41,
-    "lesson": "Bài 1",
-    "lesson_num": 1,
-    "q_num": 41,
     "type": "drag_drop_match",
-    "question": "Câu 41: (Bài 1 – Kéo thả): Kéo thả các đáp án khớp với các phát biểu từ 1 – 3 vế trái dưới đây:",
+    "question": "Câu 40: (Bài 1 – Kéo thả): Kéo thả các đáp án khớp với các phát biểu từ 1 – 3 vế trái dưới đây:",
     "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
     "pairs": [
       {
@@ -922,7 +844,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 42
+    "id": 41
   },
   {
     "lesson": "Bài 2",
@@ -940,7 +862,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 43
+    "id": 42
   },
   {
     "lesson": "Bài 2",
@@ -958,7 +880,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 44
+    "id": 43
   },
   {
     "lesson": "Bài 2",
@@ -976,7 +898,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 45
+    "id": 44
   },
   {
     "lesson": "Bài 2",
@@ -994,7 +916,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 46
+    "id": 45
   },
   {
     "lesson": "Bài 2",
@@ -1012,7 +934,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 47
+    "id": 46
   },
   {
     "lesson": "Bài 2",
@@ -1030,7 +952,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 48
+    "id": 47
   },
   {
     "lesson": "Bài 2",
@@ -1048,7 +970,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 49
+    "id": 48
   },
   {
     "lesson": "Bài 2",
@@ -1066,7 +988,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 50
+    "id": 49
   },
   {
     "lesson": "Bài 2",
@@ -1084,7 +1006,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 51
+    "id": 50
   },
   {
     "lesson": "Bài 2",
@@ -1103,7 +1025,7 @@ window.QUIZ_QUESTIONS = [
       0,
       2
     ],
-    "id": 52
+    "id": 51
   },
   {
     "lesson": "Bài 2",
@@ -1122,7 +1044,7 @@ window.QUIZ_QUESTIONS = [
       0,
       3
     ],
-    "id": 53
+    "id": 52
   },
   {
     "lesson": "Bài 2",
@@ -1140,7 +1062,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 54
+    "id": 53
   },
   {
     "lesson": "Bài 2",
@@ -1158,7 +1080,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 55
+    "id": 54
   },
   {
     "lesson": "Bài 2",
@@ -1176,7 +1098,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 56
+    "id": 55
   },
   {
     "lesson": "Bài 2",
@@ -1194,7 +1116,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 57
+    "id": 56
   },
   {
     "lesson": "Bài 2",
@@ -1212,7 +1134,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 58
+    "id": 57
   },
   {
     "lesson": "Bài 2",
@@ -1230,7 +1152,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 59
+    "id": 58
   },
   {
     "lesson": "Bài 2",
@@ -1248,7 +1170,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 60
+    "id": 59
   },
   {
     "lesson": "Bài 2",
@@ -1266,7 +1188,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 61
+    "id": 60
   },
   {
     "lesson": "Bài 2",
@@ -1284,7 +1206,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 62
+    "id": 61
   },
   {
     "lesson": "Bài 2",
@@ -1302,7 +1224,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 63
+    "id": 62
   },
   {
     "lesson": "Bài 2",
@@ -1320,7 +1242,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 64
+    "id": 63
   },
   {
     "lesson": "Bài 2",
@@ -1338,7 +1260,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 65
+    "id": 64
   },
   {
     "lesson": "Bài 2",
@@ -1356,7 +1278,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 66
+    "id": 65
   },
   {
     "lesson": "Bài 2",
@@ -1375,7 +1297,7 @@ window.QUIZ_QUESTIONS = [
       0,
       3
     ],
-    "id": 67
+    "id": 66
   },
   {
     "lesson": "Bài 2",
@@ -1394,7 +1316,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 68
+    "id": 67
   },
   {
     "lesson": "Bài 2",
@@ -1421,7 +1343,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 69
+    "id": 68
   },
   {
     "lesson": "Bài 2",
@@ -1448,7 +1370,7 @@ window.QUIZ_QUESTIONS = [
         "correct": false
       }
     ],
-    "id": 70
+    "id": 69
   },
   {
     "lesson": "Bài 2",
@@ -1475,7 +1397,7 @@ window.QUIZ_QUESTIONS = [
         "correct": false
       }
     ],
-    "id": 71
+    "id": 70
   },
   {
     "lesson": "Bài 2",
@@ -1502,7 +1424,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 72
+    "id": 71
   },
   {
     "lesson": "Bài 2",
@@ -1529,7 +1451,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 73
+    "id": 72
   },
   {
     "lesson": "Bài 2",
@@ -1557,7 +1479,7 @@ window.QUIZ_QUESTIONS = [
       "Quá độ gián tiếp",
       "Quá độ trực tiếp"
     ],
-    "id": 74
+    "id": 73
   },
   {
     "lesson": "Bài 2",
@@ -1585,7 +1507,7 @@ window.QUIZ_QUESTIONS = [
       "vị trí thống trị",
       "tất yếu khách quan"
     ],
-    "id": 75
+    "id": 74
   },
   {
     "lesson": "Bài 2",
@@ -1604,7 +1526,7 @@ window.QUIZ_QUESTIONS = [
       0,
       3
     ],
-    "id": 76
+    "id": 75
   },
   {
     "lesson": "Bài 2",
@@ -1632,7 +1554,7 @@ window.QUIZ_QUESTIONS = [
       "kinh tế thị trường",
       "quyền con người"
     ],
-    "id": 77
+    "id": 76
   },
   {
     "lesson": "Bài 2",
@@ -1650,7 +1572,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 78
+    "id": 77
   },
   {
     "lesson": "Bài 2",
@@ -1669,7 +1591,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 79
+    "id": 78
   },
   {
     "lesson": "Bài 2",
@@ -1688,7 +1610,7 @@ window.QUIZ_QUESTIONS = [
       0,
       3
     ],
-    "id": 80
+    "id": 79
   },
   {
     "lesson": "Bài 2",
@@ -1708,10 +1630,10 @@ window.QUIZ_QUESTIONS = [
       3,
       4
     ],
-    "id": 81
+    "id": 80
   },
   {
-    "id": 82,
+    "id": 81,
     "lesson": "Bài 2",
     "lesson_num": 2,
     "q_num": 41,
@@ -1732,7 +1654,7 @@ window.QUIZ_QUESTIONS = [
     "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 1"
   },
   {
-    "id": 83,
+    "id": 82,
     "lesson": "Bài 2",
     "lesson_num": 2,
     "q_num": 42,
@@ -1767,7 +1689,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 84
+    "id": 83
   },
   {
     "lesson": "Bài 3",
@@ -1785,7 +1707,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 85
+    "id": 84
   },
   {
     "lesson": "Bài 3",
@@ -1803,7 +1725,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 86
+    "id": 85
   },
   {
     "lesson": "Bài 3",
@@ -1821,7 +1743,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 87
+    "id": 86
   },
   {
     "lesson": "Bài 3",
@@ -1839,7 +1761,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 88
+    "id": 87
   },
   {
     "lesson": "Bài 3",
@@ -1857,7 +1779,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 89
+    "id": 88
   },
   {
     "lesson": "Bài 3",
@@ -1875,7 +1797,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 90
+    "id": 89
   },
   {
     "lesson": "Bài 3",
@@ -1893,7 +1815,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 91
+    "id": 90
   },
   {
     "lesson": "Bài 3",
@@ -1911,7 +1833,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 92
+    "id": 91
   },
   {
     "lesson": "Bài 3",
@@ -1929,7 +1851,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 93
+    "id": 92
   },
   {
     "lesson": "Bài 3",
@@ -1947,7 +1869,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 94
+    "id": 93
   },
   {
     "lesson": "Bài 3",
@@ -1965,7 +1887,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 95
+    "id": 94
   },
   {
     "lesson": "Bài 3",
@@ -1983,7 +1905,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 96
+    "id": 95
   },
   {
     "lesson": "Bài 3",
@@ -2002,7 +1924,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 97
+    "id": 96
   },
   {
     "lesson": "Bài 3",
@@ -2021,7 +1943,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 98
+    "id": 97
   },
   {
     "lesson": "Bài 3",
@@ -2039,7 +1961,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 99
+    "id": 98
   },
   {
     "lesson": "Bài 3",
@@ -2057,7 +1979,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 100
+    "id": 99
   },
   {
     "lesson": "Bài 3",
@@ -2075,7 +1997,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 101
+    "id": 100
   },
   {
     "lesson": "Bài 3",
@@ -2093,7 +2015,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 102
+    "id": 101
   },
   {
     "lesson": "Bài 3",
@@ -2111,7 +2033,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 103
+    "id": 102
   },
   {
     "lesson": "Bài 3",
@@ -2129,7 +2051,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 104
+    "id": 103
   },
   {
     "lesson": "Bài 3",
@@ -2147,7 +2069,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 105
+    "id": 104
   },
   {
     "lesson": "Bài 3",
@@ -2166,7 +2088,7 @@ window.QUIZ_QUESTIONS = [
       1,
       3
     ],
-    "id": 106
+    "id": 105
   },
   {
     "lesson": "Bài 3",
@@ -2185,7 +2107,7 @@ window.QUIZ_QUESTIONS = [
       0,
       3
     ],
-    "id": 107
+    "id": 106
   },
   {
     "lesson": "Bài 3",
@@ -2203,7 +2125,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 108
+    "id": 107
   },
   {
     "lesson": "Bài 3",
@@ -2221,7 +2143,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 109
+    "id": 108
   },
   {
     "lesson": "Bài 3",
@@ -2239,7 +2161,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 110
+    "id": 109
   },
   {
     "lesson": "Bài 3",
@@ -2258,7 +2180,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 111
+    "id": 110
   },
   {
     "lesson": "Bài 3",
@@ -2275,7 +2197,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 112
+    "id": 111
   },
   {
     "lesson": "Bài 3",
@@ -2295,7 +2217,7 @@ window.QUIZ_QUESTIONS = [
       1,
       2
     ],
-    "id": 113
+    "id": 112
   },
   {
     "lesson": "Bài 3",
@@ -2313,7 +2235,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 114
+    "id": 113
   },
   {
     "lesson": "Bài 3",
@@ -2331,7 +2253,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 115
+    "id": 114
   },
   {
     "lesson": "Bài 3",
@@ -2358,7 +2280,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 116
+    "id": 115
   },
   {
     "lesson": "Bài 3",
@@ -2385,7 +2307,7 @@ window.QUIZ_QUESTIONS = [
         "correct": false
       }
     ],
-    "id": 117
+    "id": 116
   },
   {
     "lesson": "Bài 3",
@@ -2412,7 +2334,7 @@ window.QUIZ_QUESTIONS = [
         "correct": false
       }
     ],
-    "id": 118
+    "id": 117
   },
   {
     "lesson": "Bài 3",
@@ -2439,7 +2361,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 119
+    "id": 118
   },
   {
     "lesson": "Bài 3",
@@ -2472,7 +2394,7 @@ window.QUIZ_QUESTIONS = [
       "dân chủ xã hội chủ nghĩa",
       "bản chất giai cấp"
     ],
-    "id": 120
+    "id": 119
   },
   {
     "lesson": "Bài 3",
@@ -2500,7 +2422,7 @@ window.QUIZ_QUESTIONS = [
       "dân chủ trực tiếp",
       "giai cấp công nhân"
     ],
-    "id": 121
+    "id": 120
   },
   {
     "lesson": "Bài 3",
@@ -2533,7 +2455,7 @@ window.QUIZ_QUESTIONS = [
       "Thượng tôn pháp luật",
       "Chủ thể quyền lực"
     ],
-    "id": 122
+    "id": 121
   },
   {
     "lesson": "Bài 3",
@@ -2561,7 +2483,7 @@ window.QUIZ_QUESTIONS = [
       "dân chủ nhân dân",
       "dân chủ gián tiếp"
     ],
-    "id": 123
+    "id": 122
   },
   {
     "lesson": "Bài 3",
@@ -2578,7 +2500,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 124,
+    "id": 123,
     "q_num": 41
   },
   {
@@ -2596,7 +2518,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 125,
+    "id": 124,
     "q_num": 42
   },
   {
@@ -2614,7 +2536,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 126,
+    "id": 125,
     "q_num": 43
   },
   {
@@ -2632,7 +2554,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 127,
+    "id": 126,
     "q_num": 44
   },
   {
@@ -2651,7 +2573,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 128
+    "id": 127
   },
   {
     "lesson": "Bài 4",
@@ -2669,7 +2591,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 129
+    "id": 128
   },
   {
     "lesson": "Bài 4",
@@ -2688,7 +2610,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 130
+    "id": 129
   },
   {
     "lesson": "Bài 4",
@@ -2706,7 +2628,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 131
+    "id": 130
   },
   {
     "lesson": "Bài 4",
@@ -2724,7 +2646,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 132
+    "id": 131
   },
   {
     "lesson": "Bài 4",
@@ -2742,7 +2664,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 133
+    "id": 132
   },
   {
     "lesson": "Bài 4",
@@ -2760,7 +2682,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 134
+    "id": 133
   },
   {
     "lesson": "Bài 4",
@@ -2778,7 +2700,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 135
+    "id": 134
   },
   {
     "lesson": "Bài 4",
@@ -2797,7 +2719,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 136
+    "id": 135
   },
   {
     "lesson": "Bài 4",
@@ -2815,7 +2737,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 137
+    "id": 136
   },
   {
     "lesson": "Bài 4",
@@ -2833,7 +2755,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 138
+    "id": 137
   },
   {
     "lesson": "Bài 4",
@@ -2851,7 +2773,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 139
+    "id": 138
   },
   {
     "lesson": "Bài 4",
@@ -2869,7 +2791,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 140
+    "id": 139
   },
   {
     "lesson": "Bài 4",
@@ -2889,7 +2811,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 141
+    "id": 140
   },
   {
     "lesson": "Bài 4",
@@ -2909,7 +2831,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 142
+    "id": 141
   },
   {
     "lesson": "Bài 4",
@@ -2927,7 +2849,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 143
+    "id": 142
   },
   {
     "lesson": "Bài 4",
@@ -2945,7 +2867,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 144
+    "id": 143
   },
   {
     "lesson": "Bài 4",
@@ -2963,7 +2885,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 145
+    "id": 144
   },
   {
     "lesson": "Bài 4",
@@ -2981,7 +2903,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 146
+    "id": 145
   },
   {
     "lesson": "Bài 4",
@@ -2999,7 +2921,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 147
+    "id": 146
   },
   {
     "lesson": "Bài 4",
@@ -3017,7 +2939,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 148
+    "id": 147
   },
   {
     "lesson": "Bài 4",
@@ -3035,7 +2957,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 149
+    "id": 148
   },
   {
     "lesson": "Bài 4",
@@ -3053,7 +2975,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 150
+    "id": 149
   },
   {
     "lesson": "Bài 4",
@@ -3071,7 +2993,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 151
+    "id": 150
   },
   {
     "lesson": "Bài 4",
@@ -3089,7 +3011,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 152
+    "id": 151
   },
   {
     "lesson": "Bài 4",
@@ -3107,7 +3029,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 153
+    "id": 152
   },
   {
     "lesson": "Bài 4",
@@ -3125,7 +3047,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 154
+    "id": 153
   },
   {
     "lesson": "Bài 4",
@@ -3143,7 +3065,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 155
+    "id": 154
   },
   {
     "lesson": "Bài 4",
@@ -3161,7 +3083,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 156
+    "id": 155
   },
   {
     "lesson": "Bài 4",
@@ -3180,7 +3102,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 157
+    "id": 156
   },
   {
     "lesson": "Bài 4",
@@ -3198,7 +3120,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 158
+    "id": 157
   },
   {
     "lesson": "Bài 4",
@@ -3217,7 +3139,7 @@ window.QUIZ_QUESTIONS = [
       1,
       3
     ],
-    "id": 159
+    "id": 158
   },
   {
     "lesson": "Bài 4",
@@ -3236,7 +3158,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 160
+    "id": 159
   },
   {
     "lesson": "Bài 4",
@@ -3256,7 +3178,7 @@ window.QUIZ_QUESTIONS = [
       2,
       4
     ],
-    "id": 161
+    "id": 160
   },
   {
     "lesson": "Bài 4",
@@ -3276,7 +3198,7 @@ window.QUIZ_QUESTIONS = [
       1,
       4
     ],
-    "id": 162
+    "id": 161
   },
   {
     "lesson": "Bài 4",
@@ -3296,7 +3218,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 163
+    "id": 162
   },
   {
     "lesson": "Bài 4",
@@ -3323,7 +3245,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 164
+    "id": 163
   },
   {
     "lesson": "Bài 4",
@@ -3350,7 +3272,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 165
+    "id": 164
   },
   {
     "lesson": "Bài 4",
@@ -3377,7 +3299,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 166
+    "id": 165
   },
   {
     "lesson": "Bài 4",
@@ -3404,7 +3326,7 @@ window.QUIZ_QUESTIONS = [
         "correct": false
       }
     ],
-    "id": 167
+    "id": 166
   },
   {
     "lesson": "Bài 4",
@@ -3467,113 +3389,73 @@ window.QUIZ_QUESTIONS = [
         "category": "Nội dung/phương hướng của liên minh"
       }
     ],
-    "id": 168
+    "id": 167
   },
   {
     "lesson": "Bài 4",
     "lesson_num": 4,
-    "q_num": 42,
-    "type": "drag_drop_categorize",
+    "type": "drag_drop_match",
     "question": "Câu 42: Kéo thả các khái niệm khớp với các phát biểu về cơ cấu xã hội - giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội dưới đây:",
-    "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
-    "categories": [
+    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
+    "pairs": [
       {
-        "title": "Giai cấp trung tâm trong cơ cấu xã hội – giai cấp",
-        "items": [
-          "Chính sách hỗ trợ cơ cấu xã hội - giai cấp",
-          "Lực lượng quan trọng trong cơ cấu xã hội - giai cấp",
-          "Lực lượng mới trong cơ cấu xã hội – giai cấp"
-        ]
+        "left": "Giai cấp trung tâm trong cơ cấu xã hội – giai cấp",
+        "right": "Giai cấp công nhân"
       },
       {
-        "title": "Giai cấp công nhân",
-        "items": [
-          "Chính sách an sinh xã hội",
-          "Đội ngũ trí thức",
-          "Đội ngũ doanh nhân"
-        ]
+        "left": "Lực lượng quan trọng trong cơ cấu xã hội - giai cấp",
+        "right": "Đội ngũ trí thức"
+      },
+      {
+        "left": "Lực lượng mới trong cơ cấu xã hội – giai cấp",
+        "right": "Đội ngũ doanh nhân"
+      },
+      {
+        "left": "Chính sách hỗ trợ cơ cấu xã hội - giai cấp",
+        "right": "Chính sách an sinh xã hội"
       }
     ],
-    "all_items": [
-      {
-        "text": "Chính sách hỗ trợ cơ cấu xã hội - giai cấp",
-        "category": "Giai cấp trung tâm trong cơ cấu xã hội – giai cấp"
-      },
-      {
-        "text": "Chính sách an sinh xã hội",
-        "category": "Giai cấp công nhân"
-      },
-      {
-        "text": "Lực lượng quan trọng trong cơ cấu xã hội - giai cấp",
-        "category": "Giai cấp trung tâm trong cơ cấu xã hội – giai cấp"
-      },
-      {
-        "text": "Đội ngũ trí thức",
-        "category": "Giai cấp công nhân"
-      },
-      {
-        "text": "Lực lượng mới trong cơ cấu xã hội – giai cấp",
-        "category": "Giai cấp trung tâm trong cơ cấu xã hội – giai cấp"
-      },
-      {
-        "text": "Đội ngũ doanh nhân",
-        "category": "Giai cấp công nhân"
-      }
+    "options_pool": [
+      "Giai cấp công nhân",
+      "Đội ngũ trí thức",
+      "Đội ngũ doanh nhân",
+      "Chính sách an sinh xã hội"
     ],
-    "id": 169
+    "id": 168,
+    "q_num": 42
   },
   {
     "lesson": "Bài 4",
     "lesson_num": 4,
-    "q_num": 43,
-    "type": "drag_drop_categorize",
-    "question": "Câu 43: Kéo thả các đáp án đúng ứng với từng phát biểu sau đây về vị trí, vai trò của các giai cấp, tầng lớp trong cơ cấu xã hội – giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội:",
-    "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
-    "categories": [
+    "type": "drag_drop_match",
+    "question": "Câu 43: Kéo thả các đáp án đúng ứng với từng phát biểu sau đây về vị trí, vai trò của các giai cấp, tầng lớp trong cơ cấu xã hội – giai cấp ở Việt Nam:",
+    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
+    "pairs": [
       {
-        "title": "Giai cấp nông dân cùng với nông nghiệp, nông thôn có vị trí ______",
-        "items": [
-          "Đội ngũ doanh nhân được Đảng ta chủ trương xây dựng thành một ______",
-          "Giai cấp công nhân Việt Nam có vai trò ______",
-          "Đội ngũ trí thức là lực lượng ______"
-        ]
+        "left": "Giai cấp nông dân cùng với nông nghiệp, nông thôn có vị trí ______",
+        "right": "chiến lược quan trọng"
       },
       {
-        "title": "chiến lược quan trọng",
-        "items": [
-          "đội ngũ vững mạnh",
-          "đặc biệt quan trọng",
-          "sáng tạo đặc biệt"
-        ]
+        "left": "Đội ngũ doanh nhân được Đảng ta chủ trương xây dựng thành một ______",
+        "right": "đội ngũ vững mạnh"
+      },
+      {
+        "left": "Giai cấp công nhân Việt Nam có vai trò ______",
+        "right": "đặc biệt quan trọng"
+      },
+      {
+        "left": "Đội ngũ trí thức là lực lượng ______",
+        "right": "sáng tạo đặc biệt"
       }
     ],
-    "all_items": [
-      {
-        "text": "Đội ngũ doanh nhân được Đảng ta chủ trương xây dựng thành một ______",
-        "category": "Giai cấp nông dân cùng với nông nghiệp, nông thôn có vị trí ______"
-      },
-      {
-        "text": "đội ngũ vững mạnh",
-        "category": "chiến lược quan trọng"
-      },
-      {
-        "text": "Giai cấp công nhân Việt Nam có vai trò ______",
-        "category": "Giai cấp nông dân cùng với nông nghiệp, nông thôn có vị trí ______"
-      },
-      {
-        "text": "đặc biệt quan trọng",
-        "category": "chiến lược quan trọng"
-      },
-      {
-        "text": "Đội ngũ trí thức là lực lượng ______",
-        "category": "Giai cấp nông dân cùng với nông nghiệp, nông thôn có vị trí ______"
-      },
-      {
-        "text": "sáng tạo đặc biệt",
-        "category": "chiến lược quan trọng"
-      }
+    "options_pool": [
+      "chiến lược quan trọng",
+      "đội ngũ vững mạnh",
+      "đặc biệt quan trọng",
+      "sáng tạo đặc biệt"
     ],
-    "id": 170
+    "id": 169,
+    "q_num": 43
   },
   {
     "lesson": "Bài 4",
@@ -3631,68 +3513,15 @@ window.QUIZ_QUESTIONS = [
         "category": "Chính sách hỗ trợ"
       }
     ],
-    "id": 171
+    "id": 170
   },
   {
+    "id": 171,
     "lesson": "Bài 4",
     "lesson_num": 4,
     "q_num": 45,
-    "type": "drag_drop_categorize",
-    "question": "Câu 45: Kéo thả",
-    "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
-    "categories": [
-      {
-        "title": "Phương hướng cơ bản để xây dựng liên minh giai cấp, tầng lớp",
-        "items": [
-          "Nội dung cơ bản quyết định của liên minh",
-          "Tầng lớp tham gia liên minh",
-          "Yếu tố cốt lõi của liên minh giai cấp"
-        ]
-      },
-      {
-        "title": "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa",
-        "items": [
-          "Nội dung kinh tế",
-          "Tầng lớp phụ nữ",
-          "Liên minh công - nông"
-        ]
-      }
-    ],
-    "all_items": [
-      {
-        "text": "Nội dung cơ bản quyết định của liên minh",
-        "category": "Phương hướng cơ bản để xây dựng liên minh giai cấp, tầng lớp"
-      },
-      {
-        "text": "Nội dung kinh tế",
-        "category": "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa"
-      },
-      {
-        "text": "Tầng lớp tham gia liên minh",
-        "category": "Phương hướng cơ bản để xây dựng liên minh giai cấp, tầng lớp"
-      },
-      {
-        "text": "Tầng lớp phụ nữ",
-        "category": "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa"
-      },
-      {
-        "text": "Yếu tố cốt lõi của liên minh giai cấp",
-        "category": "Phương hướng cơ bản để xây dựng liên minh giai cấp, tầng lớp"
-      },
-      {
-        "text": "Liên minh công - nông",
-        "category": "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa"
-      }
-    ],
-    "id": 172
-  },
-  {
-    "id": 173,
-    "lesson": "Bài 4",
-    "lesson_num": 4,
-    "q_num": 46,
     "type": "drag_drop_match",
-    "question": "Câu 46: (Bài 4 – Kéo thả): Kéo thả các đáp án khớp với các phát biểu về liên minh giai cấp, giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội dưới đây:",
+    "question": "Câu 45: (Bài 4 – Kéo thả): Kéo thả các đáp án khớp với các phát biểu về liên minh giai cấp, giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội dưới đây:",
     "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
     "pairs": [
       {
@@ -3725,7 +3554,7 @@ window.QUIZ_QUESTIONS = [
     "lesson": "Bài 4",
     "lesson_num": 4,
     "type": "single_choice",
-    "question": "Câu 47: Trong cơ cấu xã hội – giai cấp ở Việt Nam thời kỳ quá độ, đội ngũ trí thức giữ vai trò là lực lượng gì?",
+    "question": "Câu 46: Trong cơ cấu xã hội – giai cấp ở Việt Nam thời kỳ quá độ, đội ngũ trí thức giữ vai trò là lực lượng gì?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Lực lượng sáng tạo đặc biệt",
@@ -3736,14 +3565,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 174,
-    "q_num": 47
+    "id": 172,
+    "q_num": 46
   },
   {
     "lesson": "Bài 4",
     "lesson_num": 4,
     "type": "single_choice",
-    "question": "Câu 48: Phát biểu nào sau đây về khối liên minh giai cấp, tầng lớp ở Việt Nam là ĐÚNG?",
+    "question": "Câu 47: Phát biểu nào sau đây về khối liên minh giai cấp, tầng lớp ở Việt Nam là ĐÚNG?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Nội dung tôn giáo là nội dung nòng cốt của liên minh",
@@ -3754,8 +3583,8 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 175,
-    "q_num": 48
+    "id": 173,
+    "q_num": 47
   },
   {
     "lesson": "Bài 5",
@@ -3773,7 +3602,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 176
+    "id": 174
   },
   {
     "lesson": "Bài 5",
@@ -3792,7 +3621,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 177
+    "id": 175
   },
   {
     "lesson": "Bài 5",
@@ -3810,7 +3639,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 178
+    "id": 176
   },
   {
     "lesson": "Bài 5",
@@ -3828,7 +3657,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 179
+    "id": 177
   },
   {
     "lesson": "Bài 5",
@@ -3846,7 +3675,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 180
+    "id": 178
   },
   {
     "lesson": "Bài 5",
@@ -3864,7 +3693,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 181
+    "id": 179
   },
   {
     "lesson": "Bài 5",
@@ -3882,7 +3711,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 182
+    "id": 180
   },
   {
     "lesson": "Bài 5",
@@ -3900,7 +3729,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 183
+    "id": 181
   },
   {
     "lesson": "Bài 5",
@@ -3918,7 +3747,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 184
+    "id": 182
   },
   {
     "lesson": "Bài 5",
@@ -3936,7 +3765,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 185
+    "id": 183
   },
   {
     "lesson": "Bài 5",
@@ -3954,7 +3783,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 186
+    "id": 184
   },
   {
     "lesson": "Bài 5",
@@ -3972,7 +3801,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 187
+    "id": 185
   },
   {
     "lesson": "Bài 5",
@@ -3990,7 +3819,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 188
+    "id": 186
   },
   {
     "lesson": "Bài 5",
@@ -4008,7 +3837,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 189
+    "id": 187
   },
   {
     "lesson": "Bài 5",
@@ -4026,7 +3855,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 190
+    "id": 188
   },
   {
     "lesson": "Bài 5",
@@ -4044,7 +3873,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 191
+    "id": 189
   },
   {
     "lesson": "Bài 5",
@@ -4062,7 +3891,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 192
+    "id": 190
   },
   {
     "lesson": "Bài 5",
@@ -4081,7 +3910,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 193
+    "id": 191
   },
   {
     "lesson": "Bài 5",
@@ -4099,7 +3928,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 194
+    "id": 192
   },
   {
     "lesson": "Bài 5",
@@ -4117,7 +3946,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 195
+    "id": 193
   },
   {
     "lesson": "Bài 5",
@@ -4135,7 +3964,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 196
+    "id": 194
   },
   {
     "lesson": "Bài 5",
@@ -4153,7 +3982,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 197
+    "id": 195
   },
   {
     "lesson": "Bài 5",
@@ -4171,7 +4000,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 198
+    "id": 196
   },
   {
     "lesson": "Bài 5",
@@ -4189,7 +4018,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 199
+    "id": 197
   },
   {
     "lesson": "Bài 5",
@@ -4207,7 +4036,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 200
+    "id": 198
   },
   {
     "lesson": "Bài 5",
@@ -4225,7 +4054,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 201
+    "id": 199
   },
   {
     "lesson": "Bài 5",
@@ -4243,7 +4072,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 202
+    "id": 200
   },
   {
     "lesson": "Bài 5",
@@ -4261,7 +4090,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 203
+    "id": 201
   },
   {
     "lesson": "Bài 5",
@@ -4288,7 +4117,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 204
+    "id": 202
   },
   {
     "lesson": "Bài 5",
@@ -4315,7 +4144,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 205
+    "id": 203
   },
   {
     "lesson": "Bài 5",
@@ -4373,7 +4202,7 @@ window.QUIZ_QUESTIONS = [
         "category": "Nội dung cương lĩnh dân tộc của Mác-Lênin"
       }
     ],
-    "id": 206
+    "id": 204
   },
   {
     "lesson": "Bài 5",
@@ -4406,7 +4235,7 @@ window.QUIZ_QUESTIONS = [
       "Phương thức sinh hoạt kinh tế chung",
       "Dân tộc tộc người"
     ],
-    "id": 207
+    "id": 205
   },
   {
     "lesson": "Bài 5",
@@ -4439,7 +4268,7 @@ window.QUIZ_QUESTIONS = [
       "Tôn giáo",
       "Tín ngưỡng"
     ],
-    "id": 208
+    "id": 206
   },
   {
     "lesson": "Bài 5",
@@ -4458,7 +4287,7 @@ window.QUIZ_QUESTIONS = [
       1,
       3
     ],
-    "id": 209
+    "id": 207
   },
   {
     "lesson": "Bài 5",
@@ -4478,7 +4307,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 210
+    "id": 208
   },
   {
     "lesson": "Bài 5",
@@ -4531,7 +4360,7 @@ window.QUIZ_QUESTIONS = [
         "category": "Đặc trưng của dân tộc (quốc gia)"
       }
     ],
-    "id": 211
+    "id": 209
   },
   {
     "lesson": "Bài 5",
@@ -4584,60 +4413,40 @@ window.QUIZ_QUESTIONS = [
         "category": "Nguồn gốc của tôn giáo"
       }
     ],
-    "id": 212
+    "id": 210
   },
   {
     "lesson": "Bài 5",
     "lesson_num": 5,
-    "q_num": 38,
-    "type": "drag_drop_categorize",
-    "question": "Câu 38: Kéo thả các đáp án khớp với các phát biểu",
-    "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
-    "categories": [
+    "type": "drag_drop_match",
+    "question": "Câu 38: Kéo thả các đáp án khớp với các phát biểu về quyền dân tộc dưới đây:",
+    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
+    "pairs": [
       {
-        "title": "Yếu tố thúc đẩy bình đẳng dân tộc là gì?",
-        "items": [
-          "Giải pháp quan trọng để liên kết các nội dung của Cương lĩnh dân tộc thành một chỉnh thể",
-          "Đây là quyền thiêng liêng của các dân tộc, không phân biệt dân tộc lớn hay nhỏ",
-          "Thực hiện quyền tự quyết dân tộc phải đứng vững trên lập trường của giai cấp nào?"
-        ]
+        "left": "Yếu tố thúc đẩy bình đẳng dân tộc là gì?",
+        "right": "Cơ sở pháp lý"
       },
       {
-        "title": "Cơ sở pháp lý",
-        "items": [
-          "Liên hiệp công nhân các dân tộc lại",
-          "Quyền bình đẳng dân tộc",
-          "Giai cấp công nhân"
-        ]
+        "left": "Giải pháp quan trọng để liên kết các nội dung của Cương lĩnh dân tộc thành một chỉnh thể",
+        "right": "Liên hiệp công nhân các dân tộc lại"
+      },
+      {
+        "left": "Đây là quyền thiêng liêng của các dân tộc, không phân biệt dân tộc lớn hay nhỏ",
+        "right": "Quyền bình đẳng dân tộc"
+      },
+      {
+        "left": "Thực hiện quyền tự quyết dân tộc phải đứng vững trên lập trường của giai cấp nào?",
+        "right": "Giai cấp công nhân"
       }
     ],
-    "all_items": [
-      {
-        "text": "Giải pháp quan trọng để liên kết các nội dung của Cương lĩnh dân tộc thành một chỉnh thể",
-        "category": "Yếu tố thúc đẩy bình đẳng dân tộc là gì?"
-      },
-      {
-        "text": "Liên hiệp công nhân các dân tộc lại",
-        "category": "Cơ sở pháp lý"
-      },
-      {
-        "text": "Đây là quyền thiêng liêng của các dân tộc, không phân biệt dân tộc lớn hay nhỏ",
-        "category": "Yếu tố thúc đẩy bình đẳng dân tộc là gì?"
-      },
-      {
-        "text": "Quyền bình đẳng dân tộc",
-        "category": "Cơ sở pháp lý"
-      },
-      {
-        "text": "Thực hiện quyền tự quyết dân tộc phải đứng vững trên lập trường của giai cấp nào?",
-        "category": "Yếu tố thúc đẩy bình đẳng dân tộc là gì?"
-      },
-      {
-        "text": "Giai cấp công nhân",
-        "category": "Cơ sở pháp lý"
-      }
+    "options_pool": [
+      "Cơ sở pháp lý",
+      "Liên hiệp công nhân các dân tộc lại",
+      "Quyền bình đẳng dân tộc",
+      "Giai cấp công nhân"
     ],
-    "id": 213
+    "id": 211,
+    "q_num": 38
   },
   {
     "lesson": "Bài 5",
@@ -4670,10 +4479,10 @@ window.QUIZ_QUESTIONS = [
       "Hình thái ý thức xã hội",
       "Tín ngưỡng"
     ],
-    "id": 214
+    "id": 212
   },
   {
-    "id": 215,
+    "id": 213,
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 40,
@@ -4693,7 +4502,7 @@ window.QUIZ_QUESTIONS = [
     "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
   },
   {
-    "id": 216,
+    "id": 214,
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 41,
@@ -4736,7 +4545,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 217,
+    "id": 215,
     "q_num": 42
   },
   {
@@ -4754,7 +4563,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 218,
+    "id": 216,
     "q_num": 43
   },
   {
@@ -4772,7 +4581,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 219,
+    "id": 217,
     "q_num": 44
   },
   {
@@ -4790,7 +4599,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 220,
+    "id": 218,
     "q_num": 45
   },
   {
@@ -4808,7 +4617,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 221,
+    "id": 219,
     "q_num": 46
   },
   {
@@ -4826,7 +4635,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 222,
+    "id": 220,
     "q_num": 47
   },
   {
@@ -4844,7 +4653,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 223,
+    "id": 221,
     "q_num": 48
   },
   {
@@ -4862,7 +4671,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 224,
+    "id": 222,
     "q_num": 49
   },
   {
@@ -4880,7 +4689,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 225,
+    "id": 223,
     "q_num": 50
   },
   {
@@ -4900,7 +4709,7 @@ window.QUIZ_QUESTIONS = [
       0,
       2
     ],
-    "id": 226
+    "id": 224
   },
   {
     "lesson": "Bài 6",
@@ -4918,7 +4727,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 227
+    "id": 225
   },
   {
     "lesson": "Bài 6",
@@ -4936,7 +4745,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 228
+    "id": 226
   },
   {
     "lesson": "Bài 6",
@@ -4954,7 +4763,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 229
+    "id": 227
   },
   {
     "lesson": "Bài 6",
@@ -4972,7 +4781,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 230
+    "id": 228
   },
   {
     "lesson": "Bài 6",
@@ -4990,7 +4799,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 231
+    "id": 229
   },
   {
     "lesson": "Bài 6",
@@ -5008,7 +4817,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 232
+    "id": 230
   },
   {
     "lesson": "Bài 6",
@@ -5026,7 +4835,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 233
+    "id": 231
   },
   {
     "lesson": "Bài 6",
@@ -5044,7 +4853,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 234
+    "id": 232
   },
   {
     "lesson": "Bài 6",
@@ -5062,7 +4871,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 235
+    "id": 233
   },
   {
     "lesson": "Bài 6",
@@ -5081,7 +4890,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 236
+    "id": 234
   },
   {
     "lesson": "Bài 6",
@@ -5099,7 +4908,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 237
+    "id": 235
   },
   {
     "lesson": "Bài 6",
@@ -5117,7 +4926,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 238
+    "id": 236
   },
   {
     "lesson": "Bài 6",
@@ -5135,7 +4944,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 239
+    "id": 237
   },
   {
     "lesson": "Bài 6",
@@ -5153,7 +4962,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 240
+    "id": 238
   },
   {
     "lesson": "Bài 6",
@@ -5173,7 +4982,7 @@ window.QUIZ_QUESTIONS = [
       3,
       4
     ],
-    "id": 241
+    "id": 239
   },
   {
     "lesson": "Bài 6",
@@ -5191,7 +5000,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 242
+    "id": 240
   },
   {
     "lesson": "Bài 6",
@@ -5211,7 +5020,7 @@ window.QUIZ_QUESTIONS = [
       3,
       4
     ],
-    "id": 243
+    "id": 241
   },
   {
     "lesson": "Bài 6",
@@ -5229,7 +5038,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 244
+    "id": 242
   },
   {
     "lesson": "Bài 6",
@@ -5247,7 +5056,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 245
+    "id": 243
   },
   {
     "lesson": "Bài 6",
@@ -5267,7 +5076,7 @@ window.QUIZ_QUESTIONS = [
       1,
       4
     ],
-    "id": 246
+    "id": 244
   },
   {
     "lesson": "Bài 6",
@@ -5285,7 +5094,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 247
+    "id": 245
   },
   {
     "lesson": "Bài 6",
@@ -5304,7 +5113,7 @@ window.QUIZ_QUESTIONS = [
       1,
       3
     ],
-    "id": 248
+    "id": 246
   },
   {
     "lesson": "Bài 6",
@@ -5331,7 +5140,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 249
+    "id": 247
   },
   {
     "lesson": "Bài 6",
@@ -5358,7 +5167,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 250
+    "id": 248
   },
   {
     "lesson": "Bài 6",
@@ -5411,7 +5220,7 @@ window.QUIZ_QUESTIONS = [
         "category": "Biến đổi về quy mô gia đình:"
       }
     ],
-    "id": 251
+    "id": 249
   },
   {
     "lesson": "Bài 6",
@@ -5444,6 +5253,6 @@ window.QUIZ_QUESTIONS = [
       "Kinh tế hàng hóa",
       "Gia đình hạt nhân"
     ],
-    "id": 252
+    "id": 250
   }
 ];
