@@ -214,6 +214,8 @@ async function loadQuestionsData() {
 function updateLessonTabCounts() {
   const countAllEl = document.getElementById('count-all');
   if (countAllEl) countAllEl.textContent = allQuestions.length;
+  const brandBadge = document.getElementById('brand-total-badge');
+  if (brandBadge) brandBadge.textContent = `${allQuestions.length} Câu Chuẩn`;
   for (let i = 1; i <= 10; i++) {
     const el = document.getElementById(`count-b${i}`);
     if (el) {
@@ -751,6 +753,7 @@ function renderQuizizzDragDropMatch(container, q) {
   }
 
   const userMatchMap = questionStates[q.id].userSelection || {};
+  const isAnswered = questionStates[q.id].isAnswered;
 
   // Slots
   const slotsContainer = document.createElement('div');
@@ -770,36 +773,66 @@ function renderQuizizzDragDropMatch(container, q) {
     slot.dataset.pairIdx = pairIdx;
 
     const currentVal = userMatchMap[pairIdx];
-    if (currentVal) {
-      slot.classList.add('filled');
-      slot.innerHTML = `<span>${escapeHtml(currentVal)}</span> <small style="margin-left:8px; opacity:0.7; font-weight:bold;">✕ Bỏ</small>`;
+
+    if (isAnswered) {
+      const isSlotRight = (currentVal === pair.right);
+      if (isSlotRight) {
+        slot.className = 'dnd-qz-slot filled dnd-slot-correct';
+        slot.innerHTML = `
+          <div class="dnd-slot-result">
+            <div class="dnd-slot-user-row">
+              <span class="dnd-badge dnd-badge-v">✓ ĐÚNG</span>
+              <span class="dnd-chip-text">${escapeHtml(currentVal)}</span>
+            </div>
+          </div>
+        `;
+      } else {
+        slot.className = 'dnd-qz-slot filled dnd-slot-wrong';
+        slot.innerHTML = `
+          <div class="dnd-slot-result">
+            <div class="dnd-slot-user-row">
+              <span class="dnd-badge dnd-badge-x">✕ SAI</span>
+              <span class="dnd-chip-text" style="text-decoration:line-through; opacity:0.85;">${escapeHtml(currentVal || '(Chưa ghép)')}</span>
+            </div>
+            <div class="dnd-slot-correct-row">
+              <span class="dnd-badge-v-mini">✓ Chuẩn</span>
+              <strong>${escapeHtml(pair.right)}</strong>
+            </div>
+          </div>
+        `;
+      }
     } else {
-      slot.innerHTML = `<span style="color:var(--primary); font-size:0.82rem; font-weight:600;">👉 Chạm chọn đáp án để gắn vào đây</span>`;
+      if (currentVal) {
+        slot.classList.add('filled');
+        slot.innerHTML = `<span>${escapeHtml(currentVal)}</span> <small style="margin-left:8px; opacity:0.7; font-weight:bold;">✕ Bỏ</small>`;
+      } else {
+        slot.innerHTML = `<span style="color:var(--primary); font-size:0.82rem; font-weight:600;">👉 Chạm chọn đáp án để gắn vào đây</span>`;
+      }
+
+      slot.addEventListener('dragover', (e) => e.preventDefault());
+      slot.addEventListener('drop', (e) => {
+        e.preventDefault();
+        if (questionStates[q.id].isAnswered) return;
+        const text = e.dataTransfer.getData('text/plain');
+        if (text) assignMatchOption(q, pairIdx, text, container);
+      });
+
+      slot.addEventListener('click', () => {
+        if (questionStates[q.id].isAnswered) return;
+        if (userMatchMap[pairIdx]) {
+          delete userMatchMap[pairIdx];
+          const targetContainer = document.getElementById('hero-body') || container;
+          renderQuizizzDragDropMatch(targetContainer, q);
+          return;
+        }
+        if (touchSelectedChip && touchSelectedChip.qid === q.id) {
+          const targetContainer = document.getElementById('hero-body') || container;
+          assignMatchOption(q, pairIdx, touchSelectedChip.text, targetContainer);
+          touchSelectedChip = null;
+          document.querySelectorAll('.dnd-qz-slot').forEach(s => s.classList.remove('slot-pulse-ready'));
+        }
+      });
     }
-
-    slot.addEventListener('dragover', (e) => e.preventDefault());
-    slot.addEventListener('drop', (e) => {
-      e.preventDefault();
-      if (questionStates[q.id].isAnswered) return;
-      const text = e.dataTransfer.getData('text/plain');
-      if (text) assignMatchOption(q, pairIdx, text, container);
-    });
-
-    slot.addEventListener('click', () => {
-      if (questionStates[q.id].isAnswered) return;
-      if (userMatchMap[pairIdx]) {
-        delete userMatchMap[pairIdx];
-        const targetContainer = document.getElementById('hero-body') || container;
-        renderQuizizzDragDropMatch(targetContainer, q);
-        return;
-      }
-      if (touchSelectedChip && touchSelectedChip.qid === q.id) {
-        const targetContainer = document.getElementById('hero-body') || container;
-        assignMatchOption(q, pairIdx, touchSelectedChip.text, targetContainer);
-        touchSelectedChip = null;
-        document.querySelectorAll('.dnd-qz-slot').forEach(s => s.classList.remove('slot-pulse-ready'));
-      }
-    });
 
     row.appendChild(prompt);
     row.appendChild(slot);
@@ -808,57 +841,57 @@ function renderQuizizzDragDropMatch(container, q) {
 
   wrapper.appendChild(slotsContainer);
 
-  // Pool
-  const poolWrapper = document.createElement('div');
-  poolWrapper.style.display = 'flex';
-  poolWrapper.style.flexDirection = 'column';
-  poolWrapper.style.gap = '0.4rem';
+  // Pool & Check Button (only when not answered)
+  if (!isAnswered) {
+    const poolWrapper = document.createElement('div');
+    poolWrapper.style.display = 'flex';
+    poolWrapper.style.flexDirection = 'column';
+    poolWrapper.style.gap = '0.4rem';
 
-  const poolTitle = document.createElement('div');
-  poolTitle.style.fontSize = '0.82rem';
-  poolTitle.style.fontWeight = '700';
-  poolTitle.style.color = 'var(--text-secondary)';
-  poolTitle.innerHTML = '💡 <strong>Đáp án lựa chọn:</strong> (Bấm chọn đáp án rồi chạm vào ô ở trên để gắn)';
-  poolWrapper.appendChild(poolTitle);
+    const poolTitle = document.createElement('div');
+    poolTitle.style.fontSize = '0.82rem';
+    poolTitle.style.fontWeight = '700';
+    poolTitle.style.color = 'var(--text-secondary)';
+    poolTitle.innerHTML = '💡 <strong>Đáp án lựa chọn:</strong> (Bấm chọn đáp án rồi chạm vào ô ở trên để gắn)';
+    poolWrapper.appendChild(poolTitle);
 
-  const pool = document.createElement('div');
-  pool.className = 'dnd-qz-pool';
+    const pool = document.createElement('div');
+    pool.className = 'dnd-qz-pool';
 
-  const usedValues = Object.values(userMatchMap);
+    const usedValues = Object.values(userMatchMap);
 
-  q.options_pool.forEach((optText, optIdx) => {
-    const isUsed = usedValues.includes(optText);
-    const chip = document.createElement('div');
-    chip.className = 'dnd-qz-chip';
-    chip.textContent = optText;
-    chip.draggable = !isUsed && !questionStates[q.id].isAnswered;
+    q.options_pool.forEach((optText, optIdx) => {
+      const isUsed = usedValues.includes(optText);
+      const chip = document.createElement('div');
+      chip.className = 'dnd-qz-chip';
+      chip.textContent = optText;
+      chip.draggable = !isUsed;
 
-    if (isUsed) {
-      chip.style.opacity = '0.3';
-      chip.style.cursor = 'default';
-      chip.style.pointerEvents = 'none';
-    }
+      if (isUsed) {
+        chip.style.opacity = '0.3';
+        chip.style.cursor = 'default';
+        chip.style.pointerEvents = 'none';
+      }
 
-    chip.addEventListener('dragstart', (e) => {
-      e.dataTransfer.setData('text/plain', optText);
+      chip.addEventListener('dragstart', (e) => {
+        e.dataTransfer.setData('text/plain', optText);
+      });
+
+      chip.addEventListener('click', () => {
+        if (isUsed) return;
+        document.querySelectorAll('.dnd-qz-chip').forEach(c => c.classList.remove('selected-touch'));
+        chip.classList.add('selected-touch');
+        touchSelectedChip = { qid: q.id, text: optText };
+        document.querySelectorAll('.dnd-qz-slot:not(.filled)').forEach(s => s.classList.add('slot-pulse-ready'));
+      });
+
+      pool.appendChild(chip);
     });
 
-    chip.addEventListener('click', () => {
-      if (isUsed || questionStates[q.id].isAnswered) return;
-      document.querySelectorAll('.dnd-qz-chip').forEach(c => c.classList.remove('selected-touch'));
-      chip.classList.add('selected-touch');
-      touchSelectedChip = { qid: q.id, text: optText };
-      document.querySelectorAll('.dnd-qz-slot:not(.filled)').forEach(s => s.classList.add('slot-pulse-ready'));
-    });
+    poolWrapper.appendChild(pool);
+    wrapper.appendChild(poolWrapper);
 
-    pool.appendChild(chip);
-  });
-
-  poolWrapper.appendChild(pool);
-  wrapper.appendChild(poolWrapper);
-
-  // Check Button
-  if (!questionStates[q.id].isAnswered) {
+    // Check Button
     const checkBtnWrapper = document.createElement('div');
     checkBtnWrapper.style.display = 'flex';
     checkBtnWrapper.style.justifyContent = 'flex-end';
@@ -902,22 +935,11 @@ function handleMatchSubmit(q) {
   questionStates[q.id].isAnswered = true;
   questionStates[q.id].isCorrect = isCorrect;
 
-  q.pairs.forEach((pair, idx) => {
-    const slot = document.getElementById(`qz-slot-${idx}`);
-    if (!slot) return;
-    const isSlotRight = map[idx] === pair.right;
-    slot.style.borderColor = isSlotRight ? 'var(--success)' : 'var(--danger)';
-    slot.style.background = isSlotRight ? 'var(--success-bg)' : 'var(--danger-bg)';
-    slot.style.color = isSlotRight ? 'var(--success-text)' : 'var(--danger-text)';
-    if (!isSlotRight) {
-      slot.innerHTML = `
-        <div>
-          <div style="text-decoration:line-through; font-size:0.8rem;">${escapeHtml(map[idx])}</div>
-          <div style="font-weight:700;">Chuẩn: ${escapeHtml(pair.right)}</div>
-        </div>
-      `;
-    }
-  });
+  // Re-render immediately to show V and X marks on slots
+  const targetContainer = document.getElementById('hero-body');
+  if (targetContainer) {
+    renderQuizizzDragDropMatch(targetContainer, q);
+  }
 
   if (isCorrect) {
     playSound('correct');
@@ -929,8 +951,8 @@ function handleMatchSubmit(q) {
   } else {
     playSound('wrong');
     streak = 0;
-    showFeedbackBanner(false, '💡 CHƯA CHÍNH XÁC!', 'Hãy xem đáp án chuẩn hiển thị ở các ô màu đỏ. Đang tự chuyển câu...');
-    scheduleAutoAdvance(3500);
+    showFeedbackBanner(false, '💡 CHƯA CHÍNH XÁC!', 'Xem chi tiết các ý đúng (✓) và sai (✕) cùng đáp án chuẩn ở trên. Đang tự chuyển câu...');
+    scheduleAutoAdvance(4500);
   }
 
   updateScoreboard();
@@ -940,11 +962,11 @@ function handleMatchSubmit(q) {
 
 // ================= TYPE 4: DRAG & DROP CATEGORIZE (2 COLUMNS) =================
 function renderQuizizzDragDropCategorize(container, q) {
-  // Render similar to match, with 2 columns
   if (!questionStates[q.id]) {
     questionStates[q.id] = { isAnswered: false, isCorrect: false, userSelection: {} };
   }
   const userCatMap = questionStates[q.id].userSelection || {};
+  const isAnswered = questionStates[q.id].isAnswered;
   const cat1 = q.categories[0];
   const cat2 = q.categories[1];
 
@@ -963,13 +985,28 @@ function renderQuizizzDragDropCategorize(container, q) {
     box.style.borderRadius = 'var(--radius-lg)';
     box.style.padding = '1rem';
 
+    // Header with stats when answered
     const header = document.createElement('div');
-    header.style.fontWeight = '800';
-    header.style.fontSize = '0.92rem';
-    header.style.marginBottom = '0.75rem';
-    header.style.paddingBottom = '0.4rem';
-    header.style.borderBottom = '1px solid var(--border-color)';
-    header.textContent = cat.title;
+    header.className = 'cat-box-header';
+
+    const headerTitle = document.createElement('div');
+    headerTitle.className = 'cat-box-title';
+    headerTitle.textContent = cat.title;
+    header.appendChild(headerTitle);
+
+    const placedTexts = Object.keys(userCatMap).filter(k => userCatMap[k] === cat.title);
+
+    if (isAnswered) {
+      const correctCount = placedTexts.filter(text => {
+        const itemObj = q.all_items.find(it => it.text === text);
+        return itemObj && itemObj.category === cat.title;
+      }).length;
+      const statBadge = document.createElement('div');
+      statBadge.className = `cat-stat-badge ${correctCount === cat.items.length && placedTexts.length === cat.items.length ? 'cat-stat-perfect' : 'cat-stat-partial'}`;
+      statBadge.textContent = `${correctCount}/${placedTexts.length} ý đúng`;
+      header.appendChild(statBadge);
+    }
+
     box.appendChild(header);
 
     const dropzone = document.createElement('div');
@@ -979,42 +1016,75 @@ function renderQuizizzDragDropCategorize(container, q) {
     dropzone.style.flexDirection = 'column';
     dropzone.style.gap = '0.5rem';
 
-    // Placed items
-    Object.keys(userCatMap).filter(k => userCatMap[k] === cat.title).forEach(itemText => {
+    // Placed items in this column
+    placedTexts.forEach(itemText => {
       const chip = document.createElement('div');
-      chip.className = 'dnd-qz-chip';
-      chip.innerHTML = `<span>${escapeHtml(itemText)}</span> <small style="margin-left:8px; opacity:0.7; font-weight:bold;">✕ Bỏ</small>`;
-      chip.addEventListener('click', () => {
-        if (questionStates[q.id].isAnswered) return;
-        delete userCatMap[itemText];
-        const targetContainer = document.getElementById('hero-body') || container;
-        renderQuizizzDragDropCategorize(targetContainer, q);
-      });
+
+      if (isAnswered) {
+        const itemObj = q.all_items.find(it => it.text === itemText);
+        const correctCategory = itemObj ? itemObj.category : '';
+        const isItemCorrect = (correctCategory === cat.title);
+
+        chip.className = `dnd-qz-chip dnd-chip-answered ${isItemCorrect ? 'dnd-chip-correct' : 'dnd-chip-wrong'}`;
+        chip.draggable = false;
+
+        if (isItemCorrect) {
+          chip.innerHTML = `
+            <div class="dnd-chip-main">
+              <span class="dnd-badge dnd-badge-v">✓ ĐÚNG</span>
+              <span class="dnd-chip-text">${escapeHtml(itemText)}</span>
+            </div>
+          `;
+        } else {
+          chip.innerHTML = `
+            <div class="dnd-chip-main">
+              <span class="dnd-badge dnd-badge-x">✕ SAI</span>
+              <span class="dnd-chip-text">${escapeHtml(itemText)}</span>
+            </div>
+            <div class="dnd-chip-hint">
+              <span class="dnd-hint-lead">➔ Cột đúng:</span>
+              <span class="dnd-hint-target">${escapeHtml(correctCategory)}</span>
+            </div>
+          `;
+        }
+      } else {
+        chip.className = 'dnd-qz-chip';
+        chip.innerHTML = `<span>${escapeHtml(itemText)}</span> <small style="margin-left:8px; opacity:0.7; font-weight:bold;">✕ Bỏ</small>`;
+        chip.addEventListener('click', () => {
+          if (questionStates[q.id].isAnswered) return;
+          delete userCatMap[itemText];
+          const targetContainer = document.getElementById('hero-body') || container;
+          renderQuizizzDragDropCategorize(targetContainer, q);
+        });
+      }
+
       dropzone.appendChild(chip);
     });
 
-    dropzone.addEventListener('dragover', (e) => e.preventDefault());
-    dropzone.addEventListener('drop', (e) => {
-      e.preventDefault();
-      if (questionStates[q.id].isAnswered) return;
-      const text = e.dataTransfer.getData('text/plain');
-      if (text) {
-        userCatMap[text] = cat.title;
-        const targetContainer = document.getElementById('hero-body') || container;
-        renderQuizizzDragDropCategorize(targetContainer, q);
-      }
-    });
+    if (!isAnswered) {
+      dropzone.addEventListener('dragover', (e) => e.preventDefault());
+      dropzone.addEventListener('drop', (e) => {
+        e.preventDefault();
+        if (questionStates[q.id].isAnswered) return;
+        const text = e.dataTransfer.getData('text/plain');
+        if (text) {
+          userCatMap[text] = cat.title;
+          const targetContainer = document.getElementById('hero-body') || container;
+          renderQuizizzDragDropCategorize(targetContainer, q);
+        }
+      });
 
-    box.addEventListener('click', (e) => {
-      if (questionStates[q.id].isAnswered || e.target.closest('.dnd-qz-chip')) return;
-      if (touchSelectedChip && touchSelectedChip.qid === q.id) {
-        userCatMap[touchSelectedChip.text] = cat.title;
-        touchSelectedChip = null;
-        document.querySelectorAll('.cat-dropzone').forEach(d => d.classList.remove('slot-pulse-ready'));
-        const targetContainer = document.getElementById('hero-body') || container;
-        renderQuizizzDragDropCategorize(targetContainer, q);
-      }
-    });
+      box.addEventListener('click', (e) => {
+        if (questionStates[q.id].isAnswered || e.target.closest('.dnd-qz-chip')) return;
+        if (touchSelectedChip && touchSelectedChip.qid === q.id) {
+          userCatMap[touchSelectedChip.text] = cat.title;
+          touchSelectedChip = null;
+          document.querySelectorAll('.cat-dropzone').forEach(d => d.classList.remove('slot-pulse-ready'));
+          const targetContainer = document.getElementById('hero-body') || container;
+          renderQuizizzDragDropCategorize(targetContainer, q);
+        }
+      });
+    }
 
     box.appendChild(dropzone);
     grid.appendChild(box);
@@ -1023,49 +1093,49 @@ function renderQuizizzDragDropCategorize(container, q) {
   wrapper.appendChild(grid);
 
   // Pool
-  const poolWrapper = document.createElement('div');
-  poolWrapper.style.display = 'flex';
-  poolWrapper.style.flexDirection = 'column';
-  poolWrapper.style.gap = '0.4rem';
-
-  const poolTitle = document.createElement('div');
-  poolTitle.style.fontSize = '0.82rem';
-  poolTitle.style.fontWeight = '700';
-  poolTitle.style.color = 'var(--text-secondary)';
-  poolTitle.innerHTML = '💡 <strong>Các mục cần phân loại:</strong> (Bấm chọn mục rồi bấm vào khung cột ở trên để xếp)';
-  poolWrapper.appendChild(poolTitle);
-
-  const pool = document.createElement('div');
-  pool.className = 'dnd-qz-pool';
   const assigned = Object.keys(userCatMap);
+  const unassigned = q.all_items.filter(itemObj => !assigned.includes(itemObj.text));
 
-  q.all_items.forEach((itemObj) => {
-    if (assigned.includes(itemObj.text)) return;
-    const chip = document.createElement('div');
-    chip.className = 'dnd-qz-chip';
-    chip.textContent = itemObj.text;
-    chip.draggable = !questionStates[q.id].isAnswered;
+  if (!isAnswered) {
+    const poolWrapper = document.createElement('div');
+    poolWrapper.style.display = 'flex';
+    poolWrapper.style.flexDirection = 'column';
+    poolWrapper.style.gap = '0.4rem';
 
-    chip.addEventListener('dragstart', (e) => {
-      e.dataTransfer.setData('text/plain', itemObj.text);
+    const poolTitle = document.createElement('div');
+    poolTitle.style.fontSize = '0.82rem';
+    poolTitle.style.fontWeight = '700';
+    poolTitle.style.color = 'var(--text-secondary)';
+    poolTitle.innerHTML = '💡 <strong>Các mục cần phân loại:</strong> (Bấm chọn mục rồi bấm vào khung cột ở trên để xếp)';
+    poolWrapper.appendChild(poolTitle);
+
+    const pool = document.createElement('div');
+    pool.className = 'dnd-qz-pool';
+
+    unassigned.forEach((itemObj) => {
+      const chip = document.createElement('div');
+      chip.className = 'dnd-qz-chip';
+      chip.textContent = itemObj.text;
+      chip.draggable = true;
+
+      chip.addEventListener('dragstart', (e) => {
+        e.dataTransfer.setData('text/plain', itemObj.text);
+      });
+
+      chip.addEventListener('click', () => {
+        document.querySelectorAll('.dnd-qz-chip').forEach(c => c.classList.remove('selected-touch'));
+        chip.classList.add('selected-touch');
+        touchSelectedChip = { qid: q.id, text: itemObj.text };
+        document.querySelectorAll('.cat-dropzone').forEach(d => d.classList.add('slot-pulse-ready'));
+      });
+
+      pool.appendChild(chip);
     });
 
-    chip.addEventListener('click', () => {
-      if (questionStates[q.id].isAnswered) return;
-      document.querySelectorAll('.dnd-qz-chip').forEach(c => c.classList.remove('selected-touch'));
-      chip.classList.add('selected-touch');
-      touchSelectedChip = { qid: q.id, text: itemObj.text };
-      document.querySelectorAll('.cat-dropzone').forEach(d => d.classList.add('slot-pulse-ready'));
-    });
+    poolWrapper.appendChild(pool);
+    wrapper.appendChild(poolWrapper);
 
-    pool.appendChild(chip);
-  });
-
-  poolWrapper.appendChild(pool);
-  wrapper.appendChild(poolWrapper);
-
-  // Check button
-  if (!questionStates[q.id].isAnswered) {
+    // Check button
     const checkBtnWrapper = document.createElement('div');
     checkBtnWrapper.style.display = 'flex';
     checkBtnWrapper.style.justifyContent = 'flex-end';
@@ -1096,18 +1166,24 @@ function handleCategorizeSubmit(q) {
   questionStates[q.id].isAnswered = true;
   questionStates[q.id].isCorrect = isCorrect;
 
+  // Immediately re-render with V and X marks on chips in columns!
+  const targetContainer = document.getElementById('hero-body');
+  if (targetContainer) {
+    renderQuizizzDragDropCategorize(targetContainer, q);
+  }
+
   if (isCorrect) {
     playSound('correct');
     fireConfetti();
     streak++;
     score += 150;
-    showFeedbackBanner(true, '🎉 CHÍNH XÁC! +150 điểm', 'Bạn đã phân loại chính xác các mục vào hai cột! Đang tự chuyển câu...');
+    showFeedbackBanner(true, '🎉 CHÍNH XÁC! +150 điểm', 'Bạn đã phân loại chính xác toàn bộ các mục vào hai cột! Đang tự chuyển câu...');
     scheduleAutoAdvance(2000);
   } else {
     playSound('wrong');
     streak = 0;
-    showFeedbackBanner(false, '💡 CHƯA ĐÚNG HOÀN TOÀN!', 'Hãy xem đáp án chuẩn các cột bên dưới. Đang tự chuyển câu...');
-    scheduleAutoAdvance(3500);
+    showFeedbackBanner(false, '💡 CHƯA ĐÚNG HOÀN TOÀN!', 'Xem chi tiết các ý đúng (✓) và sai (✕) cùng cột chuẩn ở bên trên. Đang tự chuyển câu...');
+    scheduleAutoAdvance(4500);
   }
 
   updateScoreboard();
@@ -1135,6 +1211,44 @@ function showAnsweredState(q, state) {
     } else {
       const correctText = q.options[correctIdx];
       showFeedbackBanner(false, '✕ Câu này bạn đã trả lời SAI', `Đáp án chuẩn (bôi đỏ): <strong>${escapeHtml(correctText)}</strong>`);
+    }
+  } else if (q.type === 'multiple_choice') {
+    document.querySelectorAll('.qz-option-btn').forEach((btn, idx) => {
+      btn.classList.add('qz-disabled');
+      const isUserChosen = (state.userSelection || []).includes(idx);
+      const isStandard = q.correct_answers.includes(idx);
+      if (isStandard) {
+        btn.classList.remove('qz-disabled');
+        btn.classList.add('qz-correct');
+      } else if (isUserChosen && !isStandard) {
+        btn.classList.remove('qz-disabled');
+        btn.classList.add('qz-wrong');
+      }
+    });
+    if (state.isCorrect) {
+      showFeedbackBanner(true, '✓ Câu này bạn đã trả lời ĐÚNG!', 'Bấm Câu tiếp theo để làm câu kế tiếp.');
+    } else {
+      const correctAnswersText = q.correct_answers.map(i => q.options[i]).join('; ');
+      showFeedbackBanner(false, '✕ Câu này bạn trả lời CHƯA ĐÚNG', `Các đáp án chuẩn (bôi đỏ) là: <strong>${escapeHtml(correctAnswersText)}</strong>`);
+    }
+  } else if (q.type === 'true_false') {
+    if (state.isCorrect) {
+      showFeedbackBanner(true, '✓ Bạn đã trả lời ĐÚNG toàn bộ mệnh đề!', 'Bấm Câu tiếp theo để tiếp tục.');
+    } else {
+      const keyStr = q.items.map((it, idx) => `(${idx+1}) ${it.correct ? 'ĐÚNG' : 'SAI'}`).join(' | ');
+      showFeedbackBanner(false, '✕ Bạn trả lời CHƯA CHÍNH XÁC', `Đáp án chuẩn: <strong>${escapeHtml(keyStr)}</strong>`);
+    }
+  } else if (q.type === 'drag_drop_categorize') {
+    if (state.isCorrect) {
+      showFeedbackBanner(true, '✓ Bạn đã phân loại ĐÚNG tất cả các cột!', 'Bấm Câu tiếp theo để tiếp tục.');
+    } else {
+      showFeedbackBanner(false, '✕ Phân loại CHƯA ĐÚNG HOÀN TOÀN', 'Xem chi tiết các ý đúng (✓) và sai (✕) cùng cột chuẩn ở bên trên.');
+    }
+  } else if (q.type === 'drag_drop_match') {
+    if (state.isCorrect) {
+      showFeedbackBanner(true, '✓ Bạn đã ghép ĐÚNG tất cả các vế!', 'Bấm Câu tiếp theo để tiếp tục.');
+    } else {
+      showFeedbackBanner(false, '✕ Ghép vế CHƯA ĐÚNG HOÀN TOÀN', 'Xem chi tiết các ý đúng (✓) và sai (✕) cùng đáp án chuẩn ở bên trên.');
     }
   } else {
     showFeedbackBanner(state.isCorrect, state.isCorrect ? '✓ Bạn đã làm đúng câu này' : '✕ Bạn làm sai câu này', 'Bấm Câu tiếp theo để tiếp tục.');
@@ -1516,17 +1630,50 @@ function renderWrongQuestionsReview(wrongQuestions) {
     } else if (q.type === 'drag_drop_categorize') {
       const cat1 = q.categories[0];
       const cat2 = q.categories[1];
+      const userMap = userState?.userSelection || {};
+
+      const renderReviewCol = (cat) => {
+        const placedInCol = Object.keys(userMap).filter(k => userMap[k] === cat.title);
+        const correctItems = cat.items;
+        
+        let placedHtml = '';
+        if (placedInCol.length > 0) {
+          placedHtml = placedInCol.map(text => {
+            const isRight = correctItems.includes(text);
+            const trueCat = q.all_items.find(it => it.text === text)?.category || '';
+            return `
+              <div style="font-size:0.83rem; margin-bottom:0.35rem; display:flex; align-items:flex-start; gap:0.4rem;">
+                <span style="color:${isRight ? 'var(--success)' : 'var(--danger)'}; font-weight:800; font-size:0.9rem;">${isRight ? '✓' : '✕'}</span>
+                <div>
+                  <span style="${isRight ? 'font-weight:600;' : 'color:var(--danger); text-decoration:line-through;'}">${escapeHtml(text)}</span>
+                  ${!isRight ? `<div style="font-size:0.75rem; color:var(--text-secondary);">➔ Thuộc: <strong style="color:var(--success);">${escapeHtml(trueCat)}</strong></div>` : ''}
+                </div>
+              </div>
+            `;
+          }).join('');
+        } else {
+          placedHtml = '<div style="font-size:0.8rem; color:var(--text-muted); font-style:italic;">(Chưa xếp mục nào vào đây)</div>';
+        }
+
+        return `
+          <div style="background: var(--bg-secondary); border: 1.5px solid var(--border-color); border-radius: var(--radius-md); padding: 0.85rem;">
+            <div style="font-weight: 800; font-size: 0.88rem; margin-bottom: 0.6rem; padding-bottom:0.35rem; border-bottom:1px solid var(--border-color); color:var(--text-primary);">
+              ${escapeHtml(cat.title)}
+            </div>
+            <div style="font-size:0.78rem; font-weight:700; color:var(--text-secondary); margin-bottom:0.4rem;">Bạn đã xếp:</div>
+            ${placedHtml}
+            <div style="margin-top:0.6rem; padding-top:0.4rem; border-top:1px dashed var(--border-color);">
+              <div style="font-size:0.78rem; font-weight:700; color:var(--success); margin-bottom:0.3rem;">Đáp án đúng chuẩn (${correctItems.length} mục):</div>
+              ${correctItems.map(it => `<div style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:0.2rem;">✓ ${escapeHtml(it)}</div>`).join('')}
+            </div>
+          </div>
+        `;
+      };
 
       answersDiv.innerHTML = `
-        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem;">
-          <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid var(--success); border-radius: var(--radius-md); padding: 0.75rem;">
-            <div style="color: var(--success); font-weight: 800; font-size: 0.9rem; margin-bottom: 0.4rem;">${escapeHtml(cat1.title)}</div>
-            ${cat1.items.map(it => `<div style="font-size:0.85rem; margin-bottom:0.25rem;">• ${escapeHtml(it)}</div>`).join('')}
-          </div>
-          <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid var(--success); border-radius: var(--radius-md); padding: 0.75rem;">
-            <div style="color: var(--success); font-weight: 800; font-size: 0.9rem; margin-bottom: 0.4rem;">${escapeHtml(cat2.title)}</div>
-            ${cat2.items.map(it => `<div style="font-size:0.85rem; margin-bottom:0.25rem;">• ${escapeHtml(it)}</div>`).join('')}
-          </div>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0.75rem; margin-top: 0.5rem;">
+          ${renderReviewCol(cat1)}
+          ${renderReviewCol(cat2)}
         </div>
       `;
     }
