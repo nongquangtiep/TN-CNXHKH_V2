@@ -8,8 +8,8 @@ Hỗ trợ giao diện Responsive chuyên nghiệp trên cả **Điện thoại 
 
 ## 🌟 ĐẶC ĐIỂM NỔI BẬT
 
-- **Toàn bộ 252 câu hỏi chuẩn xác** trích xuất từ tài liệu học tập cập nhật:
-  - `CHỦ NGHĨA XH-KH (1).docx` (Bài 1 - Bài 5: 197 câu + Bài 6: 43 câu + 12 câu Bổ sung Kiểm tra Thường xuyên 1 & 2)
+- **Toàn bộ 263 câu hỏi chuẩn xác** trích xuất từ tài liệu học tập cập nhật:
+  - `CHỦ NGHĨA XH-KH (1).docx`, `CNKHXH BAI6.docx`, `GỘP CHỦ NGHĨA XÃ HỘI KHOA HỌC - BÀI 1 2 3 4 5 6.docx`
   - Phân loại theo 6 bài học chính + tab riêng ôn luyện **Kiểm Tra TX (12 câu)**.
 - **Đầy đủ 4 dạng bài tập chuẩn**:
   1. Trắc nghiệm 1 đáp án đúng (*Single Choice*) - 177 câu (đã khắc phục triệt để lỗi chọn 1 đáp án bị nhận nhầm thành chọn 4 đáp án)
@@ -48,6 +48,6 @@ Truy cập: `http://localhost:5500`
 - `index.html`: Cấu trúc trang web và giao diện ứng dụng.
 - `style.css`: Toàn bộ phong cách thiết kế Quizizz, giao diện di động responsive, dark/light theme.
 - `script.js`: Logic câu hỏi, tính điểm, âm thanh, lịch sử, bảng xếp hạng, tương tác kéo thả.
-- `questions.json` & `questions-data.js`: Bộ ngân hàng 252 câu hỏi phân chia theo 6 bài và đề kiểm tra thường xuyên.
+- `questions.json` & `questions-data.js`: Bộ ngân hàng 263 câu hỏi phân chia theo 6 bài và đề kiểm tra thường xuyên.
 - `parse_all_questions.py`: Script trích xuất và phân tích câu hỏi từ Word docx (`CHỦ NGHĨA XH-KH (1).docx`).
 - `run_app.bat`: Phím tắt chạy nhanh trên Windows.

@@ -1,4 +1,3 @@
-// Du lieu cau hoi trac nghiem Chu Nghia Xa Hoi Khoa Hoc (V4.2 - 263 cau chuan, Bai 6 day du tu CNKHXH BAI6.docx)
 window.QUIZ_QUESTIONS = [
   {
     "lesson": "Bài 1",
@@ -533,18 +532,17 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 1,
     "q_num": 30,
     "type": "multiple_choice",
-    "question": "Câu 30: Chủ nghĩa xã hội khoa học ra đời dựa trên cơ sở của những tiền đề nào? (Chọn nhiều đáp án)",
+    "question": "Câu 30: Chủ nghĩa xã hội khoa học ra đời dựa trên cơ sở của những tiền đề nào? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "Sinh viên chọn 2 phương án đúng nhất",
       "A. Tiền đề khoa học tự nhiên",
       "B. Tiền đề khoa học lịch sử",
       "C. Tiền đề tư tưởng lý luận",
       "D. Tiền đề khoa học xã hội"
     ],
     "correct_answers": [
-      1,
-      3
+      0,
+      2
     ],
     "id": 30
   },
@@ -1620,15 +1618,14 @@ window.QUIZ_QUESTIONS = [
     "question": "Câu 40: Đặc điểm cơ bản của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam là gì? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "Hãy chọn 2 đấp án đúng nhất !",
-      "A Chuyển thẳng từ chế độ phong kiến lên chủ nghĩa xã hội",
-      "B. Bò qua chế độ phong kiển",
-      "C. Xây dựng nên kinh tế thị trường định hướng xã hội chủ nghĩa",
-      "D. Bò qua chế độ tư bản chủ nghĩa"
+      "A. Chuyển thẳng từ chế độ phong kiến lên chủ nghĩa xã hội",
+      "B. Bỏ qua chế độ phong kiến",
+      "C. Xây dựng nền kinh tế thị trường định hướng xã hội chủ nghĩa",
+      "D. Bỏ qua chế độ tư bản chủ nghĩa"
     ],
     "correct_answers": [
-      3,
-      4
+      2,
+      3
     ],
     "id": 80
   },
@@ -1858,10 +1855,10 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 11,
     "type": "single_choice",
-    "question": "Câu 11: Tại sao quyền lực  ở Việt Nam được tổ chức theo nguyên tắc thống nhất?",
+    "question": "Câu 11: Tại sao quyền lực nhà nước ở Việt Nam được tổ chức theo nguyên tắc thống nhất?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A. Để tăng cường sự kiểm soát của",
+      "A. Để tăng cường sự kiểm soát của nhà nước",
       "B. Để đảm bảo sự phối hợp và kiểm soát giữa các cơ quan lập pháp, hành pháp và tư pháp",
       "C. Để kiểm soát chặt chẽ các hoạt động kinh tế",
       "D. Để giảm thiểu vai trò của các tổ chức phi chính phủ"
@@ -1876,11 +1873,11 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 12,
     "type": "single_choice",
-    "question": "Câu 12: Hãy xác định biện pháp để nâng cao hiệu quả hoạt động của  pháp quyền xã hội chủ nghĩa ở Việt Nam.",
+    "question": "Câu 12: Hãy xác định biện pháp để nâng cao hiệu quả hoạt động của Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam.",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Giảm thiểu sự phát triển của khu vực tư nhân",
-      "B. Tăng cường sự kiểm soát của",
+      "B. Tăng cường sự kiểm soát của Nhà nước",
       "C. Xây dựng và từng bước hoàn thiện hệ thống giám sát, phản biện xã hội",
       "D. Giảm thiểu sự can thiệp của các tổ chức xã hội"
     ],
@@ -1894,13 +1891,13 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 13,
     "type": "single_choice",
-    "question": "Câu 13: pháp quyền xã hội chủ nghĩa ở Việt Nam có đặc điểm như thế nào?",
+    "question": "Câu 13: Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam có đặc điểm như thế nào?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A.  đặt dưới sự lãnh đạo của Đảng cộng sản",
-      "B.  hoạt động trên nền tảng của khối liên minh công – nông – trí thức",
-      "C.  được tổ chức và hoạt động trên cơ sở Hiến pháp và pháp luật",
-      "D.  hình thành là kết quả của cách mạng xã hội chủ nghĩa"
+      "A. Nhà nước đặt dưới sự lãnh đạo của Đảng cộng sản",
+      "B. Nhà nước hoạt động trên nền tảng của khối liên minh công – nông – trí thức",
+      "C. Nhà nước được tổ chức và hoạt động trên cơ sở Hiến pháp và pháp luật",
+      "D. Nhà nước hình thành là kết quả của cách mạng xã hội chủ nghĩa"
     ],
     "correct_answers": [
       2
@@ -2058,13 +2055,13 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 22,
     "type": "single_choice",
-    "question": "Câu 22: Hãy xác định mục tiêu chính của việc xây dựng  pháp quyền xã hội chủ nghĩa ở Việt Nam.",
+    "question": "Câu 22: Hãy xác định mục tiêu chính của việc xây dựng Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam.",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Phát triển kinh tế thị trường tự do",
       "B. Phục vụ lợi ích của giai cấp công nhân và nhân dân lao động",
-      "C. Giảm thiểu sự can thiệp của",
-      "D. Tăng cường sự kiểm soát của"
+      "C. Giảm thiểu sự can thiệp của Nhà nước",
+      "D. Tăng cường sự kiểm soát của Nhà nước"
     ],
     "correct_answers": [
       1
@@ -2204,18 +2201,17 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 30,
     "type": "multiple_choice",
-    "question": "Câu 30: Bản chất của dân chủ là gì?",
+    "question": "Câu 30: Bản chất của dân chủ là gì? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "Sinh viên chọn 2 phương án đúng nhất",
       "A. Tôn trọng và đảm bảo quyền con người",
       "B. Quyền lực thuộc về toàn thể nhân dân",
       "C. Quyền lực thuộc về một nhóm nhỏ trong xã hội",
       "D. Phân biệt rõ ràng các tầng lớp xã hội"
     ],
     "correct_answers": [
-      1,
-      2
+      0,
+      1
     ],
     "id": 112
   },
@@ -2227,8 +2223,8 @@ window.QUIZ_QUESTIONS = [
     "question": "Câu 31: Ở Việt Nam bản chất dân chủ xã hội chủ nghĩa là dựa vào:",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A.  xã hội chủ nghĩa và sự ủng hộ, giúp đỡ của nhân dân",
-      "B. Sự quản lý của",
+      "A. Nhà nước xã hội chủ nghĩa và sự ủng hộ, giúp đỡ của nhân dân",
+      "B. Sự quản lý của Nhà nước",
       "C. Nhân dân",
       "D. Giai cấp công nhân"
     ],
@@ -2725,19 +2721,17 @@ window.QUIZ_QUESTIONS = [
     "lesson": "Bài 4",
     "lesson_num": 4,
     "q_num": 14,
-    "type": "multiple_choice",
-    "question": "Câu 14: Nội dung kinh tế của liên minh giai cấp, tầng lớp trong thời kỳ quả độ lên chủ nghĩa xã hội ở Việt Nam là gì?",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "question": "Câu 14: Nội dung kinh tế của liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam là gì?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A. Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước gắn với phát triển kinh tế tri thức, phát",
-      "triển bền vững",
+      "A. Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước gắn với phát triển kinh tế tri thức, phát triển bền vững",
       "B. Tăng cường phát triển kinh tế kết hợp với phát triển quân sự gắn với phát triển ngoại giao",
-      "C. Xây dựng nền văn hóa tiên tiến, đậm đà bán sắc dân tộc, đồng thời tiếp thu những tinh hoa, giá trị văn hóa của nhân loại và thời đại",
-      "D. Giữ vững lập trường tư tưởng của giai cấp công nhân, giữ vững vai trò lãnh đạo của Đáng"
+      "C. Xây dựng nền văn hóa tiên tiến, đậm đà bản sắc dân tộc, đồng thời tiếp thu những tinh hoa, giá trị văn hóa của nhân loại và thời đại",
+      "D. Giữ vững lập trường tư tưởng của giai cấp công nhân, giữ vững vai trò lãnh đạo của Đảng"
     ],
     "correct_answers": [
-      0,
-      1
+      0
     ],
     "id": 136
   },
@@ -2745,19 +2739,17 @@ window.QUIZ_QUESTIONS = [
     "lesson": "Bài 4",
     "lesson_num": 4,
     "q_num": 15,
-    "type": "multiple_choice",
-    "question": "Câu 15: Vận dụng kiến thức về vai trò của thể hệ trẻ, hãy xác định mục tiêu chính của việc giáo dục chính trị, tư tưởng cho thanh niên trong giai đoạn hiện nay ở Việt Nam là gi?",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "question": "Câu 15: Vận dụng kiến thức về vai trò của thế hệ trẻ, hãy xác định mục tiêu chính của việc giáo dục chính trị, tư tưởng cho thanh niên trong giai đoạn hiện nay ở Việt Nam là gì?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A. Để kiểm soát các hoạt động kinh tế của thanh niện",
-      "B. Để tăng cường quyền lực của",
-      "C. Để hình thành thế hệ thanh niên có phẩm chất tốt đẹp, có khí phách và quyết tâm hành",
-      "động",
-      "D. Để giảm thiếu sự tham gia của thanh niên vào các hoạt động xã hội"
+      "A. Để kiểm soát các hoạt động kinh tế của thanh niên",
+      "B. Để tăng cường quyền lực của nhà nước",
+      "C. Để hình thành thế hệ thanh niên có phẩm chất tốt đẹp, có khí phách và quyết tâm hành động",
+      "D. Để giảm thiểu sự tham gia của thanh niên vào các hoạt động xã hội"
     ],
     "correct_answers": [
-      2,
-      3
+      2
     ],
     "id": 137
   },
@@ -3093,18 +3085,17 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 4,
     "q_num": 34,
     "type": "multiple_choice",
-    "question": "Câu 34: Những phương hướng nào sau đây củng cố liên minh giai cấp, tầng lớp ở Việt Nam",
+    "question": "Câu 34: Những phương hướng nào sau đây củng cố liên minh giai cấp, tầng lớp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "trong thời kỳ quá độ lên chủ nghĩa xã hội? (Chọn 2 đáp án đúng)",
       "A. Giảm vai trò kinh tế trong xã hội",
       "B. Tạo sự đồng thuận giữa các lực lượng",
       "C. Tăng vai trò tôn giáo đối với các giai cấp, tầng lớp",
       "D. Phát huy tinh thần đoàn kết"
     ],
     "correct_answers": [
-      2,
-      4
+      1,
+      3
     ],
     "id": 156
   },
@@ -3113,18 +3104,17 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 4,
     "q_num": 35,
     "type": "multiple_choice",
-    "question": "Câu 35: Những chính sách nào sau đây hỗ trợ xây dựng cơ cấu xã hội - giai cấp ở Việt Nam?",
+    "question": "Câu 35: Những chính sách nào sau đây hỗ trợ xây dựng cơ cấu xã hội - giai cấp ở Việt Nam? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "(Chọn 2 đáp án đúng)",
       "A. Phát huy sự thống nhất trong các giai cấp, tầng lớp, tạo sự đồng thuận xã hội",
       "B. Ưu tiên phát triển những giai cấp lớn trong xã hội",
       "C. Thúc đẩy phát triển các tổ chức tín ngưỡng, tôn giáo",
-      "D. Giải quyết tốt các mâu thuẫn, các khác biệt trong cácgiai cấp, tầng lớp"
+      "D. Giải quyết tốt các mâu thuẫn, các khác biệt trong các giai cấp, tầng lớp"
     ],
     "correct_answers": [
-      1,
-      4
+      0,
+      3
     ],
     "id": 157
   },
@@ -3133,18 +3123,17 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 4,
     "q_num": 36,
     "type": "multiple_choice",
-    "question": "Câu 36: Những lực lượng nào sau đây là trung tâm trong cơ cấu xã hội - giai cấp ở Việt Nam",
+    "question": "Câu 36: Những lực lượng nào sau đây là trung tâm trong cơ cấu xã hội – giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "trong thời kỳ quá độ lên chủ nghĩa xã hội? (Chọn 2 đáp án đúng)",
       "A. Nhóm tín đồ tôn giáo",
       "B. Giai cấp công nhân",
       "C. Giai cấp nông dân",
       "D. Nhóm người cao tuổi"
     ],
     "correct_answers": [
-      2,
-      3
+      1,
+      2
     ],
     "id": 158
   },
@@ -5321,15 +5310,14 @@ window.QUIZ_QUESTIONS = [
     "question": "Câu 49: Chức năng tái sản xuất của gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội có những biến đổi như thế nào? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "Sinh viên chọn 2 phương án đúng nhất",
       "A. Tăng nhu cầu có con trai",
       "B. Tăng sản xuất hàng hóa",
       "C. Chủ động trong việc sinh con",
       "D. Giảm số con mong muốn"
     ],
     "correct_answers": [
-      3,
-      4
+      2,
+      3
     ],
     "id": 257
   },
@@ -5337,19 +5325,17 @@ window.QUIZ_QUESTIONS = [
     "lesson": "Bài 6",
     "lesson_num": 6,
     "q_num": 50,
-    "type": "multiple_choice",
+    "type": "single_choice",
     "question": "Câu 50: Trong gia đình Việt Nam hiện đại ngày nay, nhu cầu về con cái đã có những thay đổi căn bản như thế nào?",
-    "instruction": "Chọn 2 đáp án đúng",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Phải có con, càng đông con càng tốt và nhất thiết phải có con trai nối dõi",
       "B. Tỷ lệ sinh thấp, nhu cầu phải có con trai tăng",
       "C. Các gia đình không muốn có con để không bị gánh nặng kinh tế",
-      "D. Giảm mức sinh của phụ nữ, giảm số con mong muốn và giảm nhu cầu nhất thiết phải có",
-      "con trai của các cặp vợ chồng"
+      "D. Giảm mức sinh của phụ nữ, giảm số con mong muốn và giảm nhu cầu nhất thiết phải có con trai của các cặp vợ chồng"
     ],
     "correct_answers": [
-      3,
-      4
+      3
     ],
     "id": 258
   },
@@ -5397,15 +5383,14 @@ window.QUIZ_QUESTIONS = [
     "question": "Câu 53: Quy mô của gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội có những biến đổi như thế nào? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "Sinh viên chọn 2 phương án đúng nhất",
       "A. Ngày càng thu nhỏ",
       "B. Kinh tế tự cấp",
       "C. Quy mô lớn",
       "D. Gia đình hạt nhân tăng lên"
     ],
     "correct_answers": [
-      1,
-      4
+      0,
+      3
     ],
     "id": 261
   },
