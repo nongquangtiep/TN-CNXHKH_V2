@@ -1,4 +1,4 @@
-// Du lieu cau hoi trac nghiem Chu Nghia Xa Hoi Khoa Hoc (V4.1 - 250 cau chuan, da sua loi keo tha)
+// Du lieu cau hoi trac nghiem Chu Nghia Xa Hoi Khoa Hoc (V4.2 - 263 cau chuan, Bai 6 day du tu CNKHXH BAI6.docx)
 window.QUIZ_QUESTIONS = [
   {
     "lesson": "Bài 1",
@@ -2486,78 +2486,6 @@ window.QUIZ_QUESTIONS = [
     "id": 122
   },
   {
-    "lesson": "Bài 3",
-    "lesson_num": 3,
-    "type": "single_choice",
-    "question": "Câu 41: Việc thực hiện chế độ công hữu về tư liệu sản xuất chủ yếu và phân phối lợi ích theo kết quả lao động là bản chất kinh tế của nền dân chủ nào?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Nền dân chủ tư sản",
-      "B. Nền dân chủ chủ nô",
-      "C. Nền dân chủ xã hội chủ nghĩa",
-      "D. Nền dân chủ nguyên thủy"
-    ],
-    "correct_answers": [
-      2
-    ],
-    "id": 123,
-    "q_num": 41
-  },
-  {
-    "lesson": "Bài 3",
-    "lesson_num": 3,
-    "type": "single_choice",
-    "question": "Câu 42: Khác biệt căn bản về chất của Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam so với các nhà nước bóc lột trong lịch sử là gì?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Chỉ đại diện duy nhất cho bộ phận giai cấp công nhân",
-      "B. Là nhà nước phi giai cấp, phi chính trị",
-      "C. Mang bản chất của giai cấp công nhân, tính nhân dân sâu sắc và tính dân tộc rộng rãi",
-      "D. Chỉ tập trung thực hiện chức năng trấn áp quân sự"
-    ],
-    "correct_answers": [
-      2
-    ],
-    "id": 124,
-    "q_num": 42
-  },
-  {
-    "lesson": "Bài 3",
-    "lesson_num": 3,
-    "type": "single_choice",
-    "question": "Câu 43: Hình thức dân chủ nào là hình thức mà nhân dân trực tiếp bày tỏ ý chí, trực tiếp tham gia quản lý nhà nước và xã hội?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Dân chủ gián tiếp",
-      "B. Dân chủ đại diện",
-      "C. Dân chủ trực tiếp",
-      "D. Dân chủ ủy quyền"
-    ],
-    "correct_answers": [
-      2
-    ],
-    "id": 125,
-    "q_num": 43
-  },
-  {
-    "lesson": "Bài 3",
-    "lesson_num": 3,
-    "type": "single_choice",
-    "question": "Câu 44: Khẳng định nào sau đây về tổ chức quyền lực nhà nước ở Việt Nam là SAI?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Bản chất dân chủ XHCN được thực hiện qua hình thức trực tiếp và gián tiếp",
-      "B. Quốc hội là cơ quan quyền lực nhà nước cao nhất hoạt động theo nhiệm kỳ 3 năm",
-      "C. Nhà nước Việt Nam là nhà nước của nhân dân, do nhân dân, vì nhân dân làm chủ",
-      "D. Trong hoạt động nhà nước có sự phân công, phối hợp và kiểm soát giữa các cơ quan quyền lực"
-    ],
-    "correct_answers": [
-      1
-    ],
-    "id": 126,
-    "q_num": 44
-  },
-  {
     "lesson": "Bài 4",
     "lesson_num": 4,
     "q_num": 1,
@@ -2573,7 +2501,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 127
+    "id": 123
   },
   {
     "lesson": "Bài 4",
@@ -2591,7 +2519,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 128
+    "id": 124
   },
   {
     "lesson": "Bài 4",
@@ -2610,7 +2538,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 129
+    "id": 125
   },
   {
     "lesson": "Bài 4",
@@ -2628,7 +2556,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 130
+    "id": 126
   },
   {
     "lesson": "Bài 4",
@@ -2646,7 +2574,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 131
+    "id": 127
   },
   {
     "lesson": "Bài 4",
@@ -2664,7 +2592,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 132
+    "id": 128
   },
   {
     "lesson": "Bài 4",
@@ -2682,7 +2610,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 133
+    "id": 129
   },
   {
     "lesson": "Bài 4",
@@ -2700,7 +2628,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 134
+    "id": 130
   },
   {
     "lesson": "Bài 4",
@@ -2719,7 +2647,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 135
+    "id": 131
   },
   {
     "lesson": "Bài 4",
@@ -2737,7 +2665,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 136
+    "id": 132
   },
   {
     "lesson": "Bài 4",
@@ -2755,7 +2683,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 137
+    "id": 133
   },
   {
     "lesson": "Bài 4",
@@ -2773,7 +2701,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 138
+    "id": 134
   },
   {
     "lesson": "Bài 4",
@@ -2791,7 +2719,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 139
+    "id": 135
   },
   {
     "lesson": "Bài 4",
@@ -2811,7 +2739,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 140
+    "id": 136
   },
   {
     "lesson": "Bài 4",
@@ -2831,7 +2759,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 141
+    "id": 137
   },
   {
     "lesson": "Bài 4",
@@ -2849,7 +2777,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 142
+    "id": 138
   },
   {
     "lesson": "Bài 4",
@@ -2867,7 +2795,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 143
+    "id": 139
   },
   {
     "lesson": "Bài 4",
@@ -2885,7 +2813,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 144
+    "id": 140
   },
   {
     "lesson": "Bài 4",
@@ -2903,7 +2831,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 145
+    "id": 141
   },
   {
     "lesson": "Bài 4",
@@ -2921,7 +2849,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 146
+    "id": 142
   },
   {
     "lesson": "Bài 4",
@@ -2939,7 +2867,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 147
+    "id": 143
   },
   {
     "lesson": "Bài 4",
@@ -2957,7 +2885,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 148
+    "id": 144
   },
   {
     "lesson": "Bài 4",
@@ -2975,7 +2903,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 149
+    "id": 145
   },
   {
     "lesson": "Bài 4",
@@ -2993,7 +2921,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 150
+    "id": 146
   },
   {
     "lesson": "Bài 4",
@@ -3011,7 +2939,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 151
+    "id": 147
   },
   {
     "lesson": "Bài 4",
@@ -3029,7 +2957,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 152
+    "id": 148
   },
   {
     "lesson": "Bài 4",
@@ -3047,7 +2975,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 153
+    "id": 149
   },
   {
     "lesson": "Bài 4",
@@ -3065,7 +2993,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 154
+    "id": 150
   },
   {
     "lesson": "Bài 4",
@@ -3083,7 +3011,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 155
+    "id": 151
   },
   {
     "lesson": "Bài 4",
@@ -3102,7 +3030,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 156
+    "id": 152
   },
   {
     "lesson": "Bài 4",
@@ -3120,7 +3048,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 157
+    "id": 153
   },
   {
     "lesson": "Bài 4",
@@ -3139,7 +3067,7 @@ window.QUIZ_QUESTIONS = [
       1,
       3
     ],
-    "id": 158
+    "id": 154
   },
   {
     "lesson": "Bài 4",
@@ -3158,7 +3086,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 159
+    "id": 155
   },
   {
     "lesson": "Bài 4",
@@ -3178,7 +3106,7 @@ window.QUIZ_QUESTIONS = [
       2,
       4
     ],
-    "id": 160
+    "id": 156
   },
   {
     "lesson": "Bài 4",
@@ -3198,7 +3126,7 @@ window.QUIZ_QUESTIONS = [
       1,
       4
     ],
-    "id": 161
+    "id": 157
   },
   {
     "lesson": "Bài 4",
@@ -3218,7 +3146,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 162
+    "id": 158
   },
   {
     "lesson": "Bài 4",
@@ -3245,7 +3173,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 163
+    "id": 159
   },
   {
     "lesson": "Bài 4",
@@ -3272,7 +3200,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 164
+    "id": 160
   },
   {
     "lesson": "Bài 4",
@@ -3299,7 +3227,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 165
+    "id": 161
   },
   {
     "lesson": "Bài 4",
@@ -3326,7 +3254,7 @@ window.QUIZ_QUESTIONS = [
         "correct": false
       }
     ],
-    "id": 166
+    "id": 162
   },
   {
     "lesson": "Bài 4",
@@ -3389,7 +3317,7 @@ window.QUIZ_QUESTIONS = [
         "category": "Nội dung/phương hướng của liên minh"
       }
     ],
-    "id": 167
+    "id": 163
   },
   {
     "lesson": "Bài 4",
@@ -3421,7 +3349,7 @@ window.QUIZ_QUESTIONS = [
       "Đội ngũ doanh nhân",
       "Chính sách an sinh xã hội"
     ],
-    "id": 168,
+    "id": 164,
     "q_num": 42
   },
   {
@@ -3454,7 +3382,7 @@ window.QUIZ_QUESTIONS = [
       "đặc biệt quan trọng",
       "sáng tạo đặc biệt"
     ],
-    "id": 169,
+    "id": 165,
     "q_num": 43
   },
   {
@@ -3513,10 +3441,10 @@ window.QUIZ_QUESTIONS = [
         "category": "Chính sách hỗ trợ"
       }
     ],
-    "id": 170
+    "id": 166
   },
   {
-    "id": 171,
+    "id": 167,
     "lesson": "Bài 4",
     "lesson_num": 4,
     "q_num": 45,
@@ -3551,42 +3479,6 @@ window.QUIZ_QUESTIONS = [
     "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
   },
   {
-    "lesson": "Bài 4",
-    "lesson_num": 4,
-    "type": "single_choice",
-    "question": "Câu 46: Trong cơ cấu xã hội – giai cấp ở Việt Nam thời kỳ quá độ, đội ngũ trí thức giữ vai trò là lực lượng gì?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Lực lượng sáng tạo đặc biệt",
-      "B. Lực lượng lãnh đạo sự nghiệp cách mạng",
-      "C. Lực lượng sản xuất nông nghiệp nòng cốt",
-      "D. Đội ngũ quản lý doanh nghiệp độc lập"
-    ],
-    "correct_answers": [
-      0
-    ],
-    "id": 172,
-    "q_num": 46
-  },
-  {
-    "lesson": "Bài 4",
-    "lesson_num": 4,
-    "type": "single_choice",
-    "question": "Câu 47: Phát biểu nào sau đây về khối liên minh giai cấp, tầng lớp ở Việt Nam là ĐÚNG?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Nội dung tôn giáo là nội dung nòng cốt của liên minh",
-      "B. Xây dựng Nhà nước pháp quyền là nội dung văn hóa của liên minh",
-      "C. Đồng thuận xã hội là một mục tiêu quan trọng của liên minh giai cấp, tầng lớp",
-      "D. Đội ngũ doanh nhân bị loại trừ, không tham gia khối liên minh"
-    ],
-    "correct_answers": [
-      2
-    ],
-    "id": 173,
-    "q_num": 47
-  },
-  {
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 1,
@@ -3602,7 +3494,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 174
+    "id": 168
   },
   {
     "lesson": "Bài 5",
@@ -3621,7 +3513,7 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 175
+    "id": 169
   },
   {
     "lesson": "Bài 5",
@@ -3639,7 +3531,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 176
+    "id": 170
   },
   {
     "lesson": "Bài 5",
@@ -3657,7 +3549,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 177
+    "id": 171
   },
   {
     "lesson": "Bài 5",
@@ -3675,7 +3567,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 178
+    "id": 172
   },
   {
     "lesson": "Bài 5",
@@ -3693,7 +3585,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 179
+    "id": 173
   },
   {
     "lesson": "Bài 5",
@@ -3711,7 +3603,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 180
+    "id": 174
   },
   {
     "lesson": "Bài 5",
@@ -3729,7 +3621,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 181
+    "id": 175
   },
   {
     "lesson": "Bài 5",
@@ -3747,7 +3639,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 182
+    "id": 176
   },
   {
     "lesson": "Bài 5",
@@ -3765,7 +3657,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 183
+    "id": 177
   },
   {
     "lesson": "Bài 5",
@@ -3783,7 +3675,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 184
+    "id": 178
   },
   {
     "lesson": "Bài 5",
@@ -3801,7 +3693,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 185
+    "id": 179
   },
   {
     "lesson": "Bài 5",
@@ -3819,7 +3711,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 186
+    "id": 180
   },
   {
     "lesson": "Bài 5",
@@ -3837,7 +3729,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 187
+    "id": 181
   },
   {
     "lesson": "Bài 5",
@@ -3855,7 +3747,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 188
+    "id": 182
   },
   {
     "lesson": "Bài 5",
@@ -3873,7 +3765,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 189
+    "id": 183
   },
   {
     "lesson": "Bài 5",
@@ -3891,7 +3783,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 190
+    "id": 184
   },
   {
     "lesson": "Bài 5",
@@ -3910,7 +3802,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 191
+    "id": 185
   },
   {
     "lesson": "Bài 5",
@@ -3928,7 +3820,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 192
+    "id": 186
   },
   {
     "lesson": "Bài 5",
@@ -3946,7 +3838,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 193
+    "id": 187
   },
   {
     "lesson": "Bài 5",
@@ -3964,7 +3856,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 194
+    "id": 188
   },
   {
     "lesson": "Bài 5",
@@ -3982,7 +3874,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 195
+    "id": 189
   },
   {
     "lesson": "Bài 5",
@@ -4000,7 +3892,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 196
+    "id": 190
   },
   {
     "lesson": "Bài 5",
@@ -4018,7 +3910,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 197
+    "id": 191
   },
   {
     "lesson": "Bài 5",
@@ -4036,7 +3928,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 198
+    "id": 192
   },
   {
     "lesson": "Bài 5",
@@ -4054,7 +3946,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 199
+    "id": 193
   },
   {
     "lesson": "Bài 5",
@@ -4072,7 +3964,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 200
+    "id": 194
   },
   {
     "lesson": "Bài 5",
@@ -4090,7 +3982,7 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 201
+    "id": 195
   },
   {
     "lesson": "Bài 5",
@@ -4117,7 +4009,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 202
+    "id": 196
   },
   {
     "lesson": "Bài 5",
@@ -4144,7 +4036,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       }
     ],
-    "id": 203
+    "id": 197
   },
   {
     "lesson": "Bài 5",
@@ -4202,7 +4094,7 @@ window.QUIZ_QUESTIONS = [
         "category": "Nội dung cương lĩnh dân tộc của Mác-Lênin"
       }
     ],
-    "id": 204
+    "id": 198
   },
   {
     "lesson": "Bài 5",
@@ -4235,7 +4127,7 @@ window.QUIZ_QUESTIONS = [
       "Phương thức sinh hoạt kinh tế chung",
       "Dân tộc tộc người"
     ],
-    "id": 205
+    "id": 199
   },
   {
     "lesson": "Bài 5",
@@ -4268,7 +4160,7 @@ window.QUIZ_QUESTIONS = [
       "Tôn giáo",
       "Tín ngưỡng"
     ],
-    "id": 206
+    "id": 200
   },
   {
     "lesson": "Bài 5",
@@ -4287,7 +4179,7 @@ window.QUIZ_QUESTIONS = [
       1,
       3
     ],
-    "id": 207
+    "id": 201
   },
   {
     "lesson": "Bài 5",
@@ -4307,7 +4199,7 @@ window.QUIZ_QUESTIONS = [
       2,
       3
     ],
-    "id": 208
+    "id": 202
   },
   {
     "lesson": "Bài 5",
@@ -4360,7 +4252,7 @@ window.QUIZ_QUESTIONS = [
         "category": "Đặc trưng của dân tộc (quốc gia)"
       }
     ],
-    "id": 209
+    "id": 203
   },
   {
     "lesson": "Bài 5",
@@ -4413,7 +4305,7 @@ window.QUIZ_QUESTIONS = [
         "category": "Nguồn gốc của tôn giáo"
       }
     ],
-    "id": 210
+    "id": 204
   },
   {
     "lesson": "Bài 5",
@@ -4445,7 +4337,7 @@ window.QUIZ_QUESTIONS = [
       "Quyền bình đẳng dân tộc",
       "Giai cấp công nhân"
     ],
-    "id": 211,
+    "id": 205,
     "q_num": 38
   },
   {
@@ -4479,10 +4371,10 @@ window.QUIZ_QUESTIONS = [
       "Hình thái ý thức xã hội",
       "Tín ngưỡng"
     ],
-    "id": 212
+    "id": 206
   },
   {
-    "id": 213,
+    "id": 207,
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 40,
@@ -4502,7 +4394,7 @@ window.QUIZ_QUESTIONS = [
     "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
   },
   {
-    "id": 214,
+    "id": 208,
     "lesson": "Bài 5",
     "lesson_num": 5,
     "q_num": 41,
@@ -4531,10 +4423,64 @@ window.QUIZ_QUESTIONS = [
     "test_group": "BÀI KIỂM TRA THƯỜNG XUYÊN 2"
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 42: Theo quan điểm duy vật lịch sử, tôn giáo là sản phẩm của yếu tố nào?",
+    "question": "Câu 1: Trong Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin, nội dung nào về quyền dân tộc tự quyết được coi là cơ bản trước hết?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Quyền tự quyết về chính trị",
+      "B. Quyền tự quyết về các mối quan hệ quốc tế",
+      "C. Quyền tự quyết về văn hóa",
+      "D. Quyền tự quyết về kinh tế"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 209,
+    "q_num": 1
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 2: Theo quan điểm của chủ nghĩa Mác – Lênin, giải pháp căn bản để thực hiện bình đẳng dân tộc là gì?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Phải duy trì chế độ tư hữu về tư liệu sản xuất",
+      "B. Thủ tiêu ách áp bức giai cấp, trên cơ sở đó xóa bỏ áp bức dân tộc và đấu tranh chống chủ nghĩa phân biệt chủng tộc, chủ nghĩa sô-vanh",
+      "C. Tách biệt cuộc đấu tranh dân tộc khỏi cuộc đấu tranh giai cấp của công nhân",
+      "D. Liên kết thỏa hiệp với các nước đế quốc lớn"
+    ],
+    "correct_answers": [
+      1
+    ],
+    "id": 210,
+    "q_num": 2
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 3: Nội dung nào sau đây là nội dung chủ yếu và là giải pháp quan trọng để liên kết các nội dung của Cương lĩnh dân tộc thành một chỉnh thể?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Các dân tộc hoàn toàn bình đẳng",
+      "B. Cắt đứt quan hệ giữa các quốc gia",
+      "C. Liên hiệp công nhân tất cả các dân tộc",
+      "D. Các dân tộc tự quyết quyền phát triển kinh tế"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 211,
+    "q_num": 3
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 4: Theo quan điểm duy vật lịch sử, tôn giáo là sản phẩm của yếu tố nào?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Con người",
@@ -4545,14 +4491,86 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 215,
-    "q_num": 42
+    "id": 212,
+    "q_num": 4
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 43: Nhóm yếu tố nào sau đây phản ánh đầy đủ nguồn gốc hình thành và tồn tại của tôn giáo?",
+    "question": "Câu 5: Đâu là điểm giống nhau căn bản giữa tôn giáo và tín ngưỡng?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Đều có hệ thống giáo chủ chặt chẽ",
+      "B. Đều có kinh sách và giáo luật hoàn chỉnh",
+      "C. Đều có giáo hội quản lý cấp quốc gia",
+      "D. Đều có niềm tin vào đấng siêu nhiên, thần linh"
+    ],
+    "correct_answers": [
+      3
+    ],
+    "id": 213,
+    "q_num": 5
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 6: Niềm tin của con người vào các lực lượng siêu nhiên, thần thánh đến mức độ mê muội, cuồng tín, dẫn đến những hành vi cực đoan, sai lệch, trái với đạo đức và pháp luật gọi là gì?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Thờ anh hùng dân tộc",
+      "B. Tín ngưỡng thờ Mẫu",
+      "C. Mê tín dị đoan",
+      "D. Thờ cúng tổ tiên"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 214,
+    "q_num": 6
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 7: Ở Việt Nam hiện nay có khoảng bao nhiêu dân tộc cùng sinh sống?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. 54 dân tộc",
+      "B. 50 dân tộc",
+      "C. 45 dân tộc",
+      "D. 63 dân tộc"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 215,
+    "q_num": 7
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 8: Vì sao Đảng và Nhà nước Việt Nam chủ trương luôn tôn trọng, bảo đảm quyền tự do tín ngưỡng, tôn giáo và không tín ngưỡng tôn giáo của nhân dân?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Vì tín ngưỡng, tôn giáo được du nhập hoàn toàn từ nước ngoài vào",
+      "B. Vì các tổ chức tôn giáo có tiềm lực kinh tế lớn mạnh",
+      "C. Vì số lượng tín đồ chiếm đại đa số tuyệt đối dân số",
+      "D. Vì tín ngưỡng, tôn giáo là nhu cầu tinh thần của một bộ phận nhân dân"
+    ],
+    "correct_answers": [
+      3
+    ],
+    "id": 216,
+    "q_num": 8
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 9: Nhóm yếu tố nào sau đây phản ánh đầy đủ nguồn gốc hình thành và tồn tại của tôn giáo?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Hệ thống tín đồ, tổ chức giáo phẩm và nghi lễ",
@@ -4563,14 +4581,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 216,
-    "q_num": 43
+    "id": 217,
+    "q_num": 9
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 44: Khái niệm dân tộc theo nghĩa hẹp được dùng để chỉ khái niệm nào?",
+    "question": "Câu 10: Khái niệm dân tộc theo nghĩa hẹp được dùng để chỉ khái niệm nào?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Dân tộc quốc gia",
@@ -4581,14 +4599,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 217,
-    "q_num": 44
+    "id": 218,
+    "q_num": 10
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 45: Tiêu chí nào mang tính thiêng liêng nhất đối với một dân tộc quốc gia và mỗi thành viên dân tộc?",
+    "question": "Câu 11: Tiêu chí nào mang tính thiêng liêng nhất đối với một dân tộc quốc gia và mỗi thành viên dân tộc?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Lãnh thổ",
@@ -4599,14 +4617,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 218,
-    "q_num": 45
+    "id": 219,
+    "q_num": 11
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 46: Nhận định nào sau đây là SAI khi nói về quyền tự quyết dân tộc trong Cương lĩnh dân tộc Mác – Lênin?",
+    "question": "Câu 12: Nhận định nào sau đây là SAI khi nói về quyền tự quyết dân tộc trong Cương lĩnh dân tộc Mác – Lênin?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Quyền tự quyết bao gồm quyền tự do tách ra thành quốc gia độc lập",
@@ -4617,14 +4635,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 219,
-    "q_num": 46
+    "id": 220,
+    "q_num": 12
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 47: Hình thái ý thức xã hội phản ánh một cách hoang đường, hư ảo hiện thực khách quan là khái niệm của hiện tượng nào?",
+    "question": "Câu 13: Hình thái ý thức xã hội phản ánh một cách hoang đường, hư ảo hiện thực khách quan là khái niệm của hiện tượng nào?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Nghệ thuật dân gian",
@@ -4635,14 +4653,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 220,
-    "q_num": 47
+    "id": 221,
+    "q_num": 13
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 48: Phát biểu nào sau đây là SAI về sự khác biệt giữa tín ngưỡng và tôn giáo?",
+    "question": "Câu 14: Phát biểu nào sau đây là SAI về sự khác biệt giữa tín ngưỡng và tôn giáo?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Tín ngưỡng có hệ thống giáo lý, giáo luật và tổ chức chặt chẽ như tôn giáo",
@@ -4653,14 +4671,32 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 221,
-    "q_num": 48
+    "id": 222,
+    "q_num": 14
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 49: Đâu là các đặc trưng cơ bản thuộc về dân tộc tộc người?",
+    "question": "Câu 15: Vì sao các tôn giáo ở Việt Nam luôn đồng hành cùng dân tộc và đóng góp tích cực cho sự nghiệp xây dựng, bảo vệ Tổ quốc?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Vì đa số tín đồ là nhân dân lao động có tinh thần yêu nước, chống giặc ngoại xâm",
+      "B. Vì các tôn giáo nắm vai trò lãnh đạo cơ quan quyền lực nhà nước",
+      "C. Vì các tổ chức tôn giáo có quân đội riêng bảo vệ biên giới",
+      "D. Vì các tôn giáo được chi phối bởi các tổ chức quốc tế"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 223,
+    "q_num": 15
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 16: Đâu là các đặc trưng cơ bản thuộc về dân tộc tộc người?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Lãnh thổ quốc gia, nền kinh tế chung, nhà nước chung",
@@ -4671,14 +4707,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 222,
-    "q_num": 49
+    "id": 224,
+    "q_num": 16
   },
   {
-    "lesson": "Bài 5",
-    "lesson_num": 5,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
     "type": "single_choice",
-    "question": "Câu 50: Hai nguyên nhân chủ yếu khiến tôn giáo vẫn tiếp tục tồn tại lâu dài trong thời kỳ quá độ là gì?",
+    "question": "Câu 17: Hai nguyên nhân chủ yếu khiến tôn giáo vẫn tiếp tục tồn tại lâu dài trong thời kỳ quá độ là gì?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Do quy định bắt buộc của nhà nước và do các giáo hội nước ngoài thúc đẩy",
@@ -4689,70 +4725,509 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       1
     ],
-    "id": 223,
-    "q_num": 50
+    "id": 225,
+    "q_num": 17
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 1,
-    "type": "multiple_choice",
-    "question": "Câu 1: Hai mối quan hệ cơ bản hình thành gia đình là: (chọn nhiều đáp án)",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "question": "Câu 18: Điểm khác biệt căn bản trong quá trình hình thành dân tộc Việt Nam so với các dân tộc phương Tây là gì?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A. Quan hệ hôn nhân",
-      "B. Quan hệ kinh tế",
-      "C. Quan hệ huyết thống",
-      "D. Quan hệ quần tụ trong một không gian sinh tồn"
+      "A. Hình thành gắn liền với sự phát triển mạnh mẽ của phương thức tư bản chủ nghĩa",
+      "B. Hình thành do quá trình đồng hóa cưỡng bức của các triều đại phong kiến",
+      "C. Hình thành sớm do đòi hỏi khách quan của công cuộc trị thủy, làm thủy lợi và đoàn kết chống giặc ngoại xâm",
+      "D. Hình thành do dân tộc có quy mô diện tích lãnh thổ nhỏ hẹp"
     ],
     "correct_answers": [
-      0,
       2
     ],
-    "id": 224
+    "id": 226,
+    "q_num": 18
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 2,
     "type": "single_choice",
-    "question": "Câu 2: Vị trí của gia đình trong xã hội là:",
+    "question": "Câu 19: Tính nhất nguyên về mặt chính trị của nền dân chủ xã hội chủ nghĩa được thể hiện như thế nào?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A. Mạch máu",
-      "B. Bộ não",
-      "C. Xương sống",
-      "D. Tế bào"
+      "A. Nền dân chủ chấp nhận cơ chế đa đảng cạnh tranh quyền lực",
+      "B. Nền dân chủ do tầng lớp trí thức nắm quyền chuyên chính",
+      "C. Nền dân chủ đặt dưới sự lãnh đạo duy nhất của Đảng Cộng sản – đại biểu cho trí tuệ, lợi ích của công nhân, nhân dân lao động và toàn dân tộc",
+      "D. Nền dân chủ chỉ phục vụ quyền lợi của riêng giai cấp nông dân"
     ],
     "correct_answers": [
-      3
+      2
     ],
-    "id": 225
+    "id": 227,
+    "q_num": 19
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 3,
     "type": "single_choice",
-    "question": "Câu 3: Tình yêu giữa nam và nữ trở thành quan hệ hôn nhân được thể hiện bằng:",
+    "question": "Câu 20: Luận điểm nào sau đây KHÔNG đúng khi so sánh nền dân chủ xã hội chủ nghĩa với nền dân chủ tư sản?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A. Lời hứa giữa nam và nữ",
+      "A. Dựa trên chế độ công hữu về các tư liệu sản xuất chủ yếu của xã hội",
+      "B. Mang tính nhất nguyên về chính trị dưới sự lãnh đạo của Đảng Cộng sản",
+      "C. Là nền dân chủ thuần túy, hoàn toàn không mang tính giai cấp",
+      "D. Được thực hiện chủ yếu bằng công cụ Nhà nước pháp quyền xã hội chủ nghĩa"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 228,
+    "q_num": 20
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 21: So với các nền dân chủ trước đây trong lịch sử, dân chủ xã hội chủ nghĩa có điểm khác biệt căn bản nào?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Là nền dân chủ rộng rãi cho giai cấp công nhân và nhân dân lao động",
+      "B. Là nền dân chủ phi lịch sử, tồn tại vĩnh viễn ngoài nhà nước",
+      "C. Là nền dân chủ thuần túy, không có giới hạn pháp lý",
+      "D. Không còn mang tính giai cấp"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 229,
+    "q_num": 21
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 22: Việc thực hiện chế độ công hữu về tư liệu sản xuất chủ yếu và phân phối lợi ích theo kết quả lao động là bản chất kinh tế của nền dân chủ nào?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Nền dân chủ tư sản",
+      "B. Nền dân chủ chủ nô",
+      "C. Nền dân chủ xã hội chủ nghĩa",
+      "D. Nền dân chủ nguyên thủy"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 230,
+    "q_num": 22
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 23: Nhà nước pháp quyền xã hội chủ nghĩa quản lý mọi mặt của đời sống xã hội chủ yếu bằng công cụ nào?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Tuyên truyền, vận động quần chúng",
+      "B. Hiến pháp và pháp luật",
+      "C. Đường lối, chủ trương chưa thể chế hóa",
+      "D. Các biện pháp hành chính mệnh lệnh"
+    ],
+    "correct_answers": [
+      1
+    ],
+    "id": 231,
+    "q_num": 23
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 24: Khác biệt căn bản về chất của Nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam so với các nhà nước bóc lột trong lịch sử là gì?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Chỉ đại diện duy nhất cho bộ phận giai cấp công nhân",
+      "B. Là nhà nước phi giai cấp, phi chính trị",
+      "C. Mang bản chất của giai cấp công nhân, tính nhân dân sâu sắc và tính dân tộc rộng rãi",
+      "D. Chỉ tập trung thực hiện chức năng trấn áp quân sự"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 232,
+    "q_num": 24
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 25: Hình thức dân chủ nào là hình thức mà nhân dân trực tiếp bày tỏ ý chí, trực tiếp tham gia quản lý nhà nước và xã hội?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Dân chủ gián tiếp",
+      "B. Dân chủ đại diện",
+      "C. Dân chủ trực tiếp",
+      "D. Dân chủ ủy quyền"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 233,
+    "q_num": 25
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 26: Khẳng định nào sau đây về tổ chức quyền lực nhà nước ở Việt Nam là SAI?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Bản chất dân chủ XHCN được thực hiện qua hình thức trực tiếp và gián tiếp",
+      "B. Quốc hội là cơ quan quyền lực nhà nước cao nhất hoạt động theo nhiệm kỳ 3 năm",
+      "C. Nhà nước Việt Nam là nhà nước của nhân dân, do nhân dân, vì nhân dân làm chủ",
+      "D. Trong hoạt động nhà nước có sự phân công, phối hợp và kiểm soát giữa các cơ quan quyền lực"
+    ],
+    "correct_answers": [
+      1
+    ],
+    "id": 234,
+    "q_num": 26
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 27: Trong thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã hội – giai cấp biến đổi theo quy luật vận động nào?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Tách biệt đối lập hoàn toàn, không liên minh gắn kết",
+      "B. Vừa đấu tranh, vừa bài xích triệt tiêu lẫn nhau",
+      "C. Vừa đấu tranh, vừa liên minh, từng bước xóa bỏ bất bình đẳng xã hội dẫn đến sự xích lại gần nhau",
+      "D. Các giai cấp lớn liên minh đàn áp các giai cấp nhỏ"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 235,
+    "q_num": 27
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 28: Trong cơ cấu xã hội – giai cấp ở Việt Nam thời kỳ quá độ, đội ngũ trí thức giữ vai trò là lực lượng gì?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Lực lượng sáng tạo đặc biệt",
+      "B. Lực lượng lãnh đạo sự nghiệp cách mạng",
+      "C. Lực lượng sản xuất nông nghiệp nòng cốt",
+      "D. Đội ngũ quản lý doanh nghiệp độc lập"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 236,
+    "q_num": 28
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 29: Phát biểu nào sau đây về khối liên minh giai cấp, tầng lớp ở Việt Nam là ĐÚNG?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Nội dung tôn giáo là nội dung nòng cốt của liên minh",
+      "B. Xây dựng Nhà nước pháp quyền là nội dung văn hóa của liên minh",
+      "C. Đồng thuận xã hội là một mục tiêu quan trọng của liên minh giai cấp, tầng lớp",
+      "D. Đội ngũ doanh nhân bị loại trừ, không tham gia khối liên minh"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 237,
+    "q_num": 29
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "multiple_choice",
+    "question": "Câu 30: Hai mối quan hệ cơ bản hình thành nên gia đình là: (chọn 2 đáp án)",
+    "instruction": "Chọn 2 đáp án đúng",
+    "options": [
+      "A. Quan hệ quản trị trong một không gian sinh tồn",
+      "B. Quan hệ huyết thống",
+      "C. Quan hệ kinh tế",
+      "D. Quan hệ hôn nhân"
+    ],
+    "correct_answers": [
+      1,
+      3
+    ],
+    "id": 238,
+    "q_num": 30
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 31: Vị trí của gia đình trong xã hội là:",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Tế bào",
+      "B. Bộ não",
+      "C. Mạch máu",
+      "D. Xương sống"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 239,
+    "q_num": 31
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 32: Tình yêu giữa nam và nữ trở thành quan hệ hôn nhân được thể hiện bằng:",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Lễ cưới",
       "B. Thủ tục pháp lý",
-      "C. Lễ cưới",
+      "C. Lời hứa giữa nam và nữ",
       "D. Lễ đính hôn"
     ],
     "correct_answers": [
       1
     ],
-    "id": 226
+    "id": 240,
+    "q_num": 32
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 4,
     "type": "single_choice",
-    "question": "Câu 4: Chọn đáp án đúng điền vào chỗ trống trong luận điểm sau: \"Hằng ngày tái tạo ra đời sống của bản thân mình, con người bắt đầu tạo ra những người khác, sinh sôi nẩy nở - đó là quan hệ giữa chồng và vợ, cha mẹ và con cái, đó là....\"",
+    "question": "Câu 33: “Hàng ngày tái tạo ra đời sống của bản thân mình, con người bắt đầu tạo ra những người khác, sinh sôi nảy nở - đó là quan hệ giữa chồng và vợ, cha mẹ và con cái...” Đây là quan hệ của:",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Gia đình",
+      "B. Làng xóm",
+      "C. Xã hội",
+      "D. Tập thể"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 241,
+    "q_num": 33
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 34: Quan hệ nào được coi là cơ sở, nền tảng hình thành nên các mối quan hệ khác trong gia đình?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Quan hệ hôn nhân và huyết thống",
+      "B. Quan hệ nuôi dưỡng",
+      "C. Quan hệ quản trị trong một không gian sinh tồn",
+      "D. Quan hệ hôn nhân"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 242,
+    "q_num": 34
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 35: Chức năng của gia đình là:",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Chức năng làm các hoạt động từ thiện",
+      "B. Chức năng lãnh đạo cách mạng",
+      "C. Chức năng kinh tế và tổ chức tiêu dùng",
+      "D. Chức năng tổ chức sự kiện"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 243,
+    "q_num": 35
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 36: Chức năng đảm bảo tái sản xuất nguồn lao động và sức lao động cho xã hội của gia đình là:",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Chức năng kinh tế",
+      "B. Chức năng nuôi dưỡng, giáo dục",
+      "C. Chức năng thỏa mãn các nhu cầu tâm sinh lý, duy trì tình cảm",
+      "D. Chức năng tái sản xuất ra con người"
+    ],
+    "correct_answers": [
+      3
+    ],
+    "id": 244,
+    "q_num": 36
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 37: Thực hiện chức năng nào của gia đình nhằm góp phần tạo lớn lao vào việc đào tạo thế hệ trẻ, thế hệ tương lai của xã hội?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Chức năng nuôi dưỡng, giáo dục",
+      "B. Chức năng kinh tế và tổ chức tiêu dùng",
+      "C. Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình",
+      "D. Chức năng tái sản xuất ra con người"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 245,
+    "q_num": 37
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 38: Với chức năng chính trị, gia đình là:",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Là cầu nối của mối quan hệ giữa nhà nước với công dân",
+      "B. Là nơi đáp ứng nhu cầu tâm, sinh lý tự nhiên của con người, đáp ứng nhu cầu duy trì nòi giống",
+      "C. Nơi lưu giữ truyền thống văn hóa của dân tộc cũng như tóc người",
+      "D. Có trách nhiệm nuôi dưỡng, dạy dỗ con cái trở thành người có ích cho gia đình, cộng đồng và xã hội"
+    ],
+    "correct_answers": [
+      0
+    ],
+    "id": 246,
+    "q_num": 38
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 39: Gia đình Việt Nam ngày nay có thể được coi là:",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Gia đình truyền thống",
+      "B. Gia đình quá độ",
+      "C. Gia đình hiện đại",
+      "D. Gia đình lạc hậu"
+    ],
+    "correct_answers": [
+      1
+    ],
+    "id": 247,
+    "q_num": 39
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "single_choice",
+    "question": "Câu 40: So với các chế độ xã hội trước thì quan hệ gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội có đặc điểm khác biệt về chất?",
+    "instruction": "Chọn 1 đáp án đúng nhất",
+    "options": [
+      "A. Phụ nữ chỉ lo việc nội trợ",
+      "B. Duy trì quan hệ gia trưởng, độc đoán",
+      "C. Quan hệ bình đẳng trong gia đình, giải phóng phụ nữ",
+      "D. Đàn ông là người quyết định mọi việc trong gia đình"
+    ],
+    "correct_answers": [
+      2
+    ],
+    "id": 248,
+    "q_num": 40
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "drag_drop_match",
+    "question": "Câu 41: Ghép các khái niệm với các phát biểu về biến đổi gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội:",
+    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
+    "pairs": [
+      {
+        "left": "Biến đổi về quy mô gia đình",
+        "right": "Gia đình hạt nhân"
+      },
+      {
+        "left": "Biến đổi về chức năng tái sản xuất",
+        "right": "Giảm số con"
+      },
+      {
+        "left": "Biến đổi về quan hệ gia đình",
+        "right": "Mâu thuẫn giữa các thế hệ"
+      },
+      {
+        "left": "Biến đổi về chức năng kinh tế",
+        "right": "Kinh tế hàng hóa"
+      }
+    ],
+    "options_pool": [
+      "Gia đình hạt nhân",
+      "Giảm số con",
+      "Mâu thuẫn giữa các thế hệ",
+      "Kinh tế hàng hóa"
+    ],
+    "id": 249,
+    "q_num": 41
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "true_false",
+    "question": "Câu 42: Chọn đáp án Đúng hoặc Sai với từng phát biểu sau:",
+    "instruction": "Chọn Đúng hoặc Sai cho mỗi phát biểu sau",
+    "items": [
+      {
+        "statement": "1. Hiện nay, độ bền vững của gia đình không bị chi phối bởi các mối quan hệ hòa hợp tình cảm giữa chồng và vợ, cha mẹ và con cái.",
+        "correct": false
+      },
+      {
+        "statement": "2. Hiện nay, kinh tế gia đình đang trở thành một bộ phận quan trọng trong nền kinh tế quốc dân.",
+        "correct": true
+      },
+      {
+        "statement": "3. Nội dung giáo dục trong gia đình hiện nay chỉ tập trung giáo dục đạo đức.",
+        "correct": false
+      },
+      {
+        "statement": "4. Giáo dục gia đình tiếp tục nhấn mạnh sự hy sinh của cá nhân cho cộng đồng.",
+        "correct": true
+      }
+    ],
+    "id": 250,
+    "q_num": 42
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "type": "multiple_choice",
+    "question": "Câu 43: Những vấn đề xã hội nào có dấu hiệu gia tăng đối với gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội? (Chọn 2 đáp án)",
+    "instruction": "Chọn 2 đáp án đúng",
+    "options": [
+      "A. Sản xuất hàng hóa",
+      "B. Giáo dục đạo đức",
+      "C. Bạo lực gia đình",
+      "D. Ly hôn"
+    ],
+    "correct_answers": [
+      2,
+      3
+    ],
+    "id": 251,
+    "q_num": 43
+  },
+  {
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "q_num": 44,
+    "type": "single_choice",
+    "question": "Câu 44: Chọn đáp án đúng điền vào chỗ trống trong luận điểm sau: \"Hằng ngày tái tạo ra đời sống của bản thân mình, con người bắt đầu tạo ra những người khác, sinh sôi nẩy nở - đó là quan hệ giữa chồng và vợ, cha mẹ và con cái, đó là....\"",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Gia đình",
@@ -4763,32 +5238,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 227
+    "id": 252
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 5,
+    "q_num": 45,
     "type": "single_choice",
-    "question": "Câu 5: Quan hệ nào được coi là cơ sở, nền tảng hình thành nên các mối quan hệ khác trong gia đình?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Quan hệ quần tụ trong một không gian sinh tồn",
-      "B. Quan hệ hôn nhân",
-      "C. Quan hệ nuôi dưỡng",
-      "D. Quan hệ hôn nhân và huyết thống"
-    ],
-    "correct_answers": [
-      1
-    ],
-    "id": 228
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 6,
-    "type": "single_choice",
-    "question": "Câu 6: Gia đình phải thực hiện chức năng nào để đảm bảo nguồn sinh sống, đáp ứng nhu cầu vật chất, tinh thần của các thành viên trong gia đình?",
+    "question": "Câu 45: Gia đình phải thực hiện chức năng nào để đảm bảo nguồn sinh sống, đáp ứng nhu cầu vật chất, tinh thần của các thành viên trong gia đình?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Chức năng kinh tế, tổ chức tiêu dùng",
@@ -4799,86 +5256,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 229
+    "id": 253
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 7,
-    "type": "single_choice",
-    "question": "Câu 7: Chỉ ra chức năng đảm bảo tái sản xuất nguồn lao động và sức lao động cho xã hội của gia đình:",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Chức năng tái sản xuất ra con người",
-      "B. Chức năng kinh tế",
-      "C. Chức năng thoả mãn các nhu cầu tâm sinh lý, duy trì tình cảm",
-      "D. Chức năng nuôi dưỡng, giáo dục"
-    ],
-    "correct_answers": [
-      0
-    ],
-    "id": 230
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 8,
-    "type": "single_choice",
-    "question": "Câu 8: Thực hiện chức năng nào của gia đình nhằm góp phần to lớn vào việc đào tạo thế hệ trẻ, thế hệ tương lai của xã hội?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Chức năng tái sản xuất ra con người",
-      "B. Chức năng nuôi dưỡng, giáo dục",
-      "C. Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình",
-      "D. Chắc năng kinh tế và tổ chức tiêu dùng"
-    ],
-    "correct_answers": [
-      1
-    ],
-    "id": 231
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 9,
-    "type": "single_choice",
-    "question": "Câu 9: Với chức năng chính trị, gia đình là:",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Có trách nhiệm nuôi dưỡng, dạy dỗ con cái trở thành người có ích cho gia đình, cộng đồng và xã hội",
-      "B. Là nơi đáp ứng nhu cầu tâm, sinh lý tự nhiên của con người, đáp ứng nhu cầu duy trì nòi giống",
-      "C. Là cầu nối của mối quan hệ giữa nhà nước với công dân",
-      "D. Nơi lưu giữ truyền thống văn hoá của dân tộc cũng như tộc người"
-    ],
-    "correct_answers": [
-      2
-    ],
-    "id": 232
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 10,
-    "type": "single_choice",
-    "question": "Câu 10: Gia đình Việt Nam ngày nay có thể được coi là:",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Gia đình lạc hậu",
-      "B. Gia đình hiện đại",
-      "C. Gia đình truyền thống",
-      "D. Gia đình quá độ"
-    ],
-    "correct_answers": [
-      3
-    ],
-    "id": 233
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 11,
+    "q_num": 46,
     "type": "multiple_choice",
-    "question": "Câu 11: Sự thay đổi quy mô của gia đình hiện nay ở Việt Nam có tác động như thế nào đối với xã hội? (Chọn nhiều đáp án)",
+    "question": "Câu 46: Sự thay đổi quy mô của gia đình hiện nay ở Việt Nam có tác động như thế nào đối với xã hội? (Chọn nhiều đáp án)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
       "A. Làm cho xã hội trở nên thích nghi và phù hợp hơn với tình hình mới, thời đại mới",
@@ -4890,14 +5275,14 @@ window.QUIZ_QUESTIONS = [
       0,
       1
     ],
-    "id": 234
+    "id": 254
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 12,
+    "q_num": 47,
     "type": "single_choice",
-    "question": "Câu 12: Quan điểm sau đây của ai: \"Nhiều gia đình cộng lại mới thành xã hội, xã hội tốt thì gia đình càng tốt, gia đình tốt thì xã hội mới tốt. Hạt nhân của xã hội chính là gia đình\"?",
+    "question": "Câu 47: Quan điểm sau đây của ai: \"Nhiều gia đình cộng lại mới thành xã hội, xã hội tốt thì gia đình càng tốt, gia đình tốt thì xã hội mới tốt. Hạt nhân của xã hội chính là gia đình\"?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. C. Mác",
@@ -4908,50 +5293,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       3
     ],
-    "id": 235
+    "id": 255
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 13,
+    "q_num": 48,
     "type": "single_choice",
-    "question": "Câu 13: Chức năng của gia đình là:",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Chức năng lãnh đạo cách mạng",
-      "B. Chức năng kinh tế và tổ chức tiêu dùng",
-      "C. Chức năng làm các hoạt động từ thiện",
-      "D. Chức năng tổ chức các sự kiện"
-    ],
-    "correct_answers": [
-      1
-    ],
-    "id": 236
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 14,
-    "type": "single_choice",
-    "question": "Câu 14: So với các chế độ xã hội trước thì quan hệ gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội có đặc điểm khác biệt gì về chất?",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Quan hệ bình đẳng trong gia đình, giải phóng phụ nữ",
-      "B. Phụ nữ chỉ lo việc nội trợ",
-      "C. Đàn ông là người quyết định mọi việc trong gia đình",
-      "D. Duy trì quan hệ gia trưởng, độc đoán"
-    ],
-    "correct_answers": [
-      0
-    ],
-    "id": 237
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 15,
-    "type": "single_choice",
-    "question": "Câu 15: Chọn đáp án sai về mô hình gia đình Việt Nam hiện đại ngày nay?",
+    "question": "Câu 48: Chọn đáp án sai về mô hình gia đình Việt Nam hiện đại ngày nay?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Ông bà là người làm chủ gia đình",
@@ -4962,14 +5311,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 238
+    "id": 256
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 16,
+    "q_num": 49,
     "type": "multiple_choice",
-    "question": "Câu 16: Chức năng tái sản xuất của gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội có những biến đổi như thế nào? (Chọn 2 đáp án đúng)",
+    "question": "Câu 49: Chức năng tái sản xuất của gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội có những biến đổi như thế nào? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
       "Sinh viên chọn 2 phương án đúng nhất",
@@ -4982,32 +5331,14 @@ window.QUIZ_QUESTIONS = [
       3,
       4
     ],
-    "id": 239
+    "id": 257
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 17,
-    "type": "single_choice",
-    "question": "Câu 17: Gia đình là:",
-    "instruction": "Chọn 1 đáp án đúng nhất",
-    "options": [
-      "A. Tập đoàn xã hội ổn định",
-      "B. Một tộc người",
-      "C. Hình thức cộng đồng xã hội đặc biệt",
-      "D. Một nhóm người"
-    ],
-    "correct_answers": [
-      2
-    ],
-    "id": 240
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 18,
+    "q_num": 50,
     "type": "multiple_choice",
-    "question": "Câu 18: Trong gia đình Việt Nam hiện đại ngày nay, nhu cầu về con cái đã có những thay đổi căn bản như thế nào?",
+    "question": "Câu 50: Trong gia đình Việt Nam hiện đại ngày nay, nhu cầu về con cái đã có những thay đổi căn bản như thế nào?",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
       "A. Phải có con, càng đông con càng tốt và nhất thiết phải có con trai nối dõi",
@@ -5020,14 +5351,14 @@ window.QUIZ_QUESTIONS = [
       3,
       4
     ],
-    "id": 241
+    "id": 258
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 19,
+    "q_num": 51,
     "type": "single_choice",
-    "question": "Câu 19: Sự biến đổi quan hệ giữa các thế hệ, các giá trị, chuẩn mực văn hóa của gia đình hạt nhân ngày nay có tác động tiêu cực như thế nào đối với người cao tuổi?",
+    "question": "Câu 51: Sự biến đổi quan hệ giữa các thế hệ, các giá trị, chuẩn mực văn hóa của gia đình hạt nhân ngày nay có tác động tiêu cực như thế nào đối với người cao tuổi?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Người cao tuổi được đáp ứng đầy đủ nhu cầu về tâm lý, tình cảm",
@@ -5038,14 +5369,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 242
+    "id": 259
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 20,
+    "q_num": 52,
     "type": "single_choice",
-    "question": "Câu 20: Sự biến đổi trong việc thực hiện chức năng giáo dục của gia đình Việt Nam hiện nay là gì?",
+    "question": "Câu 52: Sự biến đổi trong việc thực hiện chức năng giáo dục của gia đình Việt Nam hiện nay là gì?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Sự đầu tư tài chính của gia đình cho giáo dục con cái tăng lên",
@@ -5056,14 +5387,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       0
     ],
-    "id": 243
+    "id": 260
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 21,
+    "q_num": 53,
     "type": "multiple_choice",
-    "question": "Câu 21: Quy mô của gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội có những biến đổi như thế nào? (Chọn 2 đáp án đúng)",
+    "question": "Câu 53: Quy mô của gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội có những biến đổi như thế nào? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
       "Sinh viên chọn 2 phương án đúng nhất",
@@ -5076,14 +5407,14 @@ window.QUIZ_QUESTIONS = [
       1,
       4
     ],
-    "id": 244
+    "id": 261
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 22,
+    "q_num": 54,
     "type": "single_choice",
-    "question": "Câu 22: Xu hướng phát triển của quy mô gia đình Việt Nam ngày nay như thế nào?",
+    "question": "Câu 54: Xu hướng phát triển của quy mô gia đình Việt Nam ngày nay như thế nào?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Có xu hướng vừa tăng lên vừa thu nhỏ lại",
@@ -5094,87 +5425,14 @@ window.QUIZ_QUESTIONS = [
     "correct_answers": [
       2
     ],
-    "id": 245
+    "id": 262
   },
   {
     "lesson": "Bài 6",
     "lesson_num": 6,
-    "q_num": 23,
-    "type": "multiple_choice",
-    "question": "Câu 23: Những vấn đề xã hội nào có dấu hiệu gia tăng đối với gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội? (Chọn 2 đáp án đúng)",
-    "instruction": "Chọn 2 đáp án đúng",
-    "options": [
-      "A. Sản xuất hàng hóa",
-      "B. Ly hôn",
-      "C. Giáo dục đạo đức",
-      "D. Bạo lực gia đình"
-    ],
-    "correct_answers": [
-      1,
-      3
-    ],
-    "id": 246
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 24,
-    "type": "true_false",
-    "question": "Câu 24: Chọn đáp án (Đúng hoặc Sai) với từng phát biểu sau:",
-    "instruction": "Chọn Đúng hoặc Sai cho mỗi phát biểu sau",
-    "items": [
-      {
-        "statement": "1. Tăng số con mong muốn và tăng nhu cầu nhất thiết phải có con trai của các cặp vợ chồng",
-        "correct": false
-      },
-      {
-        "statement": "2. Trong gia đình hiện đại, sự bền vững của hôn nhân không phụ thuộc vào các yếu tố tâm lý, tình cảm, kinh tế",
-        "correct": false
-      },
-      {
-        "statement": "3. Gia đình từ đơn vị kinh tế tự cung tự cấp sang đơn vị kinh tế hàng hoá",
-        "correct": true
-      },
-      {
-        "statement": "4. Hiện nay việc sinh đẻ được các gia đình tiến hành một cách chủ động, tự giác",
-        "correct": true
-      }
-    ],
-    "id": 247
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 25,
-    "type": "true_false",
-    "question": "Câu 25: Chọn đáp án (Đúng hoặc Sai) với từng phát biểu sau:",
-    "instruction": "Chọn Đúng hoặc Sai cho mỗi phát biểu sau",
-    "items": [
-      {
-        "statement": "1. Nội dung giáo dục trong gia đình hiện nay chỉ tập trung giáo dục đạo đức",
-        "correct": false
-      },
-      {
-        "statement": "2. Hiện nay, độ bền vững của gia đình không bị chi phối bởi các mối quan hệ hòa hợp tình cảm giữa chồng và vợ, cha mẹ và con cái",
-        "correct": false
-      },
-      {
-        "statement": "3. Giáo dục gia đình tiếp tục nhấn mạnh sự hy sinh của cá nhân cho cộng đồng",
-        "correct": false
-      },
-      {
-        "statement": "4. Hiện nay, kinh tế gia đình đang trở thành một bộ phận quan trọng trong nền kinh tế quốc dân",
-        "correct": true
-      }
-    ],
-    "id": 248
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 26,
+    "q_num": 55,
     "type": "drag_drop_categorize",
-    "question": "Câu 26: Kéo thả các yếu tố liên quan đến biến đổi gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội vào các cột tương ứng:",
+    "question": "Câu 55: Kéo thả các yếu tố liên quan đến biến đổi gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội vào các cột tương ứng:",
     "instruction": "Kéo hoặc chọn từng mục vào đúng cột tương ứng",
     "categories": [
       {
@@ -5220,39 +5478,6 @@ window.QUIZ_QUESTIONS = [
         "category": "Biến đổi về quy mô gia đình:"
       }
     ],
-    "id": 249
-  },
-  {
-    "lesson": "Bài 6",
-    "lesson_num": 6,
-    "q_num": 27,
-    "type": "drag_drop_match",
-    "question": "Câu 27: Kéo thả các khái niệm khớp với các phát biểu về biến đổi gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội dưới đây:",
-    "instruction": "Kéo hoặc chọn đáp án đúng ghép vào vế tương ứng",
-    "pairs": [
-      {
-        "left": "Biến đổi về quy mô gia đình",
-        "right": "Gia đình hạt nhân"
-      },
-      {
-        "left": "Biến đổi về chức năng tái sản xuất",
-        "right": "Giảm số con"
-      },
-      {
-        "left": "Biến đổi về quan hệ gia đình",
-        "right": "Mâu thuẫn giữa các thế hệ"
-      },
-      {
-        "left": "Biến đổi về chức năng kinh tế",
-        "right": "Kinh tế hàng hóa"
-      }
-    ],
-    "options_pool": [
-      "Mâu thuẫn giữa các thế hệ",
-      "Giảm số con",
-      "Kinh tế hàng hóa",
-      "Gia đình hạt nhân"
-    ],
-    "id": 250
+    "id": 263
   }
 ];
