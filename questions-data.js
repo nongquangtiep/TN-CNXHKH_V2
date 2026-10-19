@@ -1,4 +1,4 @@
-window.QUIZ_QUESTIONS = [
+window.QUESTIONS_DATA = [
   {
     "lesson": "Bài 1",
     "lesson_num": 1,
@@ -674,19 +674,19 @@ window.QUIZ_QUESTIONS = [
     "instruction": "Chọn Đúng hoặc Sai cho mỗi phát biểu sau",
     "items": [
       {
-        "statement": "1.    Giai cấp công nhân là chủ thể của quá trình sản xuất vật chất hiện đại.",
+        "statement": "1. Giai cấp công nhân là chủ thể của quá trình sản xuất vật chất hiện đại.",
         "correct": true
       },
       {
-        "statement": "2.    Đặc điểm nổi bật của giai cấp công nhân là lao động bằng phương thức nông nghiệp.",
+        "statement": "2. Đặc điểm nổi bật của giai cấp công nhân là lao động bằng phương thức nông nghiệp.",
         "correct": false
       },
       {
-        "statement": "3.    Giai cấp công nhân là giai cấp cách mạng và có tinh thần cách mạng triệt để.",
+        "statement": "3. Giai cấp công nhân là giai cấp cách mạng và có tinh thần cách mạng triệt để.",
         "correct": true
       },
       {
-        "statement": "4.    Giai cấp công nhân là những người lao động trực tiếp hay gián tiếp vận hành các công cụ sản xuất có tính chất công nghiệp ngày càng hiện đại và xã hội hóa cao.",
+        "statement": "4. Giai cấp công nhân là những người lao động trực tiếp hay gián tiếp vận hành các công cụ sản xuất có tính chất công nghiệp ngày càng hiện đại và xã hội hóa cao.",
         "correct": true
       }
     ],
@@ -1180,7 +1180,7 @@ window.QUIZ_QUESTIONS = [
     "options": [
       "A. Bỏ qua việc xác lập vị trí thống trị của kiến trúc thượng tầng tư bản chủ nghĩa nhưng không kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ tư bản chủ nghĩa",
       "B. Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất tư bản chủ nghĩa nhưng kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ tư bản chủ nghĩa",
-      "C.  Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa nhưng không kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ tư bản chủ nghĩa",
+      "C. Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa nhưng không kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ tư bản chủ nghĩa",
       "D. Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa, nhưng tiếp thu, kế thừa những thành tựu mà nhân loại đã đạt được dưới chế độ tư bản chủ nghĩa"
     ],
     "correct_answers": [
@@ -1539,7 +1539,7 @@ window.QUIZ_QUESTIONS = [
         "right": "kinh tế thị trường"
       },
       {
-        "left": "Một đặc trưng chính trị của chủ nghĩa xã hội là xây dựng _____  xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân.",
+        "left": "Một đặc trưng chính trị của chủ nghĩa xã hội là xây dựng _____ xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân.",
         "right": "nhà nước pháp quyền"
       },
       {
@@ -1716,7 +1716,7 @@ window.QUIZ_QUESTIONS = [
     "options": [
       "A. Mang tính nhất nguyên về chính trị",
       "B. Dựa trên chế độ sở hữu xã hội về những tư liệu sản xuất chủ yếu của toàn xã hội",
-      "C. Trước hết và chủ yếu được thực hiện bằng  pháp quyền xã hội chủ nghĩa",
+      "C. Trước hết và chủ yếu được thực hiện bằng Nhà nước pháp quyền xã hội chủ nghĩa",
       "D. Không mang tính giai cấp"
     ],
     "correct_answers": [
@@ -1783,13 +1783,13 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 7,
     "type": "single_choice",
-    "question": "Câu 7: Kiểu  nào sau đây được V.I. Lênin gọi là  \"nửa \"?",
+    "question": "Câu 7: Kiểu nhà nước nào sau đây được V.I. Lênin gọi là nhà nước \"nửa nhà nước\"?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A.  chủ nô",
-      "B.  phong kiến",
-      "C.  tư sản",
-      "D.  xã hội chủ nghĩa"
+      "A. Nhà nước chủ nô",
+      "B. Nhà nước phong kiến",
+      "C. Nhà nước tư sản",
+      "D. Nhà nước xã hội chủ nghĩa"
     ],
     "correct_answers": [
       3
@@ -1950,9 +1950,9 @@ window.QUIZ_QUESTIONS = [
     "question": "Câu 16: Đâu là định nghĩa đúng và đầy đủ về dân chủ?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
-      "A. Dân chủ là một giá trị phản ánh những quyền tối thiểu của con người, là một hình thức tổ chức  thừa nhận quyền làm chủ của nhân dân; là một giá trị xã hội phản ánh sự nghiệp đấu tranh của con người",
+      "A. Dân chủ là một giá trị phản ánh những quyền tối thiểu của con người, là một hình thức tổ chức nhà nước thừa nhận quyền làm chủ của nhân dân; là một giá trị xã hội phản ánh sự nghiệp đấu tranh của con người",
       "B. Dân chủ là giá trị phản ánh quyền cơ bản của con người, là kết quả của sự nghiệp đấu tranh của con người vì lợi ích của con người",
-      "C. Dân chủ là một giá trị phản ánh những quyền cơ bản của con người, là một hình thức tổ chức  của giai cấp cầm quyền; có quá trình ra đời, phát triển cùng với lịch sử xã hội nhân loại",
+      "C. Dân chủ là một giá trị phản ánh những quyền cơ bản của con người, là một hình thức tổ chức nhà nước của giai cấp cầm quyền; có quá trình ra đời, phát triển cùng với lịch sử xã hội nhân loại",
       "D. Dân chủ là một giá trị xã hội phản ánh sự nghiệp đấu tranh của con người vì sự phát triển tiến bộ xã hội"
     ],
     "correct_answers": [
@@ -1983,7 +1983,7 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 18,
     "type": "single_choice",
-    "question": "Câu 18: Đặc điểm của  pháp quyền xã hội chủ nghĩa là gì?",
+    "question": "Câu 18: Đặc điểm của Nhà nước pháp quyền xã hội chủ nghĩa là gì?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Quản lý xã hội bằng dư luận",
@@ -2001,7 +2001,7 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 19,
     "type": "single_choice",
-    "question": "Câu 19: So với các mô hình  khác trong lịch sử thì  pháp quyền xã hội chủ nghĩa ở Việt Nam có sự khác biệt về chất như thế nào?",
+    "question": "Câu 19: So với các mô hình nhà nước khác trong lịch sử thì nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam có sự khác biệt về chất như thế nào?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Vừa mang bản chất của giai cấp công nhân và nhân dân lao động",
@@ -2019,11 +2019,11 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 20,
     "type": "single_choice",
-    "question": "Câu 20: Sự ra đời của  xã hội chủ nghĩa gắn với sự kiện nào?",
+    "question": "Câu 20: Sự ra đời của nhà nước xã hội chủ nghĩa gắn với sự kiện nào?",
     "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Giai cấp công nhân đấu tranh đòi tăng lương, giảm giờ làm, cải thiện điều kiện lao động",
-      "B. Giai cấp công nhân lật đổ  của giai cấp bóc lột, giành được chính quyền",
+      "B. Giai cấp công nhân lật đổ nhà nước của giai cấp bóc lột, giành được chính quyền",
       "C. Giai cấp công nhân xây dựng công nghiệp",
       "D. Giai cấp công nhân đấu tranh phản đối tình trạng áp bức bóc lột của giai cấp tư sản"
     ],
@@ -2097,7 +2097,7 @@ window.QUIZ_QUESTIONS = [
     "options": [
       "A. Nền dân chủ gắn liền với sự lãnh đạo của Đảng Cộng sản Việt Nam",
       "B. Chế độ dân chủ tư sản mở rộng",
-      "C. Chế độ dân chủ không phụ thuộc vào",
+      "C. Chế độ dân chủ không phụ thuộc vào nhà nước",
       "D. Nền dân chủ bảo đảm quyền lực thuộc về nhân dân"
     ],
     "correct_answers": [
@@ -2117,7 +2117,7 @@ window.QUIZ_QUESTIONS = [
       "A. Nền dân chủ tập trung vào phát triển kinh tế tư nhân và bảo vệ lợi ích của tầng lớp giàu có.",
       "B. Quyền lực thuộc về một cá nhân duy nhất, không có sự tham gia của quần chúng nhân dân.",
       "C. Quyền lực và lợi ích thuộc về toàn thể nhân dân lao động, trong đó có giai cấp công nhân, dưới sự lãnh đạo của Đảng Cộng sản.",
-      "D.  chủ yếu thực hiện các quyết định chính trị mà không cần sự đồng thuận hoặc tham gia của người dân."
+      "D. Nhà nước chủ yếu thực hiện các quyết định chính trị mà không cần sự đồng thuận hoặc tham gia của người dân."
     ],
     "correct_answers": [
       2
@@ -2165,13 +2165,13 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 3,
     "q_num": 28,
     "type": "multiple_choice",
-    "question": "Câu 28: pháp quyền xã hội chủ nghĩa Việt Nam được xây dựng dựa trên những nguyên tắc nào sau đây? (Chọn 2 đáp án đúng)",
+    "question": "Câu 28: Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam được xây dựng dựa trên những nguyên tắc nào sau đây? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "A. Quyền lực  là tối cao, không cần kiểm soát.",
-      "B. Đảng lãnh đạo  theo phương thức mệnh lệnh.",
-      "C. Quyền lực  thống nhất, có phân công, phối hợp và kiểm soát.",
-      "D.  quản lý xã hội bằng hiến pháp, pháp luật."
+      "A. Quyền lực nhà nước là tối cao, không cần kiểm soát.",
+      "B. Đảng lãnh đạo nhà nước theo phương thức mệnh lệnh.",
+      "C. Quyền lực nhà nước thống nhất, có phân công, phối hợp và kiểm soát.",
+      "D. Nhà nước quản lý xã hội bằng hiến pháp, pháp luật."
     ],
     "correct_answers": [
       2,
@@ -2189,7 +2189,8 @@ window.QUIZ_QUESTIONS = [
     "options": [
       "A. Chức năng chính trị, kinh tế, văn hóa, xã hội",
       "B. Chức năng giai cấp (trấn áp) và chức năng xã hội (tổ chức và xây dựng)",
-      "C. Chức năng giai cấp và chức năng đối ngoại"
+      "C. Chức năng giai cấp và chức năng đối ngoại",
+      "D. Chức năng đối nội và chức năng đối ngoại"
     ],
     "correct_answers": [
       1
@@ -2260,7 +2261,7 @@ window.QUIZ_QUESTIONS = [
     "instruction": "Chọn Đúng hoặc Sai cho mỗi phát biểu sau",
     "items": [
       {
-        "statement": "“Phát triển dân chủ trực tiếp là hình thức dân chủ để đại diện, được thực hiện do nhân dân ủy quyền, trao quyền lực của mình cho  trực tiếp bầu ra.”",
+        "statement": "“Phát triển dân chủ trực tiếp là hình thức dân chủ để đại diện, được thực hiện do nhân dân ủy quyền, trao quyền lực của mình cho cơ quan do mình trực tiếp bầu ra.”",
         "correct": false
       },
       {
@@ -2268,7 +2269,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       },
       {
-        "statement": "“Hình thức dân chủ gián tiếp là hình thức thông qua đó, nhân dân bằng hành động trực tiếp của mình thực hiện quyền làm chủ  và xã hội.”",
+        "statement": "“Hình thức dân chủ gián tiếp là hình thức thông qua đó, nhân dân bằng hành động trực tiếp của mình thực hiện quyền làm chủ nhà nước và xã hội.”",
         "correct": false
       },
       {
@@ -2295,11 +2296,11 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       },
       {
-        "statement": "3) Quốc hội là cơ quan quyền lực  cao nhất hoạt động theo nhiệm kỳ 3 năm",
+        "statement": "3) Quốc hội là cơ quan quyền lực nhà nước cao nhất hoạt động theo nhiệm kỳ 3 năm",
         "correct": false
       },
       {
-        "statement": "4) Trong hoạt động của  pháp quyền xã hội chủ nghĩa ở Việt Nam, các cơ quan của  không được phân quyền rõ ràng",
+        "statement": "4) Trong hoạt động của nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam, các cơ quan của nhà nước không được phân quyền rõ ràng",
         "correct": false
       }
     ],
@@ -2318,7 +2319,7 @@ window.QUIZ_QUESTIONS = [
         "correct": true
       },
       {
-        "statement": "2) Với tư cách là một hình thái , một chế độ chính trị thì trong lịch sử nhân loại, cho đến nay có năm nền (chế độ) dân chủ",
+        "statement": "2) Với tư cách là một hình thái nhà nước, một chế độ chính trị thì trong lịch sử nhân loại, cho đến nay có năm nền (chế độ) dân chủ",
         "correct": false
       },
       {
@@ -2353,7 +2354,7 @@ window.QUIZ_QUESTIONS = [
         "correct": false
       },
       {
-        "statement": "4) Dân chủ là một phạm trù mang tính lịch sử, gắn với sự xuất hiện và phát triển của",
+        "statement": "4) Dân chủ là một phạm trù mang tính lịch sử, gắn với sự xuất hiện và phát triển của nhà nước",
         "correct": true
       }
     ],
@@ -2853,7 +2854,7 @@ window.QUIZ_QUESTIONS = [
     "options": [
       "A. Cộng đồng dân tộc",
       "B. Cộng đồng dân cư",
-      "C.  Cộng đồng nghề nghiệp",
+      "C. Cộng đồng nghề nghiệp",
       "D. Cộng đồng người"
     ],
     "correct_answers": [
@@ -2926,7 +2927,7 @@ window.QUIZ_QUESTIONS = [
       "A. Xây dựng hệ thống chính sách an sinh xã hội",
       "B. Xây dựng hệ thống chính sách phát triển nông nghiệp, nông dân, nông thôn",
       "C. Ứng dụng khoa học kỹ thuật vào sản xuất nông nghiệp",
-      "D. Thực hiện hợp đồng kinh tế giữa doanh nghiệp  và nông dân."
+      "D. Thực hiện hợp đồng kinh tế giữa doanh nghiệp nhà nước và nông dân."
     ],
     "correct_answers": [
       0
@@ -3047,7 +3048,7 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 4,
     "q_num": 32,
     "type": "multiple_choice",
-    "question": "Câu 32: Những phương hướng nào sau đây nhằm phát triển cơ cấu xã hội – giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội?  (Chọn 2 đáp án đúng)",
+    "question": "Câu 32: Những phương hướng nào sau đây nhằm phát triển cơ cấu xã hội – giai cấp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
       "A. Tăng dân số ở khu công nghiệp",
@@ -3066,7 +3067,7 @@ window.QUIZ_QUESTIONS = [
     "lesson_num": 4,
     "q_num": 33,
     "type": "multiple_choice",
-    "question": "Câu 33: Những nội dung nào sau đây là nội dung cơ bản của liên minh giai cấp, tầng lớp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội?   (Chọn 2 đáp án đúng)",
+    "question": "Câu 33: Những nội dung nào sau đây là nội dung cơ bản của liên minh giai cấp, tầng lớp ở Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
       "A. Nội dung giáo dục",
@@ -3181,7 +3182,7 @@ window.QUIZ_QUESTIONS = [
         "correct": false
       },
       {
-        "statement": "3. Xây dựng  pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân là nội dung vận hành của liên minh giai cấp, tầng lớp ở Việt Nam.",
+        "statement": "3. Xây dựng Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân là nội dung vận hành của liên minh giai cấp, tầng lớp ở Việt Nam.",
         "correct": true
       },
       {
@@ -3200,7 +3201,7 @@ window.QUIZ_QUESTIONS = [
     "instruction": "Chọn Đúng hoặc Sai cho mỗi phát biểu sau",
     "items": [
       {
-        "statement": "1.  Đổi mới hoạt động của Đảng, , mặt trận Tổ quốc Việt Nam nhằm tăng cường khối liên minh giai cấp, tầng lớp ở Việt Nam",
+        "statement": "1. Đổi mới hoạt động của Đảng, Nhà nước, Mặt trận Tổ quốc Việt Nam nhằm tăng cường khối liên minh giai cấp, tầng lớp ở Việt Nam",
         "correct": true
       },
       {
@@ -4159,7 +4160,7 @@ window.QUIZ_QUESTIONS = [
     "question": "Câu 34: Hãy chỉ ra đâu là nguyên tắc, tôn trọng của Tôn giáo? (Chọn 2 đáp án đúng)",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
-      "A. Do giai cấp của",
+      "A. Do sự áp bức giai cấp của giai cấp thống trị",
       "B. Do các lực lượng siêu nhiên thúc đẩy",
       "C. Do vấn đề tại xã hội cung cấp",
       "D. Do khoa học chưa giải thích hết được các hiện tượng tự nhiên và xã hội"
@@ -5367,7 +5368,7 @@ window.QUIZ_QUESTIONS = [
     "options": [
       "A. Sự đầu tư tài chính của gia đình cho giáo dục con cái tăng lên",
       "B. Chi giáo dục đạo đức mà không hướng tới giáo dục kiến thức khoa học hiện đại",
-      "C.  Không hướng tới giáo dục đạo đức, lối sống.",
+      "C. Không hướng tới giáo dục đạo đức, lối sống.",
       "D. Giảm chi tiêu cho giáo dục"
     ],
     "correct_answers": [
