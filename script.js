@@ -1308,9 +1308,6 @@ function updateProgressUI() {
   const answeredCount = Object.keys(questionStates).filter(qid => questionStates[qid]?.isAnswered).length;
   const percent = Math.round((answeredCount / total) * 100);
 
-  const fill = document.getElementById('progress-bar-fill');
-  const text = document.getElementById('progress-text');
-
   if (fill) fill.style.width = `${percent}%`;
   if (text) text.textContent = `${answeredCount} / ${total} (${percent}%)`;
 
