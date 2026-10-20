@@ -103,18 +103,17 @@ for global_idx, rq in enumerate(raw_questions):
     test_group = rq['test_group']
     q_num = rq['q_num']
     
-    # Check if title indicates a specific lesson in parentheses (e.g. Câu 22 (Bài 1):)
-    parenthesis_lesson = re.search(r'\((Bài|BÀI)\s*(\d+)', title)
-    if parenthesis_lesson:
-        lesson_num = int(parenthesis_lesson.group(2))
-        lesson = f"Bài {lesson_num}"
+    if is_tx:
+        lesson = "Kiểm Tra TX"
+        lesson_num = 'tx'
+        m_prompt = re.search(r'^(Câu|CÂU)\s+\d+\s*[:.]?\s*(.*)', title, re.IGNORECASE)
+        prompt = m_prompt.group(2).strip() if m_prompt and m_prompt.group(2).strip() else title
+    else:
+        m_prompt = re.search(r'^(Câu|CÂU)\s+\d+\s*(?:\([^)]+\))?\s*[:.]?\s*(.*)', title, re.IGNORECASE)
+        prompt = m_prompt.group(2).strip() if m_prompt and m_prompt.group(2).strip() else title
         
     tables = [it[1] for it in rq['items'] if it[0] == 'T']
     paragraphs = [it for it in rq['items'] if it[0] == 'P']
-    
-    # Extract clean prompt
-    m_prompt = re.search(r'^(Câu|CÂU)\s+\d+\s*(?:\([^)]+\))?\s*[:.]?\s*(.*)', title, re.IGNORECASE)
-    prompt = m_prompt.group(2).strip() if m_prompt and m_prompt.group(2).strip() else title
     
     # Check True/False questions
     is_tf = bool(re.search(r'đúng hoặc sai|đúng/sai|đúng sai', title, re.IGNORECASE))
