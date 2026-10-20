@@ -319,13 +319,16 @@ function shuffleQuestionOptions(q) {
 // ================= RENDER CURRENT QUESTION HERO CARD =================
 function renderCurrentQuestion() {
   if (activeQuestions.length === 0) {
+    const isTotallyEmpty = allQuestions.length === 0;
     document.getElementById('question-hero-card').innerHTML = `
       <div style="text-align:center; padding:3rem 1rem; color:var(--text-muted);">
-        <div style="font-size:3rem; margin-bottom:1rem;">🔍</div>
-        <h3>Không có câu hỏi nào khớp với bộ lọc</h3>
-        <p>Vui lòng chọn bộ lọc khác để làm bài.</p>
+        <div style="font-size:3rem; margin-bottom:1rem;">${isTotallyEmpty ? '📂' : '🔍'}</div>
+        <h3>${isTotallyEmpty ? 'Chưa có câu hỏi nào' : 'Không có câu hỏi nào khớp với bộ lọc'}</h3>
+        <p>${isTotallyEmpty ? 'Bộ câu hỏi hiện đang trống. Vui lòng thêm câu hỏi vào questions.json hoặc questions-data.js.' : 'Vui lòng chọn bộ lọc khác để làm bài.'}</p>
       </div>
     `;
+    const headerLabel = document.getElementById('header-progress-label');
+    if (headerLabel) headerLabel.textContent = 'Câu 0 / 0';
     hideFeedbackBanner();
     return;
   }
@@ -1291,7 +1294,16 @@ function updateScoreboard() {
 
 function updateProgressUI() {
   const total = activeQuestions.length;
-  if (total === 0) return;
+  const fill = document.getElementById('progress-bar-fill');
+  const text = document.getElementById('progress-text');
+  const headerProgress = document.getElementById('header-progress-label');
+
+  if (total === 0) {
+    if (fill) fill.style.width = '0%';
+    if (text) text.textContent = '0 / 0 (0%)';
+    if (headerProgress) headerProgress.textContent = 'Câu 0 / 0';
+    return;
+  }
 
   const answeredCount = Object.keys(questionStates).filter(qid => questionStates[qid]?.isAnswered).length;
   const percent = Math.round((answeredCount / total) * 100);
