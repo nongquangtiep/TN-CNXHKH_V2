@@ -337,6 +337,8 @@ for global_idx, rq in enumerate(raw_questions):
     clean_options = []
     clean_correct = []
     
+    is_one_opt_per_p = (len(raw_option_lines) == len(paragraphs) - 1)
+    
     for idx_opt, (line, p_elem) in enumerate(raw_option_lines):
         m_opt = re.match(r'^([A-F])[\s.)\-:]\s*(.*)', line)
         if m_opt:
@@ -344,19 +346,39 @@ for global_idx, rq in enumerate(raw_questions):
             txt = m_opt.group(2).strip()
             # Check red color for this line
             line_has_red = False
-            for r in p_elem.runs:
-                if is_red_run(r) and r.text and (txt[:15] in r.text or letter in r.text):
-                    line_has_red = True
-            if not line_has_red and len(raw_option_lines) == len(paragraphs) - 1:
+            if is_one_opt_per_p:
                 line_has_red = p_has_red(p_elem)
+            else:
+                for r in p_elem.runs:
+                    if is_red_run(r):
+                        rt = r.text
+                        if re.search(rf'(?:^|\n|\s){letter}\s*[\s.)\-:]', rt):
+                            line_has_red = True
+                        elif len(txt) >= 10 and txt[:18] in rt and not re.search(r'(?:^|\n|\s)[A-F]\s*[\s.)\-:]', rt):
+                            line_has_red = True
                 
             clean_options.append(f"{letter}. {txt}")
             opt_idx = len(clean_options) - 1
             if line_has_red or letter in explicit_answer_letters:
                 clean_correct.append(opt_idx)
         else:
-            if clean_options:
-                clean_options[-1] += " " + line
+            if is_one_opt_per_p:
+                line_has_red = p_has_red(p_elem)
+                clean_options.append(line)
+                if line_has_red:
+                    clean_correct.append(len(clean_options) - 1)
+            else:
+                if clean_options:
+                    clean_options[-1] += " " + line
+                else:
+                    line_has_red = False
+                    for r in p_elem.runs:
+                        if is_red_run(r):
+                            if r.text.strip() == line.strip() or line.strip() in r.text or (len(r.text.strip()) >= 5 and r.text.strip() in line):
+                                line_has_red = True
+                    clean_options.append(line)
+                    if line_has_red:
+                        clean_correct.append(len(clean_options) - 1)
                 
     if not clean_options:
         for idx_opt, (line, p_elem) in enumerate(raw_option_lines):

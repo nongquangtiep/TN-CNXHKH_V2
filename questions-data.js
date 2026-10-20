@@ -3362,14 +3362,15 @@ window.QUIZ_QUESTIONS = [
     "type": "multiple_choice",
     "instruction": "Chọn 2 đáp án đúng",
     "options": [
+      "(Sinh viên chọn 2 phương án đúng nhất)",
       "A. Nhóm người cao tuổi",
       "B. Nhóm tín đồ tôn giáo",
       "C. Giai cấp công nhân",
       "D. Giai cấp nông dân"
     ],
     "correct_answers": [
-      2,
-      3
+      3,
+      4
     ]
   },
   {
@@ -3942,8 +3943,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Quan điểm: Không phân biệt dân tộc lớn hay nhỏ, ở trình độ phát triển cao hay thấp, các dân tộc đều có nghĩa vụ và quyền lợi ngang nhau trên tất cả các lĩnh vực của đời sống xã hội - thuộc nội dung nào trong Cương lĩnh dân tộc của V.I. Lênin?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Phải đấu tranh chống chủ nghĩa phân biệt chủng tộc, chủ nghĩa sô vanh",
       "B. Các dân tộc hoàn toàn bình đẳng",
@@ -3951,8 +3952,7 @@ window.QUIZ_QUESTIONS = [
       "D. Đoàn kết các dân tộc"
     ],
     "correct_answers": [
-      1,
-      2
+      1
     ]
   },
   {
@@ -3984,8 +3984,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Trong những nội dung của quyền dân tộc tự quyết, nội dung nào được coi là cơ bản, trước hết?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 4 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Quyền tự quyết về các mối quan hệ quốc tế",
       "B. Quyền tự quyết về văn hoá",
@@ -3993,9 +3993,6 @@ window.QUIZ_QUESTIONS = [
       "D. Quyền tự quyết về chính trị"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
       3
     ]
   },
@@ -4007,8 +4004,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Đâu là đặc trưng quan trọng nhất, là cơ sở để liên kết các thành viên của dân tộc tạo thành nền tảng vững chắc của cộng đồng dân tộc?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Có chung một phương thức sinh hoạt kinh tế",
       "B. Có ngôn ngữ riêng và có thể có chữ viết riêng làm công cụ giao tiếp",
@@ -4016,8 +4013,7 @@ window.QUIZ_QUESTIONS = [
       "D. Có nét tâm lý riêng (nét tâm lý dân tộc) biểu hiện kết tinh trong nền văn hóa dân tộc và tạo bản sắc văn hóa của dân tộc."
     ],
     "correct_answers": [
-      0,
-      2
+      0
     ]
   },
   {
@@ -4088,8 +4084,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Vì sao Đảng, Nhà nước Việt Nam chủ trương luôn tôn trọng, bảo đảm quyền tự do tín ngưỡng tôn giáo và không tín ngưỡng tôn giáo của nhân dân?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Vì tín ngưỡng, tôn giáo có số lượng tín đồ đông",
       "B. Vì tín ngưỡng, tôn giáo là nhu cầu tinh thần của nhân dân",
@@ -4097,7 +4093,6 @@ window.QUIZ_QUESTIONS = [
       "D. Vì lực lượng chức sắc trong các tôn giáo có tiềm lực kinh tế lớn mạnh"
     ],
     "correct_answers": [
-      0,
       1
     ]
   },
@@ -4129,8 +4124,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Tôn giáo ra đời từ những nguồn gốc cơ bản nào?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Có nguồn gốc tự nhiên, kinh tế - xã hội, tâm lý, nhận thức",
       "B. Có nguồn gốc do Thượng đế tạo ra",
@@ -4138,8 +4133,7 @@ window.QUIZ_QUESTIONS = [
       "D. Có nguồn gốc do chủ nghĩa tư bản tạo ra"
     ],
     "correct_answers": [
-      0,
-      2
+      0
     ]
   },
   {
@@ -4510,8 +4504,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Trong Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin, nội dung nào về quyền dân tộc tự quyết được coi là cơ bản trước hết?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 4 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Quyền tự quyết về chính trị",
       "B. Quyền tự quyết về các mối quan hệ quốc tế",
@@ -4519,10 +4513,7 @@ window.QUIZ_QUESTIONS = [
       "D. Quyền tự quyết về kinh tế Đáp án đúng: A"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      0
     ]
   },
   {
@@ -4573,8 +4564,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Theo quan điểm duy vật lịch sử, tôn giáo là sản phẩm của yếu tố nào?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Con người",
       "B. Thượng đế",
@@ -4582,8 +4573,7 @@ window.QUIZ_QUESTIONS = [
       "D. Tự nhiên huyền bí Đáp án đúng: A"
     ],
     "correct_answers": [
-      0,
-      2
+      0
     ]
   },
   {
@@ -4654,8 +4644,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Vì sao Đảng và Nhà nước Việt Nam chủ trương luôn tôn trọng, bảo đảm quyền tự do tín ngưỡng, tôn giáo và không tín ngưỡng tôn giáo của nhân dân?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Vì tín ngưỡng, tôn giáo được du nhập hoàn toàn từ nước ngoài vào",
       "B. Vì các tổ chức tôn giáo có tiềm lực kinh tế lớn mạnh",
@@ -4663,7 +4653,6 @@ window.QUIZ_QUESTIONS = [
       "D. Vì tín ngưỡng, tôn giáo là nhu cầu tinh thần của một bộ phận nhân dân Đáp án đúng: D"
     ],
     "correct_answers": [
-      0,
       3
     ]
   },
@@ -4695,8 +4684,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Khái niệm dân tộc theo nghĩa hẹp được dùng để chỉ khái niệm nào?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Dân tộc quốc gia",
       "B. Dân tộc tộc người",
@@ -4704,8 +4693,7 @@ window.QUIZ_QUESTIONS = [
       "D. Liên hiệp các quốc gia Đáp án đúng: B"
     ],
     "correct_answers": [
-      1,
-      3
+      1
     ]
   },
   {
@@ -4736,8 +4724,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Nhận định nào sau đây là SAI khi nói về quyền tự quyết dân tộc trong Cương lĩnh dân tộc Mác – Lênin?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Quyền tự quyết bao gồm quyền tự do tách ra thành quốc gia độc lập",
       "B. Quyền tự quyết dân tộc không bao gồm nội dung tự nguyện liên hiệp các dân tộc lại",
@@ -4745,7 +4733,6 @@ window.QUIZ_QUESTIONS = [
       "D. Cương lĩnh dân tộc khẳng định nguyên tắc bình đẳng giữa các dân tộc Đáp án đúng: B"
     ],
     "correct_answers": [
-      0,
       1
     ]
   },
@@ -4837,8 +4824,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Hai nguyên nhân chủ yếu khiến tôn giáo vẫn tiếp tục tồn tại lâu dài trong thời kỳ quá độ là gì?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Do quy định bắt buộc của nhà nước và do các giáo hội nước ngoài thúc đẩy",
       "B. Do khoa học chưa giải thích hết mọi hiện tượng và xã hội vẫn còn phân hóa, áp bức",
@@ -4846,8 +4833,7 @@ window.QUIZ_QUESTIONS = [
       "D. Do sự phát triển của công nghệ truyền thông Đáp án đúng: B"
     ],
     "correct_answers": [
-      1,
-      3
+      1
     ]
   },
   {
@@ -4918,8 +4904,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "So với các nền dân chủ trước đây trong lịch sử, dân chủ xã hội chủ nghĩa có điểm khác biệt căn bản nào?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 3 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Là nền dân chủ rộng rãi cho giai cấp công nhân và nhân dân lao động",
       "B. Là nền dân chủ phi lịch sử, tồn tại vĩnh viễn ngoài nhà nước",
@@ -4927,9 +4913,7 @@ window.QUIZ_QUESTIONS = [
       "D. Không còn mang tính giai cấp Đáp án đúng: A"
     ],
     "correct_answers": [
-      0,
-      1,
-      2
+      0
     ]
   },
   {
@@ -5000,8 +4984,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Hình thức dân chủ nào là hình thức mà nhân dân trực tiếp bày tỏ ý chí, trực tiếp tham gia quản lý nhà nước và xã hội?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Dân chủ gián tiếp",
       "B. Dân chủ đại diện",
@@ -5009,8 +4993,7 @@ window.QUIZ_QUESTIONS = [
       "D. Dân chủ ủy quyền Đáp án đúng: C"
     ],
     "correct_answers": [
-      2,
-      3
+      2
     ]
   },
   {
@@ -5041,8 +5024,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã hội – giai cấp biến đổi theo quy luật vận động nào?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Tách biệt đối lập hoàn toàn, không liên minh gắn kết",
       "B. Vừa đấu tranh, vừa bài xích triệt tiêu lẫn nhau",
@@ -5050,7 +5033,6 @@ window.QUIZ_QUESTIONS = [
       "D. Các giai cấp lớn liên minh đàn áp các giai cấp nhỏ Đáp án đúng: C"
     ],
     "correct_answers": [
-      1,
       2
     ]
   },
@@ -5183,8 +5165,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Quan hệ nào được coi là cơ sở, nền tảng hình thành nên các mối quan hệ khác trong gia đình?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Quan hệ hôn nhân và huyết thống",
       "B. Quan hệ nuôi dưỡng",
@@ -5192,8 +5174,7 @@ window.QUIZ_QUESTIONS = [
       "D. Quan hệ hôn nhân Đáp án đúng: A"
     ],
     "correct_answers": [
-      0,
-      3
+      0
     ]
   },
   {
@@ -5224,8 +5205,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Chức năng đảm bảo tái sản xuất nguồn lao động và sức lao động cho xã hội của gia đình là:",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Chức năng kinh tế",
       "B. Chức năng nuôi dưỡng, giáo dục",
@@ -5233,7 +5214,6 @@ window.QUIZ_QUESTIONS = [
       "D. Chức năng tái sản xuất ra con người Đáp án đúng: D"
     ],
     "correct_answers": [
-      2,
       3
     ]
   },
@@ -5245,8 +5225,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": false,
     "test_group": null,
     "question": "Thực hiện chức năng nào của gia đình nhằm góp phần tạo lớn lao vào việc đào tạo thế hệ trẻ, thế hệ tương lai của xã hội?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Chức năng nuôi dưỡng, giáo dục",
       "B. Chức năng kinh tế và tổ chức tiêu dùng",
@@ -5254,8 +5234,7 @@ window.QUIZ_QUESTIONS = [
       "D. Chức năng tái sản xuất ra con người Đáp án đúng: A"
     ],
     "correct_answers": [
-      0,
-      2
+      0
     ]
   },
   {
@@ -5405,7 +5384,6 @@ window.QUIZ_QUESTIONS = [
       "D. Ly hôn Đáp án đúng: C, D"
     ],
     "correct_answers": [
-      1,
       2,
       3
     ]
@@ -5418,8 +5396,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": true,
     "test_group": "Bài kiểm tra thường xuyên 1",
     "question": "(Bài 1): Câu nói sau đây được viết trong tác phẩm nào: “Giai cấp tư sản, trong quá trình thống trị giai cấp chưa đầy một thế kỷ, đã tạo ra những lực lượng sản xuất nhiều hơn và đồ sộ hơn lực lượng sản xuất của tất cả các thế hệ trước gộp lại”",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Ba nguồn gốc và ba bộ phận cấu thành của chủ nghĩa Mác",
       "B. Chống Đuyrinh",
@@ -5427,7 +5405,6 @@ window.QUIZ_QUESTIONS = [
       "D. Tuyên ngôn của Đảng Cộng sản"
     ],
     "correct_answers": [
-      2,
       3
     ]
   },
@@ -5495,8 +5472,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": true,
     "test_group": "Bài kiểm tra thường xuyên 1",
     "question": "(Bài 2): So sánh sự khác nhau giữa giai đoạn thấp và giai đoạn cao của hình thái kinh tế - xã hội cộng sản chủ nghĩa?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 4 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Giai đoạn thấp thực hiện phân phối theo lao động, giai đoạn cao thực hiện phân phối theo nhu cầu",
       "B. Giai đoạn thấp không có sự phân chia giai cấp",
@@ -5504,10 +5481,7 @@ window.QUIZ_QUESTIONS = [
       "D. Giai đoạn thấp thực hiện phân phối theo nhu cầu, giai đoạn cao thực hiện phân phối theo lao động"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      0
     ]
   },
   {
@@ -5518,8 +5492,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": true,
     "test_group": "Bài kiểm tra thường xuyên 1",
     "question": "(Bài 3): Vận dụng những kiến thức đã học hãy chọn phương án đúng về mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 4 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Dân chủ xã hội chủ nghĩa là mục đích cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa còn nhà nước xã hội chủ nghĩa quyết định bản chất của dân chủ",
       "B. Dân chủ xã hội chủ nghĩa là mục tiêu cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa còn nhà nước xã hội chủ nghĩa là công cụ quan trọng cho việc thực thi quyền làm chủ của người dân",
@@ -5527,10 +5501,7 @@ window.QUIZ_QUESTIONS = [
       "D. Dân chủ xã hội chủ nghĩa là mục đích cho việc xây dựng và hoạt động của nhà nước xã hội chủ nghĩa còn nhà nước xã hội chủ nghĩa là điều kiện cho sự ra đời của dân chủ xã hội chủ nghĩa"
     ],
     "correct_answers": [
-      0,
-      1,
-      2,
-      3
+      2
     ]
   },
   {
@@ -5541,8 +5512,8 @@ window.QUIZ_QUESTIONS = [
     "is_thuong_xuyen": true,
     "test_group": "Bài kiểm tra thường xuyên 2",
     "question": "(Bài 4): Trong cơ cấu xã hội của thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã hội nào giữ vị trí quan trọng hàng đầu, chi phối các loại hình cơ cấu xã hội khác?",
-    "type": "multiple_choice",
-    "instruction": "Chọn 2 đáp án đúng",
+    "type": "single_choice",
+    "instruction": "Chọn 1 đáp án đúng nhất",
     "options": [
       "A. Cơ cấu xã hội – giai cấp",
       "B. Cơ cấu xã hội - dân tộc",
@@ -5550,8 +5521,7 @@ window.QUIZ_QUESTIONS = [
       "D. Cơ cấu xã hội - tôn giáo"
     ],
     "correct_answers": [
-      0,
-      2
+      0
     ]
   },
   {
