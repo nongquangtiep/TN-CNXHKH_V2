@@ -4,5 +4,6 @@ __pycache__/
 .vscode/
 .idea/
 *.tmp
+~$*
 Thumbs.db
 Desktop.ini
