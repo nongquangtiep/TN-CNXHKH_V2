@@ -933,7 +933,7 @@ window.QUIZ_QUESTIONS = [
       "D. Bắt đầu từ thời kỳ quá độ cho đến khi xây dựng xong giai đoạn cao của xã hội cộng sản."
     ],
     "correct_answers": [
-      0
+      3
     ]
   },
   {
