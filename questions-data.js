@@ -724,15 +724,15 @@ window.QUIZ_QUESTIONS = [
     "type": "drag_drop_match",
     "instruction": "Kéo thả hoặc chạm chọn các ô bên dưới để ghép đúng các vế tương ứng",
     "pool": [
-      "tầng lớp nhân dân",
+      "Đảng Cộng Sản",
       "giai cấp, tầng lớp",
       "tầng lớp trí thức",
-      "Đảng Cộng Sản"
+      "tầng lớp nhân dân"
     ],
     "pairs": [
       {
         "left": "1. Giai cấp công nhân Việt Nam là lực lượng nòng cốt của ______ Việt Nam",
-        "right": "tầng lớp nhân dân"
+        "right": "Đảng Cộng Sản"
       },
       {
         "left": "2. Giai cấp công nhân Việt Nam hiện nay gắn bó mật thiết với các ______ trong xã hội",
@@ -744,10 +744,10 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "options_pool": [
-      "tầng lớp nhân dân",
+      "Đảng Cộng Sản",
       "giai cấp, tầng lớp",
       "tầng lớp trí thức",
-      "Đảng Cộng Sản"
+      "tầng lớp nhân dân"
     ]
   },
   {

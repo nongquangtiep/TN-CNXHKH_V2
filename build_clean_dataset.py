@@ -269,11 +269,11 @@ for global_idx, rq in enumerate(raw_questions):
             # Case 1: Q34 Bài 1 (fill in the blanks from red runs)
             if "Câu 34" in title and lesson_num == 1:
                 pairs = [
-                    {'left': '1. Giai cấp công nhân Việt Nam là lực lượng nòng cốt của ______ Việt Nam', 'right': 'tầng lớp nhân dân'},
+                    {'left': '1. Giai cấp công nhân Việt Nam là lực lượng nòng cốt của ______ Việt Nam', 'right': 'Đảng Cộng Sản'},
                     {'left': '2. Giai cấp công nhân Việt Nam hiện nay gắn bó mật thiết với các ______ trong xã hội', 'right': 'giai cấp, tầng lớp'},
                     {'left': '3. Giai cấp công nhân Việt Nam có mối quan hệ mật thiết với giai cấp nông dân và ______ trong xã hội', 'right': 'tầng lớp trí thức'}
                 ]
-                q_data['pool'] = ['tầng lớp nhân dân', 'giai cấp, tầng lớp', 'tầng lớp trí thức', 'Đảng Cộng Sản']
+                q_data['pool'] = ['Đảng Cộng Sản', 'giai cấp, tầng lớp', 'tầng lớp trí thức', 'tầng lớp nhân dân']
             # Case 2: Bracketed answers [Quá độ trực tiếp] (e.g. Q15 Bài 2)
             elif any('[' in p[2] and ']' in p[2] for p in paragraphs[1:]):
                 for p in paragraphs[1:]:
