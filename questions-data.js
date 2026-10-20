@@ -3594,7 +3594,14 @@ window.QUIZ_QUESTIONS = [
       {
         "text": "Tăng cường liên minh",
         "category": "Nội dung/phương hướng của liên minh"
+      },
+      {
+        "text": "Tầng lớp phụ nữ",
+        "category": null
       }
+    ],
+    "distractors": [
+      "Tầng lớp phụ nữ"
     ]
   },
   {

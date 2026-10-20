@@ -1045,7 +1045,7 @@ function renderQuizizzDragDropCategorize(container, q) {
 
       if (isAnswered) {
         const itemObj = q.all_items.find(it => it.text === itemText);
-        const correctCategory = itemObj ? itemObj.category : '';
+        const correctCategory = itemObj ? itemObj.category : null;
         const isItemCorrect = (correctCategory === cat.title);
 
         chip.className = `dnd-qz-chip dnd-chip-answered ${isItemCorrect ? 'dnd-chip-correct' : 'dnd-chip-wrong'}`;
@@ -1059,6 +1059,7 @@ function renderQuizizzDragDropCategorize(container, q) {
             </div>
           `;
         } else {
+          const hintTarget = correctCategory ? escapeHtml(correctCategory) : 'Để ở ngoài (Phương án gây nhiễu)';
           chip.innerHTML = `
             <div class="dnd-chip-main">
               <span class="dnd-badge dnd-badge-x">✕ SAI</span>
@@ -1066,7 +1067,7 @@ function renderQuizizzDragDropCategorize(container, q) {
             </div>
             <div class="dnd-chip-hint">
               <span class="dnd-hint-lead">➔ Cột đúng:</span>
-              <span class="dnd-hint-target">${escapeHtml(correctCategory)}</span>
+              <span class="dnd-hint-target">${hintTarget}</span>
             </div>
           `;
         }
@@ -1129,7 +1130,7 @@ function renderQuizizzDragDropCategorize(container, q) {
     poolTitle.style.fontSize = '0.82rem';
     poolTitle.style.fontWeight = '700';
     poolTitle.style.color = 'var(--text-secondary)';
-    poolTitle.innerHTML = '💡 <strong>Các mục cần phân loại:</strong> (Bấm chọn mục rồi bấm vào khung cột ở trên để xếp)';
+    poolTitle.innerHTML = '💡 <strong>Các mục cần phân loại:</strong> (Bấm chọn mục rồi bấm vào khung cột ở trên để xếp; phương án gây nhiễu để nguyên ở ngoài)';
     poolWrapper.appendChild(poolTitle);
 
     const pool = document.createElement('div');
@@ -1178,6 +1179,59 @@ function renderQuizizzDragDropCategorize(container, q) {
 
     checkBtnWrapper.appendChild(checkBtn);
     wrapper.appendChild(checkBtnWrapper);
+  } else {
+    // When answered: If there are unassigned items (such as distractors left in pool)
+    if (unassigned.length > 0) {
+      const poolWrapper = document.createElement('div');
+      poolWrapper.style.display = 'flex';
+      poolWrapper.style.flexDirection = 'column';
+      poolWrapper.style.gap = '0.4rem';
+      poolWrapper.style.marginTop = '1rem';
+
+      const poolTitle = document.createElement('div');
+      poolTitle.style.fontSize = '0.85rem';
+      poolTitle.style.fontWeight = '700';
+      poolTitle.style.color = 'var(--text-secondary)';
+      poolTitle.innerHTML = '📌 <strong>Các mục để ở ngoài (không xếp vào cột):</strong>';
+      poolWrapper.appendChild(poolTitle);
+
+      const pool = document.createElement('div');
+      pool.className = 'dnd-qz-pool';
+
+      unassigned.forEach((itemObj) => {
+        const isDistractor = (itemObj.category == null);
+        const chip = document.createElement('div');
+        chip.className = `dnd-qz-chip dnd-chip-answered ${isDistractor ? 'dnd-chip-correct' : 'dnd-chip-wrong'}`;
+        chip.style.cursor = 'default';
+
+        if (isDistractor) {
+          chip.innerHTML = `
+            <div class="dnd-chip-main">
+              <span class="dnd-badge dnd-badge-v">✓ CHÍNH XÁC</span>
+              <span class="dnd-chip-text">${escapeHtml(itemObj.text)}</span>
+            </div>
+            <div class="dnd-chip-hint" style="color:var(--success-text);">
+              <span>Đã để ở ngoài (Phương án gây nhiễu)</span>
+            </div>
+          `;
+        } else {
+          chip.innerHTML = `
+            <div class="dnd-chip-main">
+              <span class="dnd-badge dnd-badge-x">✕ BỎ SÓT</span>
+              <span class="dnd-chip-text">${escapeHtml(itemObj.text)}</span>
+            </div>
+            <div class="dnd-chip-hint">
+              <span class="dnd-hint-lead">➔ Cột đúng:</span>
+              <span class="dnd-hint-target">${escapeHtml(itemObj.category)}</span>
+            </div>
+          `;
+        }
+        pool.appendChild(chip);
+      });
+
+      poolWrapper.appendChild(pool);
+      wrapper.appendChild(poolWrapper);
+    }
   }
 
   container.innerHTML = '';
@@ -1186,16 +1240,31 @@ function renderQuizizzDragDropCategorize(container, q) {
 
 function handleCategorizeSubmit(q) {
   const map = questionStates[q.id]?.userSelection || {};
-  if (Object.keys(map).length < q.all_items.length) {
-    alert('Vui lòng phân loại hết các mục vào cột trước khi kiểm tra.');
+
+  // Required items are items that have a category (not null)
+  const requiredItems = q.all_items.filter(it => it.category != null);
+  const placedCount = Object.keys(map).length;
+
+  if (placedCount < requiredItems.length) {
+    alert('Vui lòng phân loại các mục vào 2 cột trước khi kiểm tra (phương án gây nhiễu để nguyên ở ngoài).');
     return;
   }
 
-  const isCorrect = q.all_items.every(it => map[it.text] === it.category);
+  // Answer is correct if:
+  // 1. Every required item is placed into its correct column
+  // 2. Every distractor item (category === null) is NOT placed into any column (left outside in pool)
+  const isCorrect = q.all_items.every(it => {
+    if (it.category != null) {
+      return map[it.text] === it.category;
+    } else {
+      return !map[it.text];
+    }
+  });
+
   questionStates[q.id].isAnswered = true;
   questionStates[q.id].isCorrect = isCorrect;
 
-  // Immediately re-render with V and X marks on chips in columns!
+  // Immediately re-render with V and X marks on chips in columns and pool!
   const targetContainer = document.getElementById('hero-body');
   if (targetContainer) {
     renderQuizizzDragDropCategorize(targetContainer, q);
@@ -1206,12 +1275,12 @@ function handleCategorizeSubmit(q) {
     fireConfetti();
     streak++;
     score += 150;
-    showFeedbackBanner(true, '🎉 CHÍNH XÁC! +150 điểm', 'Bạn đã phân loại chính xác toàn bộ các mục vào hai cột! Đang tự chuyển câu...');
+    showFeedbackBanner(true, '🎉 CHÍNH XÁC! +150 điểm', 'Bạn đã phân loại chính xác các mục vào hai cột và để đúng phương án gây nhiễu ở ngoài! Đang tự chuyển câu...');
     scheduleAutoAdvance(2000);
   } else {
     playSound('wrong');
     streak = 0;
-    showFeedbackBanner(false, '💡 CHƯA ĐÚNG HOÀN TOÀN!', 'Xem chi tiết các ý đúng (✓) và sai (✕) cùng cột chuẩn ở bên trên. Đang tự chuyển câu...');
+    showFeedbackBanner(false, '💡 CHƯA ĐÚNG HOÀN TOÀN!', 'Xem chi tiết các ý đúng (✓), sai (✕) và phương án gây nhiễu ở bên trên. Đang tự chuyển câu...');
     scheduleAutoAdvance(4500);
   }
 
@@ -1681,7 +1750,7 @@ function renderWrongQuestionsReview(wrongQuestions) {
                 <span style="color:${isRight ? 'var(--success)' : 'var(--danger)'}; font-weight:800; font-size:0.9rem;">${isRight ? '✓' : '✕'}</span>
                 <div>
                   <span style="${isRight ? 'font-weight:600;' : 'color:var(--danger); text-decoration:line-through;'}">${escapeHtml(text)}</span>
-                  ${!isRight ? `<div style="font-size:0.75rem; color:var(--text-secondary);">➔ Thuộc: <strong style="color:var(--success);">${escapeHtml(trueCat)}</strong></div>` : ''}
+                  ${!isRight ? `<div style="font-size:0.75rem; color:var(--text-secondary);">➔ Cột đúng: <strong style="color:var(--success);">${escapeHtml(trueCat || 'Để ở ngoài (Phương án gây nhiễu)')}</strong></div>` : ''}
                 </div>
               </div>
             `;
