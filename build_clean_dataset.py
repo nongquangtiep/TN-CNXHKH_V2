@@ -321,7 +321,7 @@ for global_idx, rq in enumerate(raw_questions):
         p_text = p[2]
         lines = [ln.strip() for ln in p_text.split('\n') if ln.strip()]
         for ln in lines:
-            if re.match(r'^(?:Đáp án|ĐÁP ÁN)\s*:', ln, re.IGNORECASE):
+            if re.match(r'^(?:Đáp án(?:\s*đúng)?|ĐÁP ÁN(?:\s*ĐÚNG)?)\s*:', ln, re.IGNORECASE):
                 continue
             raw_option_lines.append((ln, p_elem))
             
@@ -329,7 +329,7 @@ for global_idx, rq in enumerate(raw_questions):
     explicit_answer_letters = []
     for p in paragraphs[1:]:
         t = p[2]
-        m_ans = re.search(r'(?:Đáp án|ĐÁP ÁN)\s*:\s*([A-D](?:\s*,\s*[A-D])*)', t, re.IGNORECASE)
+        m_ans = re.search(r'(?:Đáp án(?:\s*đúng)?|ĐÁP ÁN(?:\s*ĐÚNG)?)\s*:\s*([A-D](?:\s*,\s*[A-D])*)', t, re.IGNORECASE)
         if m_ans:
             letters = [l.strip().upper() for l in m_ans.group(1).split(',')]
             explicit_answer_letters.extend(letters)
@@ -339,11 +339,16 @@ for global_idx, rq in enumerate(raw_questions):
     
     is_one_opt_per_p = (len(raw_option_lines) == len(paragraphs) - 1)
     
+    ans_pattern = r'(?:\s*[-–—:]?\s*(?:Đáp án(?:\s*đúng)?|ĐÁP ÁN(?:\s*ĐÚNG)?)\s*[:.]?\s*[A-F](?:\s*,\s*[A-F])*\s*)+$'
+
     for idx_opt, (line, p_elem) in enumerate(raw_option_lines):
         m_opt = re.match(r'^([A-F])[\s.)\-:]\s*(.*)', line)
         if m_opt:
             letter = m_opt.group(1).upper()
             txt = m_opt.group(2).strip()
+            # Clean trailing answer text if attached to option
+            txt = re.sub(ans_pattern, '', txt, flags=re.IGNORECASE).strip()
+            
             # Check red color for this line
             line_has_red = False
             if is_one_opt_per_p:
@@ -362,21 +367,24 @@ for global_idx, rq in enumerate(raw_questions):
             if line_has_red or letter in explicit_answer_letters:
                 clean_correct.append(opt_idx)
         else:
+            cleaned_line = re.sub(ans_pattern, '', line, flags=re.IGNORECASE).strip()
+            if not cleaned_line:
+                continue
             if is_one_opt_per_p:
                 line_has_red = p_has_red(p_elem)
-                clean_options.append(line)
+                clean_options.append(cleaned_line)
                 if line_has_red:
                     clean_correct.append(len(clean_options) - 1)
             else:
                 if clean_options:
-                    clean_options[-1] += " " + line
+                    clean_options[-1] += " " + cleaned_line
                 else:
                     line_has_red = False
                     for r in p_elem.runs:
                         if is_red_run(r):
-                            if r.text.strip() == line.strip() or line.strip() in r.text or (len(r.text.strip()) >= 5 and r.text.strip() in line):
+                            if r.text.strip() == cleaned_line or cleaned_line in r.text or (len(r.text.strip()) >= 5 and r.text.strip() in cleaned_line):
                                 line_has_red = True
-                    clean_options.append(line)
+                    clean_options.append(cleaned_line)
                     if line_has_red:
                         clean_correct.append(len(clean_options) - 1)
                 

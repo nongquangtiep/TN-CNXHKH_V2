@@ -4510,7 +4510,7 @@ window.QUIZ_QUESTIONS = [
       "A. Quyền tự quyết về chính trị",
       "B. Quyền tự quyết về các mối quan hệ quốc tế",
       "C. Quyền tự quyết về văn hóa",
-      "D. Quyền tự quyết về kinh tế Đáp án đúng: A"
+      "D. Quyền tự quyết về kinh tế"
     ],
     "correct_answers": [
       0
@@ -4530,7 +4530,7 @@ window.QUIZ_QUESTIONS = [
       "A. Phải duy trì chế độ tư hữu về tư liệu sản xuất",
       "B. Thủ tiêu ách áp bức giai cấp, trên cơ sở đó xóa bỏ áp bức dân tộc và đấu tranh chống chủ nghĩa phân biệt chủng tộc, chủ nghĩa sô-vanh",
       "C. Tách biệt cuộc đấu tranh dân tộc khỏi cuộc đấu tranh giai cấp của công nhân",
-      "D. Liên kết thỏa hiệp với các nước đế quốc lớn Đáp án đúng: B"
+      "D. Liên kết thỏa hiệp với các nước đế quốc lớn"
     ],
     "correct_answers": [
       1
@@ -4550,7 +4550,7 @@ window.QUIZ_QUESTIONS = [
       "A. Các dân tộc hoàn toàn bình đẳng",
       "B. Cắt đứt quan hệ giữa các quốc gia",
       "C. Liên hiệp công nhân tất cả các dân tộc",
-      "D. Các dân tộc tự quyết quyền phát triển kinh tế Đáp án đúng: C"
+      "D. Các dân tộc tự quyết quyền phát triển kinh tế"
     ],
     "correct_answers": [
       2
@@ -4570,7 +4570,7 @@ window.QUIZ_QUESTIONS = [
       "A. Con người",
       "B. Thượng đế",
       "C. Lực lượng siêu nhiên",
-      "D. Tự nhiên huyền bí Đáp án đúng: A"
+      "D. Tự nhiên huyền bí"
     ],
     "correct_answers": [
       0
@@ -4590,7 +4590,7 @@ window.QUIZ_QUESTIONS = [
       "A. Đều có hệ thống giáo chủ chặt chẽ",
       "B. Đều có kinh sách và giáo luật hoàn chỉnh",
       "C. Đều có giáo hội quản lý cấp quốc gia",
-      "D. Đều có niềm tin vào đấng siêu nhiên, thần linh Đáp án đúng: D"
+      "D. Đều có niềm tin vào đấng siêu nhiên, thần linh"
     ],
     "correct_answers": [
       3
@@ -4610,7 +4610,7 @@ window.QUIZ_QUESTIONS = [
       "A. Thờ anh hùng dân tộc",
       "B. Tín ngưỡng thờ Mẫu",
       "C. Mê tín dị đoan",
-      "D. Thờ cúng tổ tiên Đáp án đúng: C"
+      "D. Thờ cúng tổ tiên"
     ],
     "correct_answers": [
       2
@@ -4630,7 +4630,7 @@ window.QUIZ_QUESTIONS = [
       "A. 54 dân tộc",
       "B. 50 dân tộc",
       "C. 45 dân tộc",
-      "D. 63 dân tộc Đáp án đúng: A"
+      "D. 63 dân tộc"
     ],
     "correct_answers": [
       0
@@ -4650,7 +4650,7 @@ window.QUIZ_QUESTIONS = [
       "A. Vì tín ngưỡng, tôn giáo được du nhập hoàn toàn từ nước ngoài vào",
       "B. Vì các tổ chức tôn giáo có tiềm lực kinh tế lớn mạnh",
       "C. Vì số lượng tín đồ chiếm đại đa số tuyệt đối dân số",
-      "D. Vì tín ngưỡng, tôn giáo là nhu cầu tinh thần của một bộ phận nhân dân Đáp án đúng: D"
+      "D. Vì tín ngưỡng, tôn giáo là nhu cầu tinh thần của một bộ phận nhân dân"
     ],
     "correct_answers": [
       3
@@ -4670,7 +4670,7 @@ window.QUIZ_QUESTIONS = [
       "A. Hệ thống tín đồ, tổ chức giáo phẩm và nghi lễ",
       "B. Cơ sở thờ tự, kinh sách và giáo luật",
       "C. Nguồn gốc nhận thức, tâm lý và kinh tế - xã hội",
-      "D. Sự can thiệp của các đấng sáng tạo siêu nhiên Đáp án đúng: C"
+      "D. Sự can thiệp của các đấng sáng tạo siêu nhiên"
     ],
     "correct_answers": [
       2
@@ -4690,7 +4690,7 @@ window.QUIZ_QUESTIONS = [
       "A. Dân tộc quốc gia",
       "B. Dân tộc tộc người",
       "C. Cộng đồng đa quốc gia",
-      "D. Liên hiệp các quốc gia Đáp án đúng: B"
+      "D. Liên hiệp các quốc gia"
     ],
     "correct_answers": [
       1
@@ -4710,7 +4710,7 @@ window.QUIZ_QUESTIONS = [
       "A. Lãnh thổ",
       "B. Thị trường nội địa",
       "C. Mức sống thu nhập",
-      "D. Ý thức cá nhân Đáp án đúng: A"
+      "D. Ý thức cá nhân"
     ],
     "correct_answers": [
       0
@@ -4730,7 +4730,7 @@ window.QUIZ_QUESTIONS = [
       "A. Quyền tự quyết bao gồm quyền tự do tách ra thành quốc gia độc lập",
       "B. Quyền tự quyết dân tộc không bao gồm nội dung tự nguyện liên hiệp các dân tộc lại",
       "C. Dân tộc tộc người có đặc trưng về ngôn ngữ riêng",
-      "D. Cương lĩnh dân tộc khẳng định nguyên tắc bình đẳng giữa các dân tộc Đáp án đúng: B"
+      "D. Cương lĩnh dân tộc khẳng định nguyên tắc bình đẳng giữa các dân tộc"
     ],
     "correct_answers": [
       1
@@ -4750,7 +4750,7 @@ window.QUIZ_QUESTIONS = [
       "A. Nghệ thuật dân gian",
       "B. Tôn giáo",
       "C. Đạo đức xã hội",
-      "D. Triết học khoa học Đáp án đúng: B"
+      "D. Triết học khoa học"
     ],
     "correct_answers": [
       1
@@ -4770,7 +4770,7 @@ window.QUIZ_QUESTIONS = [
       "A. Tín ngưỡng có hệ thống giáo lý, giáo luật và tổ chức chặt chẽ như tôn giáo",
       "B. Nguồn gốc kinh tế - xã hội dẫn đến sự ra đời của tôn giáo",
       "C. Mê tín dị đoan là niềm tin mù quáng gây hậu quả xấu cần loại bỏ",
-      "D. Tôn giáo phản ánh hiện thực một cách hoang đường, hư ảo Đáp án đúng: A"
+      "D. Tôn giáo phản ánh hiện thực một cách hoang đường, hư ảo"
     ],
     "correct_answers": [
       0
@@ -4790,7 +4790,7 @@ window.QUIZ_QUESTIONS = [
       "A. Vì đa số tín đồ là nhân dân lao động có tinh thần yêu nước, chống giặc ngoại xâm",
       "B. Vì các tôn giáo nắm vai trò lãnh đạo cơ quan quyền lực nhà nước",
       "C. Vì các tổ chức tôn giáo có quân đội riêng bảo vệ biên giới",
-      "D. Vì các tôn giáo được chi phối bởi các tổ chức quốc tế Đáp án đúng: A"
+      "D. Vì các tôn giáo được chi phối bởi các tổ chức quốc tế"
     ],
     "correct_answers": [
       0
@@ -4810,7 +4810,7 @@ window.QUIZ_QUESTIONS = [
       "A. Lãnh thổ quốc gia, nền kinh tế chung, nhà nước chung",
       "B. Ngôn ngữ tộc người, văn hóa đặc thù và ý thức tự giác tộc người",
       "C. Quân đội riêng, hiến pháp riêng, tài chính độc lập",
-      "D. Hệ thống chính trị riêng biệt và tiền tệ riêng Đáp án đúng: B"
+      "D. Hệ thống chính trị riêng biệt và tiền tệ riêng"
     ],
     "correct_answers": [
       1
@@ -4830,7 +4830,7 @@ window.QUIZ_QUESTIONS = [
       "A. Do quy định bắt buộc của nhà nước và do các giáo hội nước ngoài thúc đẩy",
       "B. Do khoa học chưa giải thích hết mọi hiện tượng và xã hội vẫn còn phân hóa, áp bức",
       "C. Do các thế lực siêu nhiên thực sự tồn tại can thiệp vào đời sống",
-      "D. Do sự phát triển của công nghệ truyền thông Đáp án đúng: B"
+      "D. Do sự phát triển của công nghệ truyền thông"
     ],
     "correct_answers": [
       1
@@ -4850,7 +4850,7 @@ window.QUIZ_QUESTIONS = [
       "A. Hình thành gắn liền với sự phát triển mạnh mẽ của phương thức tư bản chủ nghĩa",
       "B. Hình thành do quá trình đồng hóa cưỡng bức của các triều đại phong kiến",
       "C. Hình thành sớm do đòi hỏi khách quan của công cuộc trị thủy, làm thủy lợi và đoàn kết chống giặc ngoại xâm",
-      "D. Hình thành do dân tộc có quy mô diện tích lãnh thổ nhỏ hẹp Đáp án đúng: C"
+      "D. Hình thành do dân tộc có quy mô diện tích lãnh thổ nhỏ hẹp"
     ],
     "correct_answers": [
       2
@@ -4870,7 +4870,7 @@ window.QUIZ_QUESTIONS = [
       "A. Nền dân chủ chấp nhận cơ chế đa đảng cạnh tranh quyền lực",
       "B. Nền dân chủ do tầng lớp trí thức nắm quyền chuyên chính",
       "C. Nền dân chủ đặt dưới sự lãnh đạo duy nhất của Đảng Cộng sản – đại biểu cho trí tuệ, lợi ích của công nhân, nhân dân lao động và toàn dân tộc",
-      "D. Nền dân chủ chỉ phục vụ quyền lợi của riêng giai cấp nông dân Đáp án đúng: C"
+      "D. Nền dân chủ chỉ phục vụ quyền lợi của riêng giai cấp nông dân"
     ],
     "correct_answers": [
       2
@@ -4890,7 +4890,7 @@ window.QUIZ_QUESTIONS = [
       "A. Dựa trên chế độ công hữu về các tư liệu sản xuất chủ yếu của xã hội",
       "B. Mang tính nhất nguyên về chính trị dưới sự lãnh đạo của Đảng Cộng sản",
       "C. Là nền dân chủ thuần túy, hoàn toàn không mang tính giai cấp",
-      "D. Được thực hiện chủ yếu bằng công cụ Nhà nước pháp quyền xã hội chủ nghĩa Đáp án đúng: C"
+      "D. Được thực hiện chủ yếu bằng công cụ Nhà nước pháp quyền xã hội chủ nghĩa"
     ],
     "correct_answers": [
       2
@@ -4910,7 +4910,7 @@ window.QUIZ_QUESTIONS = [
       "A. Là nền dân chủ rộng rãi cho giai cấp công nhân và nhân dân lao động",
       "B. Là nền dân chủ phi lịch sử, tồn tại vĩnh viễn ngoài nhà nước",
       "C. Là nền dân chủ thuần túy, không có giới hạn pháp lý",
-      "D. Không còn mang tính giai cấp Đáp án đúng: A"
+      "D. Không còn mang tính giai cấp"
     ],
     "correct_answers": [
       0
@@ -4930,7 +4930,7 @@ window.QUIZ_QUESTIONS = [
       "A. Nền dân chủ tư sản",
       "B. Nền dân chủ chủ nô",
       "C. Nền dân chủ xã hội chủ nghĩa",
-      "D. Nền dân chủ nguyên thủy Đáp án đúng: C"
+      "D. Nền dân chủ nguyên thủy"
     ],
     "correct_answers": [
       2
@@ -4950,7 +4950,7 @@ window.QUIZ_QUESTIONS = [
       "A. Tuyên truyền, vận động quần chúng",
       "B. Hiến pháp và pháp luật",
       "C. Đường lối, chủ trương chưa thể chế hóa",
-      "D. Các biện pháp hành chính mệnh lệnh Đáp án đúng: B"
+      "D. Các biện pháp hành chính mệnh lệnh"
     ],
     "correct_answers": [
       1
@@ -4970,7 +4970,7 @@ window.QUIZ_QUESTIONS = [
       "A. Chỉ đại diện duy nhất cho bộ phận giai cấp công nhân",
       "B. Là nhà nước phi giai cấp, phi chính trị",
       "C. Mang bản chất của giai cấp công nhân, tính nhân dân sâu sắc và tính dân tộc rộng rãi",
-      "D. Chỉ tập trung thực hiện chức năng trấn áp quân sự Đáp án đúng: C"
+      "D. Chỉ tập trung thực hiện chức năng trấn áp quân sự"
     ],
     "correct_answers": [
       2
@@ -4990,7 +4990,7 @@ window.QUIZ_QUESTIONS = [
       "A. Dân chủ gián tiếp",
       "B. Dân chủ đại diện",
       "C. Dân chủ trực tiếp",
-      "D. Dân chủ ủy quyền Đáp án đúng: C"
+      "D. Dân chủ ủy quyền"
     ],
     "correct_answers": [
       2
@@ -5010,7 +5010,7 @@ window.QUIZ_QUESTIONS = [
       "A. Bản chất dân chủ XHCN được thực hiện qua hình thức trực tiếp và gián tiếp",
       "B. Quốc hội là cơ quan quyền lực nhà nước cao nhất hoạt động theo nhiệm kỳ 3 năm",
       "C. Nhà nước Việt Nam là nhà nước của nhân dân, do nhân dân, vì nhân dân làm chủ",
-      "D. Trong hoạt động nhà nước có sự phân công, phối hợp và kiểm soát giữa các cơ quan quyền lực Đáp án đúng: B"
+      "D. Trong hoạt động nhà nước có sự phân công, phối hợp và kiểm soát giữa các cơ quan quyền lực"
     ],
     "correct_answers": [
       1
@@ -5030,7 +5030,7 @@ window.QUIZ_QUESTIONS = [
       "A. Tách biệt đối lập hoàn toàn, không liên minh gắn kết",
       "B. Vừa đấu tranh, vừa bài xích triệt tiêu lẫn nhau",
       "C. Vừa đấu tranh, vừa liên minh, từng bước xóa bỏ bất bình đẳng xã hội dẫn đến sự xích lại gần nhau",
-      "D. Các giai cấp lớn liên minh đàn áp các giai cấp nhỏ Đáp án đúng: C"
+      "D. Các giai cấp lớn liên minh đàn áp các giai cấp nhỏ"
     ],
     "correct_answers": [
       2
@@ -5050,7 +5050,7 @@ window.QUIZ_QUESTIONS = [
       "A. Lực lượng sáng tạo đặc biệt",
       "B. Lực lượng lãnh đạo sự nghiệp cách mạng",
       "C. Lực lượng sản xuất nông nghiệp nòng cốt",
-      "D. Đội ngũ quản lý doanh nghiệp độc lập Đáp án đúng: A"
+      "D. Đội ngũ quản lý doanh nghiệp độc lập"
     ],
     "correct_answers": [
       0
@@ -5070,7 +5070,7 @@ window.QUIZ_QUESTIONS = [
       "A. Nội dung tôn giáo là nội dung nòng cốt của liên minh",
       "B. Xây dựng Nhà nước pháp quyền là nội dung văn hóa của liên minh",
       "C. Đồng thuận xã hội là một mục tiêu quan trọng của liên minh giai cấp, tầng lớp",
-      "D. Đội ngũ doanh nhân bị loại trừ, không tham gia khối liên minh Đáp án đúng: C"
+      "D. Đội ngũ doanh nhân bị loại trừ, không tham gia khối liên minh"
     ],
     "correct_answers": [
       2
@@ -5090,7 +5090,7 @@ window.QUIZ_QUESTIONS = [
       "A. Quan hệ quản trị trong một không gian sinh tồn",
       "B. Quan hệ huyết thống",
       "C. Quan hệ kinh tế",
-      "D. Quan hệ hôn nhân Đáp án đúng: B, D"
+      "D. Quan hệ hôn nhân"
     ],
     "correct_answers": [
       1,
@@ -5111,7 +5111,7 @@ window.QUIZ_QUESTIONS = [
       "A. Tế bào",
       "B. Bộ não",
       "C. Mạch máu",
-      "D. Xương sống Đáp án đúng: A"
+      "D. Xương sống"
     ],
     "correct_answers": [
       0
@@ -5131,7 +5131,7 @@ window.QUIZ_QUESTIONS = [
       "A. Lễ cưới",
       "B. Thủ tục pháp lý",
       "C. Lời hứa giữa nam và nữ",
-      "D. Lễ đính hôn Đáp án đúng: B"
+      "D. Lễ đính hôn"
     ],
     "correct_answers": [
       1
@@ -5151,7 +5151,7 @@ window.QUIZ_QUESTIONS = [
       "A. Gia đình",
       "B. Làng xóm",
       "C. Xã hội",
-      "D. Tập thể Đáp án đúng: A"
+      "D. Tập thể"
     ],
     "correct_answers": [
       0
@@ -5171,7 +5171,7 @@ window.QUIZ_QUESTIONS = [
       "A. Quan hệ hôn nhân và huyết thống",
       "B. Quan hệ nuôi dưỡng",
       "C. Quan hệ quản trị trong một không gian sinh tồn",
-      "D. Quan hệ hôn nhân Đáp án đúng: A"
+      "D. Quan hệ hôn nhân"
     ],
     "correct_answers": [
       0
@@ -5191,7 +5191,7 @@ window.QUIZ_QUESTIONS = [
       "A. Chức năng làm các hoạt động từ thiện",
       "B. Chức năng lãnh đạo cách mạng",
       "C. Chức năng kinh tế và tổ chức tiêu dùng",
-      "D. Chức năng tổ chức sự kiện Đáp án đúng: C"
+      "D. Chức năng tổ chức sự kiện"
     ],
     "correct_answers": [
       2
@@ -5211,7 +5211,7 @@ window.QUIZ_QUESTIONS = [
       "A. Chức năng kinh tế",
       "B. Chức năng nuôi dưỡng, giáo dục",
       "C. Chức năng thỏa mãn các nhu cầu tâm sinh lý, duy trì tình cảm",
-      "D. Chức năng tái sản xuất ra con người Đáp án đúng: D"
+      "D. Chức năng tái sản xuất ra con người"
     ],
     "correct_answers": [
       3
@@ -5231,7 +5231,7 @@ window.QUIZ_QUESTIONS = [
       "A. Chức năng nuôi dưỡng, giáo dục",
       "B. Chức năng kinh tế và tổ chức tiêu dùng",
       "C. Chức năng thỏa mãn nhu cầu tâm sinh lý, duy trì tình cảm gia đình",
-      "D. Chức năng tái sản xuất ra con người Đáp án đúng: A"
+      "D. Chức năng tái sản xuất ra con người"
     ],
     "correct_answers": [
       0
@@ -5251,7 +5251,7 @@ window.QUIZ_QUESTIONS = [
       "A. Là cầu nối của mối quan hệ giữa nhà nước với công dân",
       "B. Là nơi đáp ứng nhu cầu tâm, sinh lý tự nhiên của con người, đáp ứng nhu cầu duy trì nòi giống",
       "C. Nơi lưu giữ truyền thống văn hóa của dân tộc cũng như tóc người",
-      "D. Có trách nhiệm nuôi dưỡng, dạy dỗ con cái trở thành người có ích cho gia đình, cộng đồng và xã hội Đáp án đúng: A"
+      "D. Có trách nhiệm nuôi dưỡng, dạy dỗ con cái trở thành người có ích cho gia đình, cộng đồng và xã hội"
     ],
     "correct_answers": [
       0
@@ -5271,7 +5271,7 @@ window.QUIZ_QUESTIONS = [
       "A. Gia đình truyền thống",
       "B. Gia đình quá độ",
       "C. Gia đình hiện đại",
-      "D. Gia đình lạc hậu Đáp án đúng: B"
+      "D. Gia đình lạc hậu"
     ],
     "correct_answers": [
       1
@@ -5291,7 +5291,7 @@ window.QUIZ_QUESTIONS = [
       "A. Phụ nữ chỉ lo việc nội trợ",
       "B. Duy trì quan hệ gia trưởng, độc đoán",
       "C. Quan hệ bình đẳng trong gia đình, giải phóng phụ nữ",
-      "D. Đàn ông là người quyết định mọi việc trong gia đình Đáp án đúng: C"
+      "D. Đàn ông là người quyết định mọi việc trong gia đình"
     ],
     "correct_answers": [
       2
@@ -5381,7 +5381,7 @@ window.QUIZ_QUESTIONS = [
       "A. Sản xuất hàng hóa",
       "B. Giáo dục đạo đức",
       "C. Bạo lực gia đình",
-      "D. Ly hôn Đáp án đúng: C, D"
+      "D. Ly hôn"
     ],
     "correct_answers": [
       2,
