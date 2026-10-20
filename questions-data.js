@@ -742,6 +742,12 @@ window.QUIZ_QUESTIONS = [
         "left": "3. Giai cấp công nhân Việt Nam có mối quan hệ mật thiết với giai cấp nông dân và ______ trong xã hội",
         "right": "tầng lớp trí thức"
       }
+    ],
+    "options_pool": [
+      "tầng lớp nhân dân",
+      "giai cấp, tầng lớp",
+      "tầng lớp trí thức",
+      "Đảng Cộng Sản"
     ]
   },
   {
@@ -860,6 +866,11 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "dân chủ gián tiếp",
+      "dân chủ trực tiếp",
+      "dân chủ nhân dân"
+    ],
+    "options_pool": [
       "dân chủ gián tiếp",
       "dân chủ trực tiếp",
       "dân chủ nhân dân"
@@ -1170,6 +1181,11 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "Quá độ trực tiếp",
+      "Quá độ gián tiếp",
+      "Thời kỳ quá độ"
+    ],
+    "options_pool": [
       "Quá độ trực tiếp",
       "Quá độ gián tiếp",
       "Thời kỳ quá độ"
@@ -1632,6 +1648,11 @@ window.QUIZ_QUESTIONS = [
       "kinh tế thị trường",
       "nhà nước pháp quyền",
       "quyền con người."
+    ],
+    "options_pool": [
+      "kinh tế thị trường",
+      "nhà nước pháp quyền",
+      "quyền con người."
     ]
   },
   {
@@ -1766,6 +1787,11 @@ window.QUIZ_QUESTIONS = [
       "tất yếu khách quan.",
       "vị trí thống trị",
       "quá độ gián tiếp"
+    ],
+    "options_pool": [
+      "tất yếu khách quan.",
+      "vị trí thống trị",
+      "quá độ gián tiếp"
     ]
   },
   {
@@ -1793,6 +1819,11 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "Quá độ trực tiếp",
+      "Thời kỳ quá độ",
+      "Quá độ gián tiếp"
+    ],
+    "options_pool": [
       "Quá độ trực tiếp",
       "Thời kỳ quá độ",
       "Quá độ gián tiếp"
@@ -1827,6 +1858,12 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "bản chất giai cấp",
+      "dân chủ tư sản",
+      "dân chủ xã hội chủ nghĩa",
+      "chiếm hữu nô lệ"
+    ],
+    "options_pool": [
       "bản chất giai cấp",
       "dân chủ tư sản",
       "dân chủ xã hội chủ nghĩa",
@@ -3225,6 +3262,11 @@ window.QUIZ_QUESTIONS = [
       "giai cấp công nhân",
       "dân chủ trực tiếp",
       "quyền làm chủ"
+    ],
+    "options_pool": [
+      "giai cấp công nhân",
+      "dân chủ trực tiếp",
+      "quyền làm chủ"
     ]
   },
   {
@@ -3260,6 +3302,12 @@ window.QUIZ_QUESTIONS = [
       "dân chủ đại diện",
       "chủ thể quyền lực",
       "thượng tôn pháp luật"
+    ],
+    "options_pool": [
+      "bầu cử Quốc hội",
+      "dân chủ đại diện",
+      "chủ thể quyền lực",
+      "thượng tôn pháp luật"
     ]
   },
   {
@@ -3291,6 +3339,12 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "Đội ngũ trí thức",
+      "Đội ngũ doanh nhân",
+      "Chính sách an sinh xã hội",
+      "Giai cấp công nhân"
+    ],
+    "options_pool": [
       "Đội ngũ trí thức",
       "Đội ngũ doanh nhân",
       "Chính sách an sinh xã hội",
@@ -3471,6 +3525,12 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "sáng tạo đặc biệt",
+      "đặc biệt quan trọng",
+      "chiến lược quan trọng",
+      "đội ngũ vững mạnh"
+    ],
+    "options_pool": [
       "sáng tạo đặc biệt",
       "đặc biệt quan trọng",
       "chiến lược quan trọng",
@@ -4312,6 +4372,12 @@ window.QUIZ_QUESTIONS = [
       "Liên hiệp công nhân các dân tộc lại",
       "Cơ sở pháp lý",
       "Giai cấp công nhân"
+    ],
+    "options_pool": [
+      "Quyền bình đẳng dân tộc",
+      "Liên hiệp công nhân các dân tộc lại",
+      "Cơ sở pháp lý",
+      "Giai cấp công nhân"
     ]
   },
   {
@@ -4401,6 +4467,12 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "Hình thái ý thức xã hội",
+      "Tôn trọng tự do tôn giáo",
+      "Phản ánh hư ảo hiện thực khách quan",
+      "Tín ngưỡng"
+    ],
+    "options_pool": [
       "Hình thái ý thức xã hội",
       "Tôn trọng tự do tôn giáo",
       "Phản ánh hư ảo hiện thực khách quan",
@@ -5277,6 +5349,12 @@ window.QUIZ_QUESTIONS = [
       "Giảm số con",
       "Mâu thuẫn giữa các thế hệ",
       "Kinh tế hàng hóa"
+    ],
+    "options_pool": [
+      "Gia đình hạt nhân",
+      "Giảm số con",
+      "Mâu thuẫn giữa các thế hệ",
+      "Kinh tế hàng hóa"
     ]
   },
   {
@@ -5376,6 +5454,11 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "giai cấp vô sản",
+      "giải phóng con người",
+      "giai cấp cách mạng"
+    ],
+    "options_pool": [
       "giai cấp vô sản",
       "giải phóng con người",
       "giai cấp cách mạng"
@@ -5598,6 +5681,12 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "pool": [
+      "Nội dung kinh tế",
+      "Tầng lớp phụ nữ",
+      "Liên minh công - nông",
+      "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa"
+    ],
+    "options_pool": [
       "Nội dung kinh tế",
       "Tầng lớp phụ nữ",
       "Liên minh công - nông",

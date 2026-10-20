@@ -862,8 +862,9 @@ function renderQuizizzDragDropMatch(container, q) {
     pool.className = 'dnd-qz-pool';
 
     const usedValues = Object.values(userMatchMap);
+    const poolList = q.options_pool || q.pool || (q.pairs ? q.pairs.map(p => p.right) : []);
 
-    q.options_pool.forEach((optText, optIdx) => {
+    poolList.forEach((optText, optIdx) => {
       const isUsed = usedValues.includes(optText);
       const chip = document.createElement('div');
       chip.className = 'dnd-qz-chip';
@@ -882,6 +883,12 @@ function renderQuizizzDragDropMatch(container, q) {
 
       chip.addEventListener('click', () => {
         if (isUsed) return;
+        if (touchSelectedChip && touchSelectedChip.qid === q.id && touchSelectedChip.text === optText) {
+          chip.classList.remove('selected-touch');
+          touchSelectedChip = null;
+          document.querySelectorAll('.dnd-qz-slot').forEach(s => s.classList.remove('slot-pulse-ready'));
+          return;
+        }
         document.querySelectorAll('.dnd-qz-chip').forEach(c => c.classList.remove('selected-touch'));
         chip.classList.add('selected-touch');
         touchSelectedChip = { qid: q.id, text: optText };
@@ -1020,6 +1027,19 @@ function renderQuizizzDragDropCategorize(container, q) {
     dropzone.style.gap = '0.5rem';
 
     // Placed items in this column
+    if (placedTexts.length === 0 && !isAnswered) {
+      const placeholder = document.createElement('div');
+      placeholder.className = 'cat-empty-hint';
+      placeholder.style.color = 'var(--text-muted)';
+      placeholder.style.fontSize = '0.85rem';
+      placeholder.style.fontStyle = 'italic';
+      placeholder.style.textAlign = 'center';
+      placeholder.style.padding = '1.8rem 0.5rem';
+      placeholder.style.pointerEvents = 'none';
+      placeholder.textContent = '👉 Chạm chọn mục bên dưới rồi chạm vào đây để xếp';
+      dropzone.appendChild(placeholder);
+    }
+
     placedTexts.forEach(itemText => {
       const chip = document.createElement('div');
 
@@ -1126,6 +1146,12 @@ function renderQuizizzDragDropCategorize(container, q) {
       });
 
       chip.addEventListener('click', () => {
+        if (touchSelectedChip && touchSelectedChip.qid === q.id && touchSelectedChip.text === itemObj.text) {
+          chip.classList.remove('selected-touch');
+          touchSelectedChip = null;
+          document.querySelectorAll('.cat-dropzone').forEach(d => d.classList.remove('slot-pulse-ready'));
+          return;
+        }
         document.querySelectorAll('.dnd-qz-chip').forEach(c => c.classList.remove('selected-touch'));
         chip.classList.add('selected-touch');
         touchSelectedChip = { qid: q.id, text: itemObj.text };

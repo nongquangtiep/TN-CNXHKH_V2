@@ -305,6 +305,7 @@ for global_idx, rq in enumerate(raw_questions):
         q_data['pairs'] = pairs
         if 'pool' not in q_data:
             q_data['pool'] = [p['right'] for p in pairs]
+        q_data['options_pool'] = q_data['pool']
         processed_questions.append(q_data)
         continue
 
