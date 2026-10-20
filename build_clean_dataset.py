@@ -199,13 +199,6 @@ for global_idx, rq in enumerate(raw_questions):
             cat1_items = []
             cat2_items = []
             
-            # Check for item in paragraphs preceding table (like Tầng lớp phụ nữ in Q40 Bài 4)
-            for p in paragraphs[1:]:
-                ptxt = p[2]
-                if ptxt and ptxt != title:
-                    if "Tầng lớp phụ nữ" in ptxt:
-                        cat1_items.append("Tầng lớp phụ nữ")
-                        
             for r in t.rows[1:]:
                 c0 = r.cells[0].text.strip()
                 c1 = r.cells[1].text.strip()

@@ -3551,7 +3551,6 @@ window.QUIZ_QUESTIONS = [
       {
         "title": "Thành phần/yếu tố của liên minh",
         "items": [
-          "Tầng lớp phụ nữ",
           "Giai cấp công nhân",
           "Giai cấp nông dân",
           "Đảng Cộng sản"
@@ -3568,10 +3567,6 @@ window.QUIZ_QUESTIONS = [
       }
     ],
     "all_items": [
-      {
-        "text": "Tầng lớp phụ nữ",
-        "category": "Thành phần/yếu tố của liên minh"
-      },
       {
         "text": "Giai cấp công nhân",
         "category": "Thành phần/yếu tố của liên minh"
